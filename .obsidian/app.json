@@ -7,5 +7,6 @@
     "Blog/themes/"
   ],
   "showLineNumber": false,
-  "attachmentFolderPath": "./attachments"
+  "attachmentFolderPath": "Blog/source/images",
+  "useMarkdownLinks": true
 }
