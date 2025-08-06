@@ -1,0 +1,11 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "待归档",
+  "userIgnoreFilters": [
+    "Blog/node_modules/",
+    "Blog/scaffolds/",
+    "Blog/themes/"
+  ],
+  "showLineNumber": false,
+  "attachmentFolderPath": "./attachments"
+}
