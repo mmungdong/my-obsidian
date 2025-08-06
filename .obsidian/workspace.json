@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "template/博客笔记属性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "博客笔记属性"
             }
           },
           {
@@ -267,6 +267,7 @@
   },
   "active": "edf4ca3c3cad9156",
   "lastOpenFiles": [
+    "Home.md",
     "Blog/public/img/default.png",
     "Blog/public/js/utils.js",
     "Blog/public/js/leancloud.js",
@@ -288,7 +289,6 @@
     "Blog/node_modules/hexo-theme-fluid/source/img/fluid.png",
     "Blog/node_modules/hexo-theme-fluid/source/img/default.png",
     "Blog/node_modules/hexo-theme-fluid/source/img/avatar.png",
-    "Blog/public/css/images/banner.jpg",
     "Blog/source/_posts/test123.md",
     "Blog/node_modules/luxon/README.md",
     "Blog/node_modules/luxon/LICENSE.md",
@@ -301,7 +301,6 @@
     "Blog/source/_posts/编程笔记/_zzz.md",
     "Blog/source/_posts/编程笔记/k8s-apiserver 代码学习笔记.md",
     "未命名.md",
-    "Home.md",
     "Blog/source/_posts/hello-world.md",
     "note/未命名.md",
     "note/2025-08-06-周三.md",
