@@ -267,6 +267,7 @@
   },
   "active": "edf4ca3c3cad9156",
   "lastOpenFiles": [
+    "Blog/_config.fluid.yml",
     "Blog/source/_posts/编程笔记/images/ceshi  111/file-20250807011426942.png",
     "Blog/source/_posts/编程笔记/images/ceshi  111",
     "Blog/source/_posts/编程笔记/images/测试/file-20250807001152527.png",
@@ -295,7 +296,6 @@
     "Blog/node_modules/hexo-theme-fluid/source/img/police_beian.png",
     "Blog/node_modules/hexo-theme-fluid/source/img/loading.gif",
     "Blog/node_modules/hexo-theme-fluid/source/img/fluid.png",
-    "Blog/node_modules/hexo-theme-fluid/source/img/default.png",
     "Blog/node_modules/luxon/README.md",
     "Blog/node_modules/luxon/LICENSE.md",
     "Blog/node_modules/hexo-deployer-git/node_modules/dom-serializer/node_modules/entities/readme.md",
