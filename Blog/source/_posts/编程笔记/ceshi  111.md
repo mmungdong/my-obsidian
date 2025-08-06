@@ -2,4 +2,4 @@
 categories:
   - 编程笔记
 ---
-![[file-20250807011426942.png]]
+![alt text](./ceshi%20%20111/image-1.png)
