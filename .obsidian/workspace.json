@@ -264,6 +264,7 @@
   },
   "active": "b68f56110d86f8aa",
   "lastOpenFiles": [
+    "Blog/db.json",
     "Blog/public/favicon.ico",
     "Blog/public/IMG_SEGMENT_SEND.png",
     "Blog/public/img/avatar.png",
@@ -294,7 +295,6 @@
     "Blog/source/_posts/images",
     "Blog/source/_posts/编程笔记/images/ceshi  111/file-20250807021154997.png",
     "Blog/source/_posts/编程笔记/images/ceshi  111",
-    "Blog/source/_posts/编程笔记/ceshi  111",
     "Blog/node_modules/hexo-theme-fluid/README.md",
     "Blog/node_modules/luxon/README.md",
     "Blog/node_modules/luxon/LICENSE.md",
