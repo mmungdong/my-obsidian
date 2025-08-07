@@ -22,7 +22,7 @@ jobs:
           node-version: 20
           cache: 'npm'
           # 关键：指定锁文件在Blog目录（支持通配符匹配多种锁文件）
-          cache-dependency-path: ${{ env.BLOG_DIR }}/**/{package-lock.json,yarn.lock}
+          # cache-dependency-path: ${{ env.BLOG_DIR }}/**/{package-lock.json,yarn.lock}
 
       - name: Install deps & build
         run: |
@@ -41,6 +41,6 @@ jobs:
           npx hexo clean
           npx hexo generate
           npx hexo deploy
-        working-directory: ${{ env.BLOG_DIR }}  # 明确在Blog目录执行
+        # working-directory: ${{ env.BLOG_DIR }}  # 明确在Blog目录执行
         env:
           HEXO_DEPLOY_TOKEN: ${{ secrets.MMUNGDONG_GITHUB_IO_PUSH }}
