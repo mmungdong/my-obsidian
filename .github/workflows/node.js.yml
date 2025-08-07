@@ -7,15 +7,20 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      BUILDER_DIR: Blog
     steps:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.MY_OBSIDIAN_TOKEN }}
+          repository: 'mmungdong/my-obsidian.git'
+          path: ${{ env.BUILDER_DIR }}
 
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
+          working-directory: ${{ env.BUILDER_DIR }}
 
       - name: Install deps & build
         run: |
@@ -27,5 +32,6 @@ jobs:
           npx hexo clean
           npx hexo generate
           npx hexo deploy
+        working-directory: ${{ env.BUILDER_DIR }}
         env:
           HEXO_DEPLOY_TOKEN: ${{ secrets.MMUNGDONG_GITHUB_IO_PUSH }}
