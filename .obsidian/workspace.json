@@ -264,17 +264,19 @@
   },
   "active": "b68f56110d86f8aa",
   "lastOpenFiles": [
+    "Blog/public/img/default.png",
+    "Blog/public/img/【哲风壁纸】二次元-动漫.png",
+    "Blog/public/img/【哲风壁纸】eva-新世纪福音战士.png",
+    "Blog/public/img/top-image.png",
+    "Blog/source/images/top-image.png",
     "daily-note/2025-08-07-周四.md",
     "Blog/source/_posts/代码笔记/未命名.md",
     "template/博客笔记头部属性.md",
     "Blog/source/_posts/代码笔记/ceshi  123.md",
     "Blog/source/_posts/代码笔记/使用 obsidian 部署 hexo 博客记录.md",
     "Blog/source/_posts/代码笔记/测试.md",
-    "Blog/source/images/top-image.png",
     "Blog/source/images",
     "Blog/source/_posts/代码笔记/k8s-apiserver 代码学习笔记.md",
-    "Blog/public/img/top-image.png",
-    "Blog/public/img/【哲风壁纸】eva-新世纪福音战士.png",
     "Blog/source/_draft",
     "Blog/source/_posts/hello-world.md",
     "Blog/source/_posts/test123.md",
@@ -292,7 +294,6 @@
     "Blog/source/_posts/编程笔记/images/ceshi  111/file-20250807020709662.png",
     "Blog/source/_posts/编程笔记/image-1.png",
     "Blog/source/_posts/编程笔记/image.png",
-    "Blog/source/_posts/编程笔记/ceshi  111/file-20250807011426942.png",
     "Blog/source/_posts/编程笔记/ceshi  111",
     "Blog/node_modules/hexo-theme-fluid/README.md",
     "Blog/node_modules/luxon/README.md",
@@ -308,7 +309,6 @@
     "daily-note/2025-08-06-周三.md",
     "Blog/scaffolds/draft.md",
     "Blog/scaffolds/page.md",
-    "Blog/scaffolds/post.md",
-    "Blog/RunBlog.bat.md"
+    "Blog/scaffolds/post.md"
   ]
 }
