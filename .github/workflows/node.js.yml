@@ -21,8 +21,6 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
-          # 修复缓存路径引用方式
-          cache-dependency-path: ${{ env.BLOG_DIR }}/**/{package-lock.json,yarn.lock}
 
       - name: Install deps & build
         run: |
