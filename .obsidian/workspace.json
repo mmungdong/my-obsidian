@@ -108,7 +108,7 @@
               "type": "markdown",
               "state": {
                 "file": "Notion/React 学习笔记.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -265,8 +265,9 @@
   },
   "active": "b68f56110d86f8aa",
   "lastOpenFiles": [
-    "Blog/source/_posts/代码笔记/未命名.md",
+    "template/博客笔记头部属性.md",
     "Notion/React 学习笔记.md",
+    "Blog/source/_posts/代码笔记/未命名.md",
     "Notion",
     "Blog/public/tags/blog/index.html",
     "Blog/public/tags/blog",
@@ -288,7 +289,6 @@
     "Blog/source/assets/img/IMG_SEGMENT_SEND.png",
     "Blog/public/IMG_SEGMENT_SEND.png",
     "daily-note/2025-08-07-周四.md",
-    "template/博客笔记头部属性.md",
     "Blog/source/_posts/代码笔记/ceshi  123.md",
     "Blog/source/_posts/代码笔记/使用 obsidian 部署 hexo 博客记录.md",
     "Blog/source/_posts/代码笔记/测试.md",

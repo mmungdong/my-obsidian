@@ -1,15 +1,15 @@
 ---
-date:
-  "{ date }": 
+title: <% tp.file.title %>
+date: <% tp.date.now(format="YYYY-MM-DD HH:mm:ss") %>
+categories:
+  - <% tp.file.folder(relative=true) %>
 tags:
-  - React
-category: 编程学习
-title:
-  "{ title }": 
-categories: 
-time: 2025-08-07
+  - react
+  - 前端
 archive: true
 hide: false
+abbrlink: <% tp.user.get_url() %>
+cover: ""
 ---
 
 - [[#1. 初始化 React 项目]]
