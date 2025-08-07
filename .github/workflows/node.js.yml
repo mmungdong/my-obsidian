@@ -1,50 +1,70 @@
+# 工作流名称：构建并部署Hexo博客
 name: Build & Deploy Hexo
 
+# 触发条件：当代码推送到main分支时执行
 on:
   push:
     branches: [ main ]
 
 jobs:
+  # 定义一个名为build的任务
   build:
+    # 运行环境：最新版Ubuntu系统
     runs-on: ubuntu-latest
+    
+    # 环境变量定义
     env:
-      REPO_DIR: repo  # 仓库克隆到的基础目录
-      BLOG_DIR: repo/Blog  # 直接拼接路径，不使用env引用
+      REPO_DIR: repo                # 仓库克隆到的基础目录
+      BLOG_DIR: repo/Blog           # 博客源代码所在目录（直接拼接路径）
+
+    # 任务步骤
     steps:
+      # 步骤1：从GitHub仓库检出代码
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.MY_OBSIDIAN_TOKEN }}
-          repository: 'mmungdong/my-obsidian'
-          path: ${{ env.REPO_DIR }}  # 这里可以正常使用env引用
+          token: ${{ secrets.MY_OBSIDIAN_TOKEN }}  # 用于访问仓库的令牌
+          repository: 'mmungdong/my-obsidian'      # 源仓库地址
+          path: ${{ env.REPO_DIR }}                # 检出到指定目录
 
+      # 步骤2：设置Node.js运行环境
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
-          cache-dependency-path: ${{ env.BLOG_DIR }}/package-lock.json
+          node-version: 20                         # 使用Node.js 20版本
+          cache: 'npm'                             # 启用npm依赖缓存
+          cache-dependency-path: ${{ env.BLOG_DIR }}/package-lock.json  # 依赖锁文件路径
 
+      # 步骤3：配置Git凭据，解决部署时的认证问题
       - name: Configure Git credentials
         run: |
-          # 全局配置Git使用凭证助手
+          # 配置Git使用凭证助手，自动管理凭据
           git config --global credential.helper store
-          # 保存凭据（避免重复输入）
+          # 将GitHub访问令牌保存到凭据文件，避免部署时需要手动输入
           echo "https://x-access-token:${{ secrets.MMUNGDONG_GITHUB_IO_PUSH }}@github.com" > ~/.git-credentials
 
+      # 步骤4：安装依赖并构建部署Hexo博客
       - name: Install deps & build
         run: |
+          # 配置Git提交用户信息
           git config --global user.name 'my-obsidian actions'
           git config --global user.email 'github@action.com'
+          
+          # 进入博客目录
           cd ${{ env.BLOG_DIR }}
           
-          # 验证远程仓库配置
+          # 添加部署目标仓库作为远程仓库，命名为pages
           git remote add pages https://github.com/mmungdong/mmungdong.github.io.git
-          git remote -v  # 这行会在日志中显示远程仓库配置，方便调试
+          # 显示当前配置的远程仓库，用于调试确认
+          git remote -v
           
+          # 安装项目依赖
           npm install
+          # 清理Hexo缓存
           npx hexo clean
+          # 生成静态博客文件
           npx hexo generate
-          npx hexo deploy  # 部署时会自动使用保存的凭据
+          # 部署博客到目标仓库
+          npx hexo deploy
+        # 传递部署令牌环境变量
         env:
           HEXO_DEPLOY_TOKEN: ${{ secrets.MMUNGDONG_GITHUB_IO_PUSH }}
-
-
+    
