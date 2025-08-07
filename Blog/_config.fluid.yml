@@ -1,6 +1,6 @@
 # 参考配置地址：https://hexo.fluid-dev.com/docs/guide
 navbar:
-  blog_title: mungdong's blog
+  blog_title: mungdong
 
 dark_mode:
   enable: true
@@ -9,9 +9,8 @@ dark_mode:
 index:
   slogan:
     enable: true
-    text: 山山而川,不过尔尔
+    text: 山山而川 不过尔尔
 
-index:
   auto_excerpt:
     enable: false  # 文章摘要开关
 

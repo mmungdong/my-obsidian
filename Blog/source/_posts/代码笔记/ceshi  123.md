@@ -1,9 +1,10 @@
 ---
 title:
-  "{ title }": ceshi 123
+  '{ title }': ceshi 123
 date:
-  "{ date }": 
-categories: 
+  '{ date }': null
+categories:
+  - 代码笔记
 tags:
 ---
 
