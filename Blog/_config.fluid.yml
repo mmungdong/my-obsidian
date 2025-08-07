@@ -14,5 +14,6 @@ index:
   auto_excerpt:
     enable: false  # 文章摘要开关
 
-favicon:
-  icon: /assets/img/favicon.ico
+favicon: /assets/img/favicon.ico
+
+banner_img: /assets/img/top.png
