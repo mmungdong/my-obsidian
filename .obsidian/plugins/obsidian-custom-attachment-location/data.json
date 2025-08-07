@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "./images/${notefilename}",
+  "attachmentFolderPath": "Blog/source/_resources/images",
   "attachmentRenameMode": "Only pasted images",
   "collectAttachmentUsedByMultipleNotesMode": "Skip",
   "customTokensStr": "",
