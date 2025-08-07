@@ -47,7 +47,7 @@ category: 编程学习
 
   
 
-[![](https://raw.githubusercontent.com/mmungdong/image/main/notion/20250628022119291.png)](https://raw.githubusercontent.com/mmungdong/image/main/notion/20250628022119291.png)
+[](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250628022119291.png)
 
   
 
@@ -99,7 +99,7 @@ category: 编程学习
 
 REST+JSON 和 RPC+Protobuf 这两种组合在企业级应用中应用广泛。二者并非相互取代，而是各自适用于不同的场景，相辅相成。在企业应用中，REST 与 RPC 的组合方式通常如图
 
-[![](https://raw.githubusercontent.com/mmungdong/image/main/notion/20250628022826784.png)](https://raw.githubusercontent.com/mmungdong/image/main/notion/20250628022826784.png)
+[](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250628022826784.png)
 
   
 
@@ -128,7 +128,7 @@ REST+JSON 和 RPC+Protobuf 这两种组合在企业级应用中应用广泛。�
 
 miniblog 是一个小而美的项目，虽然项目不大，却同时实现了 HTTP 和 gRPC 两种 Web 服务类型，miniblog 具体的服务类型如图：
 
-[![](https://raw.githubusercontent.com/mmungdong/image/main/notion/20250628023146515.png)](https://raw.githubusercontent.com/mmungdong/image/main/notion/20250628023146515.png)
+[](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250628023146515.png)
 
   
 
@@ -162,7 +162,7 @@ miniblog 项目使用 Gin 框架实现了 HTTP 服务，使用 gRPC 框架实现
 
   
 
-[![](https://raw.githubusercontent.com/mmungdong/image/main/notion/20250628023814532.png)](https://raw.githubusercontent.com/mmungdong/image/main/notion/20250628023814532.png)
+[](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250628023814532.png)
 
   
 
