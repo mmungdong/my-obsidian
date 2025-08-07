@@ -11,4 +11,9 @@ dark_mode:
 index:
   slogan:
     enable: true
-    text: 
+    text: 山山而川 不过尔尔 # 首页打字机字幕
+
+index:
+  auto_excerpt:
+    enable: false  # 文章摘要开关
+
