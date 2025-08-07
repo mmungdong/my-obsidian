@@ -1,4 +1,14 @@
+# 参考配置地址：https://hexo.fluid-dev.com/docs/guide
 banner_img: /images/top-image.png
 
 navbar:
   blog_title: mungdong's blog
+
+dark_mode:
+  enable: true
+  default: light
+
+index:
+  slogan:
+    enable: true
+    text: 
