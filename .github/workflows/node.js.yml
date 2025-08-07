@@ -8,19 +8,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      BUILDER_DIR: Blog
+      REPO_DIR: repo  # 仓库克隆到的基础目录
+      BLOG_DIR: ${{ env.REPO_DIR }}/Blog  # 仓库内部的Blog目录路径
     steps:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.MY_OBSIDIAN_TOKEN }}
           repository: 'mmungdong/my-obsidian'
-          path: ${{ env.BUILDER_DIR }}
+          path: ${{ env.REPO_DIR }}  # 克隆到repo目录（而非直接克隆到Blog）
 
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
-          working-directory: ${{ env.BUILDER_DIR }}
+          working-directory: ${{ env.BLOG_DIR }}  # 指向仓库内部的Blog目录
 
       - name: Install deps & build
         run: |
@@ -32,6 +33,6 @@ jobs:
           npx hexo clean
           npx hexo generate
           npx hexo deploy
-        working-directory: ${{ env.BUILDER_DIR }}
+        working-directory: ${{ env.BLOG_DIR }}  # 确保在仓库内部的Blog目录执行命令
         env:
           HEXO_DEPLOY_TOKEN: ${{ secrets.MMUNGDONG_GITHUB_IO_PUSH }}
