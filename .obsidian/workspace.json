@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7327905ada968e62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "测试文章标题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "测试文章标题"
-            }
-          },
-          {
             "id": "1b7cb148b6893d64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "Blog/source/_posts/代码笔记/React 学习笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "React 学习笔记"
             }
           },
           {
@@ -107,16 +93,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notion/01 Go项目初始化.md",
+                "file": "Blog/source/_posts/代码笔记/React 学习笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 Go项目初始化"
+              "title": "React 学习笔记"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -263,17 +248,19 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "b68f56110d86f8aa",
+  "active": "1b7cb148b6893d64",
   "lastOpenFiles": [
-    "Blog/source/_draft/02 Go应用构建.md",
+    "未命名.md",
+    "Blog/source/_posts/代码笔记/React 学习笔记.md",
+    "Blog/source/_posts/代码笔记/vscode 运行慢？使用内置的【扩展二等分】快速找出”元凶”插件.md",
     "Notion/01 Go项目初始化.md",
+    "Blog/source/_posts/代码笔记/k8s - 学习成长路线及常用资料参考.md",
+    "Notion/开发参考手册.md",
+    "Notion/04 基础 go 包开发 - 错误包.md",
+    "Blog/source/_draft/02 Go应用构建.md",
     "Notion/05 Go web 服务器实现.md",
-    "Notion/vscode 运行慢？使用内置的【扩展二等分】快速找出”元凶”插件.md",
     "Blog/source/_posts/hello-world.md",
     "Notion/03 基础 go 包开发 - 日志包.md",
-    "Notion/04 基础 go 包开发 - 错误包.md",
-    "Notion/开发参考手册.md",
-    "Notion/k8s - 学习成长路线及常用资料参考.md",
     "Notion/云原生优质书籍参考.md",
     "Notion/常用的提示词.md",
     "Notion/vscode 常用插件.md",
@@ -298,7 +285,6 @@
     "Blog/public/tags/golang",
     "Blog/public/img/loading.gif",
     "Blog/source/_posts/代码笔记/Golang面试题整理.md",
-    "Blog/source/_posts/代码笔记/React 学习笔记.md",
     "Blog/source/_posts/代码笔记/未命名.md",
     "Blog/source/_posts/代码笔记/使用 obsidian 部署 hexo 博客记录.md",
     "Blog/source/_posts/代码笔记/k8s-apiserver 代码学习笔记.md",
@@ -309,7 +295,6 @@
     "Blog/source/assets/img/【哲风壁纸】二次元-动漫.png",
     "Blog/source/assets/img/IMG_SEGMENT_SEND.png",
     "Blog/public/IMG_SEGMENT_SEND.png",
-    "Blog/source/_posts/代码笔记/ceshi  123.md",
-    "Blog/source/_posts/test123.md"
+    "Blog/source/_posts/代码笔记/ceshi  123.md"
   ]
 }

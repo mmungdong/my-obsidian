@@ -1,28 +1,14 @@
 ---
-type: Post
-status: Published
-date: 2025-06-28
+title: k8s - 学习成长路线及常用资料参考
+categories:
+  - 代码笔记
 tags:
-  - golang
   - k8s
-  - 云原生
-category: 编程学习
+archive: true
+hide: false
+date: 2025-08-08 01:03:39
 ---
 这一阶段，我们需要熟练掌握至少一个组件的原理和使用，如果你没有自己需要的或倾向的，这里比较推荐：kube-scheduler。因为企业对 Kubernetes 调度器的二次开发需求很多。另外，如果你有时间和精力也建议学习和使用某个网络插件，例如：Cilium。Cilium 功能复杂，代码量多。如果你没有特别多精力，可以学习下 flannel，建议阅读下 flannel 的源码。其他网络插件的实现原理，跟 flannel 有很多相似之处。
-
-- [[#1. 源码阅读]]
-    - [[#1.1. 基础准备]]
-    - [[#1.2. 本地部署 k8s]]
-    - [[#1.3. 选择一个 Kubernetes 组件进行阅读]]
-    - [[#1.4. 魔改、运行并测试自己修改后的代码]]
-- [[#2. k8s 进阶路线]]
-    - [[#2.1. 初级阶段]]
-    - [[#2.2. 中级阶段]]
-    - [[#2.3 高级阶段]]
-    - [[#2.4 专家阶段]]
-- [[#3. 云原生 CNCF 其他项目学习]]
-- [[#补充]]
-- [[#📎 参考文章]]
 
 # 1. 源码阅读
 
@@ -121,24 +107,24 @@ category: 编程学习
 >  
 > [https://landscape.cncf.io/](https://landscape.cncf.io/)  
 
-|   |   |
-|---|---|
-|**开源项目**|**功能描述**|
-|Helm|作为 Kubernetes 生态里的 brew、dnf、dpkg，Helm 为 Kubernetes 提供了包管理能力，方便用户快速部署安装各种服务|
-|Harbor|Harbor 与 Kubernetes 无直接关系，但作为云原生环境下最常用的镜像仓库解决方案，了解 Harbor 十分重要|
-|Prometheus|Prometheus 是云原生环境下最重要的监控组件|
-|Istio|Istio 是服务网格的关键项目，但较为复杂，可以尝试简单了解|
-|controller-runtime|Kubernetes 社区提供的一个开发框架，旨在帮助开发者快速高效地开发控制器。它是基于 client-go 构建的，通过提供一系列的工具和抽象，使得开发者可以专注于业务逻辑的实现，而不必关心控制器的生命周期管理和事件异常处理等底层细节|
-|cluster-api|Cluster API 是一个 Kubernetes 项目，它将声明式 Kubernetes 风格的 API 用于集群的创建、配置和管理。它在核心 Kubernetes 之上，提供可选的附加功能来管理 Kubernetes 集群的生命周期|
-|kubebuilder|kubebuilder 旨在简化 Kubernetes 应用程序控制器的开发过程。它通过提供脚手架文件和工具，使得开发者能够更容易地实现 Kubernetes API 和控制器|
-|kubefed|Kubernetes Federation v2，又称 KubeFed，是 Kubernetes 官方提供的一种解决方案，用于管理跨多个 Kubernetes 集群的资源。它提供了一个单独的控制平面，用于管理和协调多个 Kubernetes 集群中的资源，从而实现集中化的控制和管理|
-|kind|用来快速在本地创建一个开发、测试用的 Kubernetes 集群|
-|descheduler|Descheduler 是一个用于解决 Kubernetes 集群中节点资源利用问题的工具，它通过重调度的方式来优化集群中 Pod 的分布，以改善节点资源的利用率|
-|scheduler-plugins|scheduler-plugins 是 Kubernetes 调度系统中的一个重要组成部分，它允许开发者通过编写插件来扩展 Kubernetes 的调度功能。这些插件可以在 Kubernetes 调度过程中的不同阶段发挥作用，从而实现对调度逻辑的自定义和增强|
-|node-feature-discovery|Node Feature Discovery（NFD）是一个由 Intel 创建的项目，旨在帮助 Kubernetes 集群更智能地管理节点资源。它通过检测每个节点的硬件特性（如 CPU 型号、GPU 型号、内存大小等），并将这些特性以标签的形式发送到 Kubernetes 集群的 API 服务器|
-|kwok|轻量级的 Kubernetes 模拟集群工具|
-|kustomize|Kustomize 是一个用于 Kubernetes 配置管理的工具，它允许用户通过定义基线配置和补丁来创建自定义的 Kubernetes 资源配置。Kustomize 的主要特点是其灵活性和可扩展性，使得它成为处理复杂逻辑和动态生成内容的强大工具|
-|autoscaler|Cluster Autoscaler 是 Kubernetes 提供的一个集群节点弹性伸缩组件，它根据 Pod 的调度状态及资源使用情况对集群的节点进行自动扩容 / 缩容。这个组件的主要目的是优化集群资源的利用效率，确保集群能够根据实际需求动态调整节点数量，从而更好地适应工作负载的变化|
+|                        |                                                                                                                                                       |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **开源项目**               | **功能描述**                                                                                                                                              |
+| Helm                   | 作为 Kubernetes 生态里的 brew、dnf、dpkg，Helm 为 Kubernetes 提供了包管理能力，方便用户快速部署安装各种服务                                                                            |
+| Harbor                 | Harbor 与 Kubernetes 无直接关系，但作为云原生环境下最常用的镜像仓库解决方案，了解 Harbor 十分重要                                                                                        |
+| Prometheus             | Prometheus 是云原生环境下最重要的监控组件                                                                                                                            |
+| Istio                  | Istio 是服务网格的关键项目，但较为复杂，可以尝试简单了解                                                                                                                       |
+| controller-runtime     | Kubernetes 社区提供的一个开发框架，旨在帮助开发者快速高效地开发控制器。它是基于 client-go 构建的，通过提供一系列的工具和抽象，使得开发者可以专注于业务逻辑的实现，而不必关心控制器的生命周期管理和事件异常处理等底层细节                               |
+| cluster-api            | Cluster API 是一个 Kubernetes 项目，它将声明式 Kubernetes 风格的 API 用于集群的创建、配置和管理。它在核心 Kubernetes 之上，提供可选的附加功能来管理 Kubernetes 集群的生命周期                               |
+| kubebuilder            | kubebuilder 旨在简化 Kubernetes 应用程序控制器的开发过程。它通过提供脚手架文件和工具，使得开发者能够更容易地实现 Kubernetes API 和控制器                                                              |
+| kubefed                | Kubernetes Federation v2，又称 KubeFed，是 Kubernetes 官方提供的一种解决方案，用于管理跨多个 Kubernetes 集群的资源。它提供了一个单独的控制平面，用于管理和协调多个 Kubernetes 集群中的资源，从而实现集中化的控制和管理         |
+| kind                   | 用来快速在本地创建一个开发、测试用的 Kubernetes 集群                                                                                                                      |
+| descheduler            | Descheduler 是一个用于解决 Kubernetes 集群中节点资源利用问题的工具，它通过重调度的方式来优化集群中 Pod 的分布，以改善节点资源的利用率                                                                     |
+| scheduler-plugins      | scheduler-plugins 是 Kubernetes 调度系统中的一个重要组成部分，它允许开发者通过编写插件来扩展 Kubernetes 的调度功能。这些插件可以在 Kubernetes 调度过程中的不同阶段发挥作用，从而实现对调度逻辑的自定义和增强                     |
+| node-feature-discovery | Node Feature Discovery（NFD）是一个由 Intel 创建的项目，旨在帮助 Kubernetes 集群更智能地管理节点资源。它通过检测每个节点的硬件特性（如 CPU 型号、GPU 型号、内存大小等），并将这些特性以标签的形式发送到 Kubernetes 集群的 API 服务器 |
+| kwok                   | 轻量级的 Kubernetes 模拟集群工具                                                                                                                                |
+| kustomize              | Kustomize 是一个用于 Kubernetes 配置管理的工具，它允许用户通过定义基线配置和补丁来创建自定义的 Kubernetes 资源配置。Kustomize 的主要特点是其灵活性和可扩展性，使得它成为处理复杂逻辑和动态生成内容的强大工具                          |
+| autoscaler             | Cluster Autoscaler 是 Kubernetes 提供的一个集群节点弹性伸缩组件，它根据 Pod 的调度状态及资源使用情况对集群的节点进行自动扩容 / 缩容。这个组件的主要目的是优化集群资源的利用效率，确保集群能够根据实际需求动态调整节点数量，从而更好地适应工作负载的变化       |
 
   
 

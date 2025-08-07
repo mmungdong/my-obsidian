@@ -1,10 +1,12 @@
 ---
-type: Post
-status: Published
-date: 2025-07-17
+title: vscode 运行慢？使用内置的【扩展二等分】快速找出”元凶”插件
+categories:
+  - 代码笔记
 tags:
   - vscode
-category: 编程学习
+archive: true
+hide: false
+date: 2025-08-08 01:04:24
 ---
 # 前言
 
