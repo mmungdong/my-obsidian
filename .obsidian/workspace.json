@@ -264,6 +264,8 @@
   },
   "active": "b68f56110d86f8aa",
   "lastOpenFiles": [
+    "Blog/source/images/top-image.png",
+    "Blog/source/images",
     "Blog/source/_posts/代码笔记/k8s-apiserver 代码学习笔记.md",
     "Blog/source/_posts/代码笔记/ceshi  123.md",
     "daily-note/2025-08-07-周四.md",
@@ -292,7 +294,6 @@
     "Blog/source/_posts/编程笔记/ceshi  111/file-20250807011426942.png",
     "Blog/source/_posts/编程笔记/ceshi  111",
     "Blog/public/img/【哲风壁纸】Chris插画-插画.png",
-    "Blog/node_modules/hexo-deployer-git/node_modules/domutils/lib/legacy.js",
     "Blog/node_modules/hexo-theme-fluid/README.md",
     "Blog/node_modules/luxon/README.md",
     "Blog/node_modules/luxon/LICENSE.md",
@@ -308,7 +309,6 @@
     "Blog/scaffolds/draft.md",
     "Blog/scaffolds/page.md",
     "Blog/scaffolds/post.md",
-    "Blog/RunBlog.bat.md",
-    "Blog/themes/butterfly4.3.1/_config.yml.md"
+    "Blog/RunBlog.bat.md"
   ]
 }
