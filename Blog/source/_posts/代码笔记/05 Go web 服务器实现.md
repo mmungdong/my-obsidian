@@ -1,39 +1,15 @@
 ---
-type: Post
-status: Published
-date: 2025-06-28
+categories:
+  - 代码笔记
+title: 05 Go web 服务器实现
+date: 2025-08-08 01:10:27
 tags:
   - golang
   - miniblog
-  - project
-category: 编程学习
+archive: true
+hide: false
 ---
-> [!important] 前言
-> 
-> 学习孔云飞大佬的 miniblog 项目笔记，项目地址：[https://github.com/onexstack/miniblog](https://github.com/onexstack/miniblog)
-> 
-> 具体知识详参引用文章，文章不做过多赘述，只概后续开发用到的知识，方便开发快速参考
-
-  
-
-- [[#1. 什么是 web 应用？]]
-    - [[#1.1. web 应用，web 服务和 web 服务器的概念]]
-    - [[#1.2. 如何实现一个 web 服务器]]
-    - [[#1.3. 如何选择合适的通信协议和数据交换格式]]
-    - [[#1.3. 如何选择一个优秀的 Web 框架]]
-    - [[#1.4. miniblog 项目中实现的 Web 服务类型]]
-- [[#2. gRPC 服务实现]]
-    - [[#2.1. rpc 介绍]]
-    - [[#2.2. gRPC 介绍]]
-    - [[#2.3. Protocol Buffers 介绍]]
-    - [[#2.4. miniblog 实现 gRPC 服务器]]
-        - [[#2.4.1. 定义 gRPC 服务]]
-        - [[#2.4.2. 生成客户端和服务器代码]]
-        - [[#2.4.3. 实现 gRPC 服务端]]
-- [[#🤗 总结归纳]]
-- [[#📎 参考文章]]
-
-# 1. 什么是 web 应用？
+#  1. 什么是 web 应用？
 
 ## 1.1. web 应用，web 服务和 web 服务器的概念
 
@@ -47,7 +23,7 @@ category: 编程学习
 
   
 
-[](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250628022119291.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250628022119291.png)
 
   
 
@@ -99,7 +75,7 @@ category: 编程学习
 
 REST+JSON 和 RPC+Protobuf 这两种组合在企业级应用中应用广泛。二者并非相互取代，而是各自适用于不同的场景，相辅相成。在企业应用中，REST 与 RPC 的组合方式通常如图
 
-[](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250628022826784.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250628022826784.png)
 
   
 
@@ -128,7 +104,7 @@ REST+JSON 和 RPC+Protobuf 这两种组合在企业级应用中应用广泛。�
 
 miniblog 是一个小而美的项目，虽然项目不大，却同时实现了 HTTP 和 gRPC 两种 Web 服务类型，miniblog 具体的服务类型如图：
 
-[](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250628023146515.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250628023146515.png)
 
   
 
@@ -162,7 +138,7 @@ miniblog 项目使用 Gin 框架实现了 HTTP 服务，使用 gRPC 框架实现
 
   
 
-[](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250628023814532.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250628023814532.png)
 
   
 

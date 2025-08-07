@@ -1,22 +1,13 @@
 ---
-type: Post
-status: Draft
-date: 2025-07-17
+title: 一文吃透 k8s 的 Lease （租约）
+categories:
+  - 代码笔记
 tags:
   - k8s
-category: 编程学习
+archive: true
+hide: false
+date: 2025-08-08 01:08:22
 ---
-- [[#0. 前置背景：为什么需要 Lease/Leader Election ?]]
-- [[#1. Lease 是什么？主要解决了什么问题？]]
-- [[#2. Lease 的 Leader Election (领导者选举) 功能]]
-    - [[#2.1. Leader Election 核心逻辑：租约机制、选举流程、冲突解决]]
-    - [[#2.2. 从 k8s 的原生组件查看如何用 Leader Election 来保障高可用]]
-    - [[#2.3. 为你的 Controller 加上 Leader Election 能力]]
-- [[#3. 既是避坑指南，也是最佳实践]]
-- [[# 🤗 总结归纳]]
-- [[#📎 参考文章]]
-
-  
 
 > [!important] 这里写文章的前言：
 > 

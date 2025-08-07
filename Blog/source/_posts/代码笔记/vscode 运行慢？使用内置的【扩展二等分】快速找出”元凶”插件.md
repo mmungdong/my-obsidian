@@ -32,7 +32,7 @@ VS Code 提供了一个内置的 “扩展 bisect（二分法）” 功能，可
 
   
 
-[](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250717023616830.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250717023616830.png)
 
 1. 打开 VS Code，按图所示或按下 `Ctrl+Shift+P`（或 `Cmd+Shift+P` on Mac）打开命令面板；
 2. 输入并选择命令：`Extensions: Bisect`（扩展：二分法）；

@@ -1,10 +1,12 @@
 ---
-type: Post
-status: Published
-date: 2025-07-17
+title: vscode 常用插件
+categories:
+  - 代码笔记
 tags:
   - vscode
-category: 编程学习
+archive: true
+hide: false
+date: 2025-08-08 01:10:48
 ---
 # 中文包
 

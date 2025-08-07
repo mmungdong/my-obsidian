@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/React 学习笔记.md",
+                "file": "Notion/云原生优质书籍参考.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React 学习笔记"
+              "title": "云原生优质书籍参考"
             }
           },
           {
@@ -250,21 +250,21 @@
   },
   "active": "1b7cb148b6893d64",
   "lastOpenFiles": [
-    "未命名.md",
-    "Blog/source/_posts/代码笔记/React 学习笔记.md",
-    "Blog/source/_posts/代码笔记/vscode 运行慢？使用内置的【扩展二等分】快速找出”元凶”插件.md",
-    "Notion/01 Go项目初始化.md",
+    "Blog/source/_posts/代码笔记/开发参考手册.md",
+    "Blog/source/_posts/代码笔记/03 基础 go 包开发 - 日志包.md",
+    "Blog/source/_posts/代码笔记/vscode 常用插件.md",
+    "Blog/source/_posts/代码笔记/05 Go web 服务器实现.md",
+    "Blog/source/_posts/代码笔记/04 基础 go 包开发 - 错误包.md",
+    "Blog/source/_posts/代码笔记/01 Go项目初始化.md",
+    "Blog/source/_posts/代码笔记/一文吃透 k8s 的 Lease （租约）.md",
     "Blog/source/_posts/代码笔记/k8s - 学习成长路线及常用资料参考.md",
-    "Notion/开发参考手册.md",
-    "Notion/04 基础 go 包开发 - 错误包.md",
+    "Blog/source/_posts/代码笔记/vscode 运行慢？使用内置的【扩展二等分】快速找出”元凶”插件.md",
+    "Blog/source/_posts/代码笔记/React 学习笔记.md",
+    "未命名.md",
     "Blog/source/_draft/02 Go应用构建.md",
-    "Notion/05 Go web 服务器实现.md",
     "Blog/source/_posts/hello-world.md",
-    "Notion/03 基础 go 包开发 - 日志包.md",
     "Notion/云原生优质书籍参考.md",
     "Notion/常用的提示词.md",
-    "Notion/vscode 常用插件.md",
-    "Notion/一文吃透 k8s 的 Lease （租约）.md",
     "Notion/高质量博客地址收藏.md",
     "Notion/从特性门控中学习权限读写限制.md",
     "Notion/git 常用操作整理.md",
