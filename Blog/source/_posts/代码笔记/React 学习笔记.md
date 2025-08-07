@@ -1,8 +1,8 @@
 ---
 title: <% tp.file.title %>
-date: <% tp.date.now(format="YYYY-MM-DD HH:mm:ss") %>
+date: '<% tp.date.now(format="YYYY-MM-DD HH:mm:ss") %>'
 categories:
-  - <% tp.file.folder(relative=true) %>
+  - 代码笔记
 tags:
   - react
   - 前端
