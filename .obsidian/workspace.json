@@ -259,11 +259,13 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "github-sync:Sync with Remote": false
+      "github-sync:Sync with Remote": false,
+      "obsidian-importer:Open Importer": false
     }
   },
   "active": "b68f56110d86f8aa",
   "lastOpenFiles": [
+    "Notion",
     "Blog/public/tags/blog/index.html",
     "Blog/public/tags/blog",
     "Blog/public/categories/代码笔记/index.html",
@@ -276,7 +278,6 @@
     "Blog/public/img/default.png",
     "Blog/public/archives/2025/index.html",
     "Blog/public/2025/08/07/代码笔记/ceshi  123/index.html",
-    "Blog/public/2025/08/06/代码笔记/k8s-apiserver 代码学习笔记/index.html",
     "Blog/public/img/loading.gif",
     "Blog/public/img/police_beian.png",
     "Blog/public/img/fluid.png",
