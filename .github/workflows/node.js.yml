@@ -1,0 +1,25 @@
+name: Build & Deploy Hexo
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.MMUNGDONG_GITHUB_IO_PUSH }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install deps & build
+        run: |
+          npm ci
+          npx hexo clean
+          npx hexo generate
+          npx hexo deploy
