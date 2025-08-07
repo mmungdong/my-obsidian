@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_posts/编程笔记/ceshi  111.md",
+                "file": "Blog/source/_posts/代码笔记/ceshi  111.md",
                 "mode": "source",
                 "source": false
               },
@@ -107,16 +107,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Blog/source/_posts/代码笔记/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "未命名"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -262,14 +262,19 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8b08bb4885235894",
+  "active": "b68f56110d86f8aa",
   "lastOpenFiles": [
+    "Blog/source/_posts/test123.md",
+    "Blog/source/_posts/代码笔记/未命名.md",
+    "Blog/source/_posts/思想杂项",
+    "Blog/source/_posts/阅读痕迹",
+    "Blog/source/_posts/生活随笔",
+    "Blog/source/_posts/代码笔记/测试.md",
+    "Blog/source/_posts/代码笔记/ceshi  111.md",
+    "Blog/source/_posts/代码笔记/k8s-apiserver 代码学习笔记.md",
     "Home.md",
-    "Blog/source/_posts/编程笔记/ceshi  111.md",
-    "Blog/source/_posts/编程笔记/k8s-apiserver 代码学习笔记.md",
     "Blog/source/_posts/hello-world.md",
     "Blog/source/_resources/images/file-20250807195603600.png",
-    "Blog/source/_posts/编程笔记/测试.md",
     "Blog/source/_resources/images",
     "Blog/source/_resources",
     "Blog/source/_posts/编程笔记/images/ceshi  111/file-20250807021643560.png",
@@ -285,11 +290,7 @@
     "Blog/public/img/【哲风壁纸】Chris插画-插画.png",
     "Blog/node_modules/hexo-deployer-git/node_modules/domutils/lib/legacy.js",
     "Blog/node_modules/hexo-deployer-git/node_modules/domutils/lib/querying.js",
-    "Blog/node_modules/hexo-deployer-git/node_modules/dom-serializer/node_modules/entities/package.json",
-    "Blog/node_modules/hexo-deployer-git/node_modules/domutils/package.json",
-    "Blog/node_modules/hexo-deployer-git/node_modules/domhandler/package.json",
     "Blog/source/_posts/编程笔记/images/ceshi  111/file-20250807011426942.png",
-    "Blog/source/_posts/test123.md",
     "template/博客笔记属性.md",
     "Blog/node_modules/hexo-theme-fluid/README.md",
     "Blog/node_modules/luxon/README.md",
