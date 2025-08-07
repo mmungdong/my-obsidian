@@ -135,7 +135,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -265,6 +265,8 @@
   },
   "active": "b68f56110d86f8aa",
   "lastOpenFiles": [
+    "template/博客笔记头部属性.md",
+    "Blog/source/_posts/代码笔记/React 学习笔记.md",
     "Blog/public/assets/img/favicon.ico",
     "Blog/public/assets/img/top.png",
     "Blog/public/assets/img",
@@ -279,10 +281,7 @@
     "Blog/public/img/police_beian.png",
     "Blog/public/img/fluid.png",
     "Blog/public/img/avatar.png",
-    "Blog/public/404.html",
     "Blog/public/img/loading.gif",
-    "template/博客笔记头部属性.md",
-    "Blog/source/_posts/代码笔记/React 学习笔记.md",
     "Blog/source/_posts/代码笔记/未命名.md",
     "Blog/public/img/default.png",
     "Blog/source/assets/img/top.png",
