@@ -23,19 +23,28 @@ jobs:
           cache: 'npm'
           cache-dependency-path: ${{ env.BLOG_DIR }}/package-lock.json
 
+      - name: Configure Git credentials
+        run: |
+          # 全局配置Git使用凭证助手
+          git config --global credential.helper store
+          # 保存凭据（避免重复输入）
+          echo "https://x-access-token:${{ secrets.MMUNGDONG_GITHUB_IO_PUSH }}@github.com" > ~/.git-credentials
+
       - name: Install deps & build
         run: |
           git config --global user.name 'my-obsidian actions'
           git config --global user.email 'github@action.com'
           cd ${{ env.BLOG_DIR }}
-          git remote add pages https://x-access-token:${{ secrets.MMUNGDONG_GITHUB_IO_PUSH }}@github.com/mmungdong/mmungdong.github.io.git
-          if [ -f "package-lock.json" ] || [ -f "yarn.lock" ]; then
-            npm ci
-          else
-            npm install
-          fi
+          
+          # 验证远程仓库配置
+          git remote add pages https://github.com/mmungdong/mmungdong.github.io.git
+          git remote -v  # 这行会在日志中显示远程仓库配置，方便调试
+          
+          npm install
           npx hexo clean
           npx hexo generate
-          npx hexo deploy
+          npx hexo deploy  # 部署时会自动使用保存的凭据
         env:
           HEXO_DEPLOY_TOKEN: ${{ secrets.MMUNGDONG_GITHUB_IO_PUSH }}
+
+
