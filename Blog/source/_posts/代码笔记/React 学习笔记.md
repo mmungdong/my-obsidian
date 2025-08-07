@@ -9,7 +9,7 @@ tags:
 archive: true
 hide: false
 abbrlink: <% tp.user.get_url() %>
-cover: ""
+cover:
 ---
 
 - [[#1. 初始化 React 项目]]

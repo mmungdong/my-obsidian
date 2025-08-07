@@ -107,7 +107,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notion/React 学习笔记.md",
+                "file": "Blog/source/_posts/代码笔记/React 学习笔记.md",
                 "mode": "preview",
                 "source": false
               },
@@ -263,10 +263,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "b68f56110d86f8aa",
+  "active": "0f181ec48dbff0a4",
   "lastOpenFiles": [
     "template/博客笔记头部属性.md",
-    "Notion/React 学习笔记.md",
+    "Blog/source/_posts/代码笔记/React 学习笔记.md",
     "Blog/source/_posts/代码笔记/未命名.md",
     "Notion",
     "Blog/public/tags/blog/index.html",
