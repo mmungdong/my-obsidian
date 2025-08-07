@@ -95,12 +95,14 @@
             "id": "edf4ca3c3cad9156",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Blog/source/_resources/images/file-20250807195603600.png"
+                "file": "Blog/source/_posts/编程笔记/ceshi  111.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "file-20250807195603600"
+              "icon": "lucide-file",
+              "title": "ceshi  111"
             }
           },
           {
@@ -265,9 +267,11 @@
   },
   "active": "edf4ca3c3cad9156",
   "lastOpenFiles": [
+    "Blog/source/_posts/编程笔记/k8s-apiserver 代码学习笔记.md",
+    "Blog/source/_posts/hello-world.md",
+    "Blog/source/_resources/images/file-20250807195603600.png",
     "Blog/source/_posts/编程笔记/ceshi  111.md",
     "Blog/source/_posts/编程笔记/测试.md",
-    "Blog/source/_resources/images/file-20250807195603600.png",
     "Blog/source/_resources/images",
     "Blog/source/_resources",
     "Blog/source/_posts/编程笔记/images/ceshi  111/file-20250807021643560.png",
@@ -287,9 +291,7 @@
     "Blog/node_modules/hexo-deployer-git/node_modules/domutils/package.json",
     "Blog/node_modules/hexo-deployer-git/node_modules/domhandler/package.json",
     "Blog/source/_posts/编程笔记/images/ceshi  111/file-20250807011426942.png",
-    "Blog/source/_posts/编程笔记/k8s-apiserver 代码学习笔记.md",
     "Blog/source/_posts/test123.md",
-    "Blog/source/_posts/hello-world.md",
     "template/博客笔记属性.md",
     "Home.md",
     "Blog/node_modules/hexo-theme-fluid/README.md",
