@@ -112,6 +112,3 @@ deploy:
 auto_category:
  enable: true
  depth:
-
-favicon:
-  icon: /assets/img/favicon.ico
