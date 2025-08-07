@@ -95,14 +95,12 @@
             "id": "edf4ca3c3cad9156",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Blog/source/_posts/编程笔记/ceshi  111.md",
-                "mode": "source",
-                "source": false
+                "file": "Blog/source/_resources/images/file-20250807195603600.png"
               },
-              "icon": "lucide-file",
-              "title": "ceshi  111"
+              "icon": "lucide-image",
+              "title": "file-20250807195603600"
             }
           },
           {
@@ -267,9 +265,9 @@
   },
   "active": "edf4ca3c3cad9156",
   "lastOpenFiles": [
+    "Blog/source/_posts/编程笔记/ceshi  111.md",
     "Blog/source/_posts/编程笔记/测试.md",
     "Blog/source/_resources/images/file-20250807195603600.png",
-    "Blog/source/_posts/编程笔记/ceshi  111.md",
     "Blog/source/_resources/images",
     "Blog/source/_resources",
     "Blog/source/_posts/编程笔记/images/ceshi  111/file-20250807021643560.png",
