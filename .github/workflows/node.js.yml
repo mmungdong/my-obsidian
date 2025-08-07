@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.MMUNGDONG_GITHUB_IO_PUSH }}
+          token: ${{ secrets.MY_OBSIDIAN_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
@@ -19,7 +19,13 @@ jobs:
 
       - name: Install deps & build
         run: |
+          git config --global user.name 'my-obsidian actions'
+          git config --global user.email 'github@action.com'
+          git remote add pages https://x-access-token:${{ secrets.MMUNGDONG_GITHUB_IO_PUSH }}@github.com/mmungdong/mmungdong.github.io.git
           npm ci
+          npm install
           npx hexo clean
           npx hexo generate
           npx hexo deploy
+        env:
+          HEXO_DEPLOY_TOKEN: ${{ secrets.MMUNGDONG_GITHUB_IO_PUSH }}
