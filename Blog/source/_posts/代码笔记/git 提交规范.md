@@ -13,12 +13,14 @@ hide: false
 
 这里选用 Angular 的提交规范
 
+
 ## Angular 规范是什么？
 
 Angular 规范其实是一种语义化的提交规范（Semantic Commit Messages），所谓语义化的提交规范包含以下内容：
 
 - Commit Message 是语义化的：Commit Message 都会被归为一个有意义的类型，用来说明本次 commit 的类型。
 - Commit Message 是规范化的：Commit Message 遵循预先定义好的规范，比如 Commit Message 格式固定、都属于某个类型，这些规范不仅可被开发者识别也可以被工具识别。
+
 
 ## Angular 规范
 
@@ -157,6 +159,8 @@ This reverts commit 079360c7cfc830ea8a6e13f4c8b8114febc9b48a.
 为了更好地遵循 Angular 规范，建议你在提交代码时养成不用 git commit -m，即不用-m 选项的习惯，而是直接用 git commit 或者 git commit -a 进入交互界面编辑 Commit Message。这样可以更好地格式化 Commit Message。
 
 但是除了 Commit Message 规范之外，在代码提交时，我们还需要关注 3 个重点内容：提交频率、合并提交和 Commit Message 修改。
+
+
 
  # 参考
 
