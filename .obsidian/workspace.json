@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Blog/source/_posts/代码笔记/git 提交规范.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -170,9 +170,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Blog/source/_posts/代码笔记/vscode 常用插件.md",
-    "Blog/source/_posts/代码笔记/git 提交规范.md",
     "Home.md",
+    "Blog/source/_posts/代码笔记/git 提交规范.md",
+    "Blog/source/_posts/代码笔记/vscode 常用插件.md",
     "template/博客笔记头部属性.md",
     "未命名.md",
     "Blog/source/_draft/02 Go应用构建.md",

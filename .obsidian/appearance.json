@@ -1,3 +1,6 @@
 {
-  "cssTheme": "Discordian"
+  "cssTheme": "Discordian",
+  "interfaceFontFamily": "Catamaran",
+  "textFontFamily": "",
+  "monospaceFontFamily": ""
 }
