@@ -11,7 +11,7 @@ hide: false
 # Commit Message 规范
 
 
-这里选用 <font color="#2DC26B">Angular</font> 的<font color="#ffffff">提交规范</font>
+这里选用 Angular 的提交规范
 
 
 ## Angular 规范是什么？
@@ -72,6 +72,7 @@ Header 部分只有一行，包括三个字段：type（必选）、scope（可�
 - Production：这类修改会影响最终的用户和生产环境的代码。所以对于这种改动，我们一定要慎重，并在提交前做好充分的测试。
 
 我在这里列出了 Angular 规范中的常见 type 和它们所属的类别，你在提交 Commit Message 的时候，一定要注意区分它的类别。举个例子，我们在做 Code Review 时，如果遇到 Production 类型的代码，一定要认真 Review，因为这种类型，会影响到现网用户的使用和现网应用的功能。
+
 
 | **类型** | **类别** | **说明** |
 |---|---|---|

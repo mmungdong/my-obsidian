@@ -147,13 +147,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "a29a0cdc0ca8de50",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,9 +181,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Blog/source/_posts/代码笔记/vscode 常用插件.md",
+    "Blog/source/_posts/代码笔记/git 提交规范.md",
     "Blog/source/_posts/代码笔记/React 学习笔记.md",
     "Blog/source/_posts/代码笔记/一文吃透 k8s 的 Lease （租约）.md",
-    "Blog/source/_posts/代码笔记/git 提交规范.md",
     "Home.md",
     "Blog/source/assets/img/top.png",
     "Blog/source/assets/img/top01.png",
@@ -215,7 +226,6 @@
     "Blog/node_modules/bs-recipes/recipes/webpack.monkey-hot-loader/desc.md",
     "Blog/node_modules/bs-recipes/recipes/webpack.react-hot-loader/readme.md",
     "Blog/node_modules/bs-recipes/recipes/webpack.react-hot-loader/desc.md",
-    "Blog/node_modules/bs-recipes/recipes/webpack.babel/readme.md",
     "Blog/node_modules/serve-index/public/icons/page_world.png"
   ]
 }
