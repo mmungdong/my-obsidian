@@ -103,7 +103,61 @@ Body 部分可以分成多行，而且格式也比较自由。不过，和 Heade
 
 Footer 部分不是必选的，可以根据需要来选择，主要用来说明本次 commit 导致的后果。在实际应用中，Footer 通常用来说明不兼容的改动和关闭的 Issue 列表，格式如下：
 
- 
+```shell
+BREAKING CHANGE: <breaking change summary>
+// 空行
+<breaking change description + migration instructions>
+// 空行
+// 空行
+Fixes #<issue number>
+```
+
+接下来，我给你详细说明下这两种情况：
+
+- 不兼容的改动：如果当前代码跟上一个版本不兼容，需要在 Footer 部分，以 BREAKING CHANG: 开头，后面跟上不兼容改动的摘要。Footer 的其他部分需要说明变动的描述、变动的理由和迁移方法，例如：
+
+```
+BREAKING CHANGE: isolate scope bindings definition has changed and
+    the inject option for the directive controller injection was removed.
+
+    To migrate the code follow the example below:
+
+    Before:
+
+    scope: {
+      myAttr: 'attribute',
+    }
+
+    After:
+
+    scope: {
+      myAttr: '@',
+    }
+    The removed inject wasn't generaly useful for directives so there should be no code using it.
+```
+
+- 关闭的 Issue 列表：关闭的 Bug 需要在 Footer 部分新建一行，并以 Closes 开头列出，例如：Closes #123。如果关闭了多个 Issue，可以这样列出：Closes #123, #432, #886。例如:
+
+```
+Change pause version value to a constant for image
+    
+    Closes #1137
+```
+
+## Revert Commit
+
+除了 **Header**、**Body** 和 **Footer 这 3 个部分，**Commit Message 还有一种特殊情况：如果当前 commit 还原了先前的 commit，则应以 revert: 开头，后跟还原的 commit 的 Header。而且，在 Body 中必须写成 This reverts commit `<hash>` ，其中 hash 是要还原的 commit 的 SHA 标识。例如：
+
+```
+revert: feat(iam-apiserver): add 'Host' option
+
+This reverts commit 079360c7cfc830ea8a6e13f4c8b8114febc9b48a.
+```
+
+为了更好地遵循 Angular 规范，建议你在提交代码时养成不用 git commit -m，即不用-m 选项的习惯，而是直接用 git commit 或者 git commit -a 进入交互界面编辑 Commit Message。这样可以更好地格式化 Commit Message。
+
+但是除了 Commit Message 规范之外，在代码提交时，我们还需要关注 3 个重点内容：提交频率、合并提交和 Commit Message 修改。
+
  # 参考
 
 - [Angular提交信息规范 - Git Guide](https://zj-git-guide.readthedocs.io/zh-cn/latest/message/Angular%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E8%A7%84%E8%8C%83/)
