@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_draft/02 Go应用构建.md",
+                "file": "Blog/source/_posts/代码笔记/常用的提示词.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 Go应用构建"
+              "title": "常用的提示词"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 416
   },
   "right": {
     "id": "a135b08f0fc6ca7f",
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog/source/_draft/02 Go应用构建.md",
+                "file": "Blog/source/_posts/代码笔记/常用的提示词.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "02 Go应用构建 的出链列表"
+              "title": "常用的提示词 的出链列表"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_draft/02 Go应用构建.md",
+                "file": "Blog/source/_posts/代码笔记/常用的提示词.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "02 Go应用构建 的大纲"
+              "title": "常用的提示词 的大纲"
             }
           },
           {
@@ -183,6 +183,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Blog/source/_draft/02 Go应用构建.md",
     "Home.md",
     "目录.md",
     "Blog/source/_posts/代码笔记/React 学习笔记.md",
@@ -227,7 +228,6 @@
     "Blog/node_modules/bs-recipes/recipes/server/desc.md",
     "Blog/node_modules/bs-recipes/recipes/webpack.monkey-hot-loader/readme.md",
     "Blog/node_modules/bs-recipes/recipes/webpack.monkey-hot-loader/desc.md",
-    "Blog/node_modules/bs-recipes/recipes/webpack.react-hot-loader/readme.md",
     "Blog/node_modules/serve-index/public/icons/page_world.png"
   ]
 }

@@ -9,7 +9,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 url: https://yangfanbin.cn/
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true
