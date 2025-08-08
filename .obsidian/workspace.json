@@ -170,6 +170,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Blog/source/assets/img/top.png",
+    "Blog/source/assets/img/top01.png",
+    "Blog/source/assets/img/【哲风壁纸】云-夜色-月亮.png",
     "Blog/node_modules/browser-sync-ui/templates/directives/bs-switch.html",
     "Blog/node_modules/browser-sync-ui/templates/plugin.tmpl",
     "Blog/node_modules/browser-sync-ui/templates/plugin.item.tmpl",
@@ -180,7 +183,6 @@
     "Blog/node_modules/browser-sync-ui/templates",
     "Blog/node_modules/lodash/lodash.js",
     "Blog/node_modules/lodash/fp/lastIndexOfFrom.js",
-    "Blog/node_modules/lodash/lastIndexOf.js",
     "Blog/node_modules/hexo-browsersync/README.md",
     "Blog/node_modules/socket.io-adapter/node_modules/ws/README.md",
     "Blog/node_modules/browser-sync/node_modules/connect/SECURITY.md",
@@ -213,8 +215,6 @@
     "Blog/node_modules/bs-recipes/recipes/server.middleware/readme.md",
     "Blog/node_modules/bs-recipes/recipes/server.middleware/desc.md",
     "Blog/node_modules/serve-index/public/icons/page_world.png",
-    "Blog/node_modules/serve-index/public/icons/page_word.png",
-    "Blog/node_modules/serve-index/public/icons/page_white_zip.png",
-    "Blog/node_modules/serve-index/public/icons/page_white_wrench.png"
+    "Blog/node_modules/serve-index/public/icons/page_word.png"
   ]
 }
