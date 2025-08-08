@@ -1,12 +1,23 @@
+---
+title: Home
+layout: default
+---
 
-[打开站点配置文件](Blog/_config.yml)
+# 欢迎来到我的知识库
 
-![打开站点配置文件](Blog/_config.yml)
+这里是我的个人知识库，记录了我学习和工作的点点滴滴。
 
-[打开主题配置文件](Blog/themes/butterfly4.3.1/_config.yml)
+## 快速导航
 
-![打开主题配置文件](Blog/themes/butterfly4.3.1/_config.yml)
+- [最新文章](#最新文章)
+- [分类目录](#分类目录)
+- [标签云](#标签云)
+- [归档](#归档)
 
-[本地运行博客](Blog/RunBlog.bat)
+## 最新文章
 
-![本地运行博客](Blog/RunBlog.bat)
+```dataview
+LIST
+WHERE file.createtime
+SORT file.createtime DESC
+LIMIT 10
