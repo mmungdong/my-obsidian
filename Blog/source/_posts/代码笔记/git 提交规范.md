@@ -71,7 +71,7 @@ Header 部分只有一行，包括三个字段：type（必选）、scope（可�
 
 我在这里列出了 Angular 规范中的常见 type 和它们所属的类别，你在提交 Commit Message 的时候，一定要注意区分它的类别。举个例子，我们在做 Code Review 时，如果遇到 Production 类型的代码，一定要认真 Review，因为这种类型，会影响到现网用户的使用和现网应用的功能。
 
-|** 类型**|** 类别**|** 说明**|
+|**类型**|**类别**|**说明**|
 |---|---|---|
 |feat|Production|新增功能|
 |fix|Production|Bug 修复|
