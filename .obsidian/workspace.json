@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Blog/source/_posts/代码笔记/git 提交规范.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#123。如果关闭了多个",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,11 +74,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a135b08f0fc6ca7f",
@@ -112,11 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Blog/source/_posts/代码笔记/git 提交规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "git 提交规范 的出链列表"
             }
           },
           {
@@ -131,7 +134,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "标签"
             }
           },
           {
@@ -140,12 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "followCursor": false,
-                "showSearch": false,
+                "file": "Blog/source/_posts/代码笔记/git 提交规范.md",
+                "followCursor": true,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "git 提交规范 的大纲"
             }
           },
           {
@@ -159,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
