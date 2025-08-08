@@ -162,4 +162,3 @@ This reverts commit 079360c7cfc830ea8a6e13f4c8b8114febc9b48a.
 
 - [Angular提交信息规范 - Git Guide](https://zj-git-guide.readthedocs.io/zh-cn/latest/message/Angular%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E8%A7%84%E8%8C%83/)
 - [Git Commit Message 规范 | 云原生AI实战星球](https://konglingfei.com/onex/convention/commit.html#%E4%BB%80%E4%B9%88%E6%98%AF-angular-%E8%A7%84%E8%8C%83)
-- 

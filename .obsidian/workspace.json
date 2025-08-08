@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_draft/git 提交规范.md",
-                "mode": "preview",
+                "file": "Blog/source/_posts/代码笔记/git 提交规范.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#123。如果关闭了多个",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -172,7 +171,7 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Blog/source/_draft/01.md",
-    "Blog/source/_draft/git 提交规范.md",
+    "Blog/source/_posts/代码笔记/git 提交规范.md",
     "Blog/source/_draft/00 小滴架构十八式总览.md",
     "Home.md",
     "Blog/source/_draft/00 - 小滴架构十八式总览",
