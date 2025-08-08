@@ -85,6 +85,8 @@ Header 部分只有一行，包括三个字段：type（必选）、scope（可�
 |docs|Development|文档类的更新，包括修改用户文档或者开发文档等|
 |chore|Development|其他类型，比如构建流程、依赖管理或者辅助工具的变动等|
 
+这里如果代码到一半
+
 #### scope
 
 scope 这里先不建议填写，因为把握不好颗粒度反而会让项目很难维护。
@@ -93,7 +95,7 @@ scope 这里先不建议填写，因为把握不好颗粒度反而会让项目�
 
 subject 是 commit 的简短描述，必须以动词开头、使用现在时。比如，我们可以用 change，却不能用 changed 或 changes，而且这个动词的第一个字母必须是小写。通过这个动词，我们可以明确地知道 commit 所执行的操作。此外我们还要注意，subject 的结尾不能加英文句号。
 
-## Body
+### Body
 
 Header 对 commit 做了高度概括，可以方便我们查看 Commit Message。那我们如何知道具体做了哪些变更呢？答案就是，可以通过 Body 部分，它是对本次 commit 的更详细描述，是可选的。
 
@@ -101,7 +103,7 @@ Body 部分可以分成多行，而且格式也比较自由。不过，和 Heade
 
 除范围为 “docs” 的提交外，所有提交都必须包含正文。当正文为必填项时，其长度必须至少为 20 个字符。
 
-## Footer
+### Footer
 
 Footer 部分不是必选的，可以根据需要来选择，主要用来说明本次 commit 导致的后果。在实际应用中，Footer 通常用来说明不兼容的改动和关闭的 Issue 列表，格式如下：
 
@@ -146,7 +148,7 @@ Change pause version value to a constant for image
     Closes #1137
 ```
 
-## Revert Commit
+### Revert Commit
 
 除了 **Header**、**Body** 和 **Footer** 这 3 个部分，**Commit Message** 还有一种特殊情况：如果当前 commit 还原了先前的 commit，则应以 revert: 开头，后跟还原的 commit 的 Header。而且，在 Body 中必须写成 This reverts commit `<hash>` ，其中 hash 是要还原的 commit 的 SHA 标识。例如：
 
@@ -159,7 +161,6 @@ This reverts commit 079360c7cfc830ea8a6e13f4c8b8114febc9b48a.
 为了更好地遵循 Angular 规范，建议你在提交代码时养成不用 git commit -m，即不用-m 选项的习惯，而是直接用 git commit 或者 git commit -a 进入交互界面编辑 Commit Message。这样可以更好地格式化 Commit Message。
 
 但是除了 Commit Message 规范之外，在代码提交时，我们还需要关注 3 个重点内容：提交频率、合并提交和 Commit Message 修改。
-
 
 
  # 参考
