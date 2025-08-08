@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Blog/source/_draft/02 Go应用构建.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "02 Go应用构建"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#productivity",
+                "query": "tag:#react",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -113,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Blog/source/_draft/02 Go应用构建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Home 的出链列表"
+              "title": "02 Go应用构建 的出链列表"
             }
           },
           {
@@ -142,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "Blog/source/_draft/02 Go应用构建.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大纲"
+              "title": "02 Go应用构建 的大纲"
             }
           },
           {
@@ -182,13 +181,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "266995eee5f65615",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "目录.md",
     "Home.md",
+    "目录.md",
+    "Blog/source/_posts/代码笔记/React 学习笔记.md",
     "Blog/source/_posts/代码笔记/git 提交规范.md",
     "Blog/source/_posts/代码笔记/vscode 常用插件.md",
-    "Blog/source/_posts/代码笔记/React 学习笔记.md",
     "Blog/source/_posts/代码笔记/一文吃透 k8s 的 Lease （租约）.md",
     "Blog/source/assets/img/top.png",
     "Blog/source/assets/img/top01.png",
