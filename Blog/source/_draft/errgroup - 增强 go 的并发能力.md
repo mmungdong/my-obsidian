@@ -116,7 +116,8 @@ func main() {
 
 下面我们看看如果使用了 errgroup 可以怎么做：
 
-1.  使用 `errgroup` 来收集并发错误：
+### 1.  常规用法  
+使用 `errgroup` 来收集并发错误：
 
 ```golang
 package main
@@ -191,7 +192,8 @@ func main() {
 错误 2: 访问 http://www.somestupidname.xxyy/ 失败: Get "http://www.somestupidname.xxyy/": EOF
 ```
 
-2. 取消上下文，如果收集到一个错误后立刻取消其他 goroutinue，避免资源浪费，并在 `Wait` 方法中返回第一个非 `nil` 的错误：
+### 2. 取消上下文
+如果收集到一个错误后立刻取消其他 goroutinue，避免资源浪费，并在 `Wait` 方法中返回第一个非 `nil` 的错误：
 
 ```golang
 package main
@@ -286,6 +288,14 @@ Error:  Get "https://www.somestupidname.xxyy/": EOF
 错误 2: 访问 https://www.bilibili.com/ 失败: Get "https://www.bilibili.com/": context canceled
 错误 3: 访问 https://www.baidu.org/ 失败: Get "https://www.baidu.org/": EOF
 ```
+
+这里我们可以看到错误 2 的错误原因是上下文被取消造成的。
+
+### 3. 限制并发数量
+
+
+### 4. 尝试启动
+
 
 
 # 参考
