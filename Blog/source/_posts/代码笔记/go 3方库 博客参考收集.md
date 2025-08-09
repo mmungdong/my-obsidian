@@ -8,8 +8,16 @@ tags:
 archive: false
 hide: false
 ---
-## viper 配置管理工具
+## gorm - 数据库链接工具
+
+-
+
+## viper - 配置管理工具
 
 
-参考：
-- 
+- [在 Go 中如何使用 Viper 来管理配置 \| 江湖十年 \| 学而不思则罔，思而不学则殆。](https://jianghushinian.cn/2023/04/25/how-to-use-viper-for-configuration-management-in-go/)
+
+
+## Cobra 详解 - Go 语言现代命令行框架
+
+- [Go 语言现代命令行框架 Cobra 详解 \| 江湖十年 \| 学而不思则罔，思而不学则殆。](https://jianghushinian.cn/2023/05/08/go-modern-command-line-framework-cobra-details/)
