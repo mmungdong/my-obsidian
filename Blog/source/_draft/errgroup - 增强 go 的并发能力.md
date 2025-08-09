@@ -293,13 +293,106 @@ Error:  Get "https://www.somestupidname.xxyy/": EOF
 
 ### 3. 限制并发数量
 
+```golang
+package main
+
+import (
+	"context"
+	"fmt"
+	"sync"
+	"time"
+
+	"golang.org/x/sync/errgroup"
+)
+
+func main() {
+	tasks := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+	// 1. 并发计数器：记录当前正在执行的任务数
+	var currentConcurrency int
+	// 互斥锁：保护并发计数器的读写安全
+	var mu sync.Mutex
+
+	// 创建errgroup并限制最大并发数为2
+	g, ctx := errgroup.WithContext(context.Background())
+	g.SetLimit(2) // 最大并发数2
+
+	for _, task := range tasks {
+		taskID := task
+		g.Go(func() error {
+			// 2. 任务开始：并发数+1
+			mu.Lock()
+			currentConcurrency++
+			fmt.Printf("任务 %d 开始，当前并发数: %d\n", taskID, currentConcurrency)
+			mu.Unlock()
+
+			// 模拟任务执行（耗时500ms）
+			select {
+			case <-ctx.Done():
+				return ctx.Err()
+			default:
+				time.Sleep(500 * time.Millisecond)
+			}
+
+			// 3. 任务结束：并发数-1
+			mu.Lock()
+			currentConcurrency--
+			fmt.Printf("任务 %d 结束，当前并发数: %d\n", taskID, currentConcurrency)
+			mu.Unlock()
+
+			return nil
+		})
+	}
+
+	// 等待所有任务完成
+	if err := g.Wait(); err != nil {
+		fmt.Printf("执行出错: %v\n", err)
+	} else {
+		fmt.Println("所有任务执行完毕")
+	}
+}
+
+```
+
+执行结果：
+```shell
+任务 2 开始，当前并发数: 1
+任务 1 开始，当前并发数: 2
+任务 1 结束，当前并发数: 1
+任务 3 开始，当前并发数: 2
+任务 2 结束，当前并发数: 1
+任务 4 开始，当前并发数: 2
+任务 4 结束，当前并发数: 1
+任务 5 开始，当前并发数: 2
+任务 3 结束，当前并发数: 1
+任务 6 开始，当前并发数: 2
+任务 6 结束，当前并发数: 1
+任务 7 开始，当前并发数: 2
+任务 5 结束，当前并发数: 1
+任务 8 开始，当前并发数: 2
+任务 8 结束，当前并发数: 1
+任务 9 开始，当前并发数: 2
+任务 7 结束，当前并发数: 1
+任务 10 开始，当前并发数: 2
+任务 9 结束，当前并发数: 1
+任务 10 结束，当前并发数: 0
+所有任务执行完毕
+```
+
+
+从执行结果看，并发数始终没有超过 2。
 
 ### 4. 尝试启动
 
+`errgroup` 还提供了 `errgroup.TryGo` 可以**尝试启动一个任务**，它返回一个 `bool` 值，标识任务是否启动成功，`true` 表示成功，`false` 表示失败。
+
+`errgroup.TryGo` 需要搭配 `errgroup.SetLimit` 一同使用，因为如果不限制并发数量，那么 `errgroup.TryGo` 始终返回 `true`，当达到最大并发数量限制时，`errgroup.TryGo` 返回 `false`。
+
+示例如下：
 
 
 # 参考
 - [https://github.com/golang/sync](https://github.com/golang/sync)
 - [mp.weixin.qq.com/s/JD6FDfCEWO6uQZhyvrIWkA](https://mp.weixin.qq.com/s/JD6FDfCEWO6uQZhyvrIWkA)
 - [Go 并发控制：errgroup 详解-CSDN博客](https://blog.csdn.net/ra681t58cjxsgckj31/article/details/143616687)
-- 
+- [Golang并发控制之errgroup使用详解\_Golang\_脚本之家](https://www.jb51.net/jiaoben/330077w2g.htm)
