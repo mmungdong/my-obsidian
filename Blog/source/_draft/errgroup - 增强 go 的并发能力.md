@@ -194,7 +194,100 @@ func main() {
 2. 取消上下文，如果收集到一个错误后立刻取消其他 goroutinue，避免资源浪费，并在 `Wait` 方法中返回第一个非 `nil` 的错误：
 
 ```golang
+package main
+
+import (
+    "context"
+    "fmt"
+    "net/http"
+    "sync"
+
+    "golang.org/x/sync/errgroup"
+)
+
+func main() {
+    var urls = []string{
+        "https://www.baidu.org/",          // 错误URL
+        "https://www.bilibili.com/",       // 正常URL
+        "https://www.somestupidname.xxyy/", // 错误URL
+    }
+
+    // 1. 创建可取消的上下文
+    ctx, cancel := context.WithCancel(context.Background())
+    defer cancel()
+
+    // 2. 定义错误集合和互斥锁
+    var allErrors []error
+    var mu sync.Mutex
+
+    // 3. 创建带上下文的errgroup
+    g, ctx := errgroup.WithContext(ctx)
+
+    for _, url := range urls {
+        u := url // 避免goroutine共享循环变量
+        g.Go(func() error {
+            // 4. 创建带上下文的HTTP请求
+            req, err := http.NewRequestWithContext(ctx, "GET", u, nil)
+            if err != nil {
+                mu.Lock()
+                allErrors = append(allErrors, fmt.Errorf("创建请求 %s 失败: %w", u, err))
+                mu.Unlock()
+                return err
+            }
+
+            // 发送请求
+            resp, err := http.DefaultClient.Do(req)
+            if err != nil {
+                mu.Lock()
+                allErrors = append(allErrors, fmt.Errorf("访问 %s 失败: %w", u, err))
+                mu.Unlock()
+                return err // 触发上下文取消
+            }
+            defer resp.Body.Close()
+
+            // 检查上下文是否已取消
+            select {
+            case <-ctx.Done():
+                mu.Lock()
+                allErrors = append(allErrors, fmt.Errorf("请求 %s 被取消: %w", u, ctx.Err()))
+                mu.Unlock()
+                return ctx.Err()
+            default:
+                fmt.Printf("访问 %s 成功，状态码: %s\n", u, resp.Status)
+                return nil
+            }
+        })
+    }
+
+    // 5. 等待所有goroutine完成
+    if err := g.Wait(); err != nil {
+        fmt.Println("Error: ", err)
+    }
+
+    // 6. 打印所有错误
+    if len(allErrors) > 0 {
+        fmt.Println("\n收集到所有错误：")
+        for i, err := range allErrors {
+            fmt.Printf("错误 %d: %v\n", i+1, err)
+        }
+    } else {
+        fmt.Println("\n所有请求均成功，无错误")
+    }
+}
+    
 ```
+
+执行结果：
+```shell
+Error:  Get "https://www.somestupidname.xxyy/": EOF
+
+收集到所有错误：
+错误 1: 访问 https://www.somestupidname.xxyy/ 失败: Get "https://www.somestupidname.xxyy/": EOF
+错误 2: 访问 https://www.bilibili.com/ 失败: Get "https://www.bilibili.com/": context canceled
+错误 3: 访问 https://www.baidu.org/ 失败: Get "https://www.baidu.org/": EOF
+```
+
+
 # 参考
 - [https://github.com/golang/sync](https://github.com/golang/sync)
 - [mp.weixin.qq.com/s/JD6FDfCEWO6uQZhyvrIWkA](https://mp.weixin.qq.com/s/JD6FDfCEWO6uQZhyvrIWkA)
