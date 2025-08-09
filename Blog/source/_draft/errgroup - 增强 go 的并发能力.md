@@ -389,7 +389,71 @@ func main() {
 `errgroup.TryGo` 需要搭配 `errgroup.SetLimit` 一同使用，因为如果不限制并发数量，那么 `errgroup.TryGo` 始终返回 `true`，当达到最大并发数量限制时，`errgroup.TryGo` 返回 `false`。
 
 示例如下：
+```golang
+package main
 
+import (
+	"fmt"
+	"time"
+
+	"golang.org/x/sync/errgroup"
+)
+
+func main() {
+	// 创建一个 errgroup.Group
+	var g errgroup.Group
+	// 设置最大并发限制为 3
+	g.SetLimit(3)
+
+	// 启动 10 个 goroutine
+	for i := 1; i <= 10; i++ {
+		// 捕获当前循环变量i（避免闭包延迟绑定导致的序号错乱）
+		num := i
+		if g.TryGo(func() error {
+			// 打印正在运行的 goroutine
+			fmt.Printf("goroutine %d 正在启动\n", num)
+			time.Sleep(2 * time.Second) // 模拟工作
+			fmt.Printf("goroutine %d 已完成\n", num)
+			return nil
+		}) {
+			// 如果成功启动，打印提示
+			fmt.Printf("goroutine %d 启动成功\n", num)
+		} else {
+			// 如果达到并发限制，打印提示
+			fmt.Printf("goroutine %d 无法启动（已达并发限制）\n", num)
+		}
+	}
+
+	// 等待所有 goroutine 完成
+	if err := g.Wait(); err != nil {
+		fmt.Printf("遇到错误：%v\n", err)
+	}
+
+	fmt.Println("所有goroutine已完成。")
+}
+
+```
+
+执行结果：
+```shell
+goroutine 1 启动成功
+goroutine 1 正在启动
+goroutine 2 启动成功
+goroutine 3 启动成功
+goroutine 4 无法启动（已达并发限制）
+goroutine 5 无法启动（已达并发限制）
+goroutine 6 无法启动（已达并发限制）
+goroutine 7 无法启动（已达并发限制）
+goroutine 8 无法启动（已达并发限制）
+goroutine 9 无法启动（已达并发限制）
+goroutine 10 无法启动（已达并发限制）
+goroutine 3 正在启动
+goroutine 2 正在启动
+goroutine 2 已完成
+goroutine 1 已完成
+goroutine 3 已完成
+所有goroutine已完成。
+```
 
 # 参考
 - [https://github.com/golang/sync](https://github.com/golang/sync)
