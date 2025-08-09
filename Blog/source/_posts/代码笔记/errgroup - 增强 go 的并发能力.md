@@ -19,7 +19,7 @@ errgroup 是Go官方扩展库 `golang.org/x/sync` 中的并发原语，用于管
 ## 核心特性
 
 1. **错误聚合与传播**  
-    当任意一个 goroutine 返回错误时，errgroup 会立即取消其他未完成的任务，并将错误传递给主 goroutine，避免资源浪费。
+    **当任意一个 goroutine 返回错误时，errgroup 会立即取消其他未完成的任务，并将错误传递给主 goroutine，避免资源浪费。**
 2. **批量任务取消**  
     通过 `context.Context` 实现任务组的级联取消，一旦某个任务失败，整个任务组会被终止。
 3. **超时控制**  
@@ -113,7 +113,7 @@ func main() {
 
 ## 使用 `errgroup` 来收集并发错误
 
-安装 ``
+安装 `go get golang.org/x/sync`
 
 下面我们看看如果使用了 errgroup 可以怎么做：
 
@@ -192,7 +192,6 @@ func main() {
 错误 1: 访问 http://www.baidu.org/ 失败: Get "http://www.baidu.org/": EOF
 错误 2: 访问 http://www.somestupidname.xxyy/ 失败: Get "http://www.somestupidname.xxyy/": EOF
 ```
-
 ### 2. 取消上下文
 如果收集到一个错误后立刻取消其他 goroutinue，避免资源浪费，并在 `Wait` 方法中返回第一个非 `nil` 的错误：
 
