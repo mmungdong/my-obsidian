@@ -99,7 +99,16 @@ func main() {
 }
 ```
 
-这里必须要把所有的并发任务执行完成后，才可以返回所有的 goroutine，而且还需要声明两个
+这里必须要把所有的并发任务执行完成后，才可以返回所有的 goroutinue，而且还需要声明两个变量 errors 和 mutex 来确保并发安全。
+
+## 使用 `errgroup` 来收集并发错误
+
+下面我们看看如果使用了 errgroup 可以怎么做：
+
+1. 只要有一个错误返回就取消剩下的 goroutinue，不管剩下的协程有没有执行完：
+
+
+
 # 参考
 - [https://github.com/golang/sync](https://github.com/golang/sync)
 - [mp.weixin.qq.com/s/JD6FDfCEWO6uQZhyvrIWkA](https://mp.weixin.qq.com/s/JD6FDfCEWO6uQZhyvrIWkA)
