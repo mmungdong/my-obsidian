@@ -10,7 +10,8 @@ hide: false
 ---
 ## gorm - 数据库链接工具
 
--
+- [Go 语言流行 ORM 框架 GORM 使用介绍 \| 江湖十年 \| 学而不思则罔，思而不学则殆。](https://jianghushinian.cn/2023/05/27/go-popular-orm-framework-gorm-introduction/)
+- [GORM入门到精通：构建高效Go应用的终极指南-阿里云开发者社区](https://developer.aliyun.com/article/1443758)
 
 ## viper - 配置管理工具
 
