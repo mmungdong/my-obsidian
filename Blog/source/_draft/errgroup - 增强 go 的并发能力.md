@@ -99,6 +99,15 @@ func main() {
 }
 ```
 
+执行结果：
+```shell
+访问 http://www.bilibili.com/ 成功，状态码: 200 OK
+访问 http://www.somestupidname.com/ 成功，状态码: 200 OK
+
+收集到以下错误：
+错误 1: 访问 http://www.baidu.org/ 失败: Get "http://www.baidu.org/": EOF
+```
+
 这里必须要把所有的并发任务执行完成后，才可以返回所有的 goroutinue，而且还需要声明两个变量 errors 和 mutex 来确保并发安全。
 
 ## 使用 `errgroup` 来收集并发错误
@@ -173,8 +182,19 @@ func main() {
 }
 ```
 
+执行结果：
+```shell
+访问 http://www.bilibili.com/ 成功，状态码: 200 OK
 
+收集到所有错误：
+错误 1: 访问 http://www.baidu.org/ 失败: Get "http://www.baidu.org/": EOF
+错误 2: 访问 http://www.somestupidname.xxyy/ 失败: Get "http://www.somestupidname.xxyy/": EOF
+```
 
+2. 取消上下文，如果收集到一个错误后立刻取消其他 goroutinue，避免资源浪费，：
+
+```golang
+```
 # 参考
 - [https://github.com/golang/sync](https://github.com/golang/sync)
 - [mp.weixin.qq.com/s/JD6FDfCEWO6uQZhyvrIWkA](https://mp.weixin.qq.com/s/JD6FDfCEWO6uQZhyvrIWkA)
