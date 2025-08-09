@@ -1,12 +1,13 @@
 ---
 title: linux  和 wsl 自用 .bashrc 文件配置
-date: 2025-08-09 20:22:44
-categories: 
+categories:
+  - 代码笔记
 tags:
   - wsl
   - linux
 archive: true
 hide: false
+date: 2025-08-09 20:22:44
 ---
 ```bash
 # .bashrc

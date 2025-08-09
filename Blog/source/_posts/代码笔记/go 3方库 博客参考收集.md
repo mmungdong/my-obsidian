@@ -1,12 +1,13 @@
 ---
 title: go 3方库 博客参考收集
-date: 2025-08-09 21:15:23
-categories: 
+categories:
+  - 代码笔记
 tags:
   - go3方库
   - golang
 archive: false
 hide: false
+date: 2025-08-09 21:15:23
 ---
 ## gorm - 数据库链接工具
 
