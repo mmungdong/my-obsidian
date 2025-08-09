@@ -5,6 +5,7 @@ categories:
   - 代码笔记
 tags:
   - go3方库
+  - golang
 archive: true
 hide: false
 ---
@@ -459,4 +460,4 @@ goroutine 3 已完成
 - [https://github.com/golang/sync](https://github.com/golang/sync)
 - [mp.weixin.qq.com/s/JD6FDfCEWO6uQZhyvrIWkA](https://mp.weixin.qq.com/s/JD6FDfCEWO6uQZhyvrIWkA)
 - [Go 并发控制：errgroup 详解-CSDN博客](https://blog.csdn.net/ra681t58cjxsgckj31/article/details/143616687)
-- [Golang并发控制之errgroup使用详解\_Golang\_脚本之家](https://www.jb51.net/jiaoben/330077w2g.htm)
+- [Go 并发控制：errgroup 详解 \| 江湖十年 \| 学而不思则罔，思而不学则殆。](https://jianghushinian.cn/2024/11/04/x-sync-errgroup/)
