@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_draft/errgroup - 增强 go 的并发能力.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "errgroup - 增强 go 的并发能力"
+              "title": "Home"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_draft/errgroup - 增强 go 的并发能力.md",
+                "file": "Home.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "errgroup - 增强 go 的并发能力 的大纲"
+              "title": "Home 的大纲"
             }
           },
           {
@@ -183,8 +183,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home.md",
     "Blog/source/_draft/errgroup - 增强 go 的并发能力.md",
+    "Home.md",
     "Blog/source/_posts/代码笔记/云原生优质书籍参考.md",
     "Blog/source/_posts/代码笔记/git 提交规范.md",
     "Blog/source/_posts/代码笔记/常用的提示词.md",
