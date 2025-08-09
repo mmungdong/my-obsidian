@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Blog/source/_posts/代码笔记/linux  和 wsl 自用 .bashrc 文件配置.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "linux  和 wsl 自用 .bashrc 文件配置"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "Blog/source/_posts/代码笔记/linux  和 wsl 自用 .bashrc 文件配置.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大纲"
+              "title": "linux  和 wsl 自用 .bashrc 文件配置 的大纲"
             }
           },
           {
@@ -183,8 +183,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Blog/source/_posts/代码笔记/errgroup - 增强 go 的并发能力.md",
     "Home.md",
+    "Blog/source/_posts/代码笔记/errgroup - 增强 go 的并发能力.md",
     "Blog/source/_posts/代码笔记/linux  和 wsl 自用 .bashrc 文件配置.md",
     "Blog/source/_posts/代码笔记/go 3方库 博客参考收集.md",
     "Blog/source/_posts/代码笔记/云原生优质书籍参考.md",
