@@ -191,7 +191,7 @@ func main() {
 错误 2: 访问 http://www.somestupidname.xxyy/ 失败: Get "http://www.somestupidname.xxyy/": EOF
 ```
 
-2. 取消上下文，如果收集到一个错误后立刻取消其他 goroutinue，避免资源浪费，：
+2. 取消上下文，如果收集到一个错误后立刻取消其他 goroutinue，避免资源浪费，并在 `Wait` 方法中返回第一个非 `nil` 的错误：
 
 ```golang
 ```
