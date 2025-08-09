@@ -44,7 +44,7 @@ go get github.com/golang/sync
 ## 使用标准库的 `sync.WaitGroup` 收集并发错误
 
 
-```go
+```golang
 package main
 
 import (
@@ -103,9 +103,75 @@ func main() {
 
 ## 使用 `errgroup` 来收集并发错误
 
+安装 ``
+
 下面我们看看如果使用了 errgroup 可以怎么做：
 
-1. 只要有一个错误返回就取消剩下的 goroutinue，不管剩下的协程有没有执行完：
+1.  使用 `errgroup` 来收集并发错误：
+
+```golang
+package main
+
+import (
+  "fmt"
+  "net/http"
+  "sync"
+
+  "golang.org/x/sync/errgroup"
+)
+
+  
+
+func main() {
+  var urls = []string{
+    "http://www.baidu.org/",           // 错误URL
+    "http://www.bilibili.com/",        // 正常URL
+    "http://www.somestupidname.xxyy/", // 错误URL
+  }
+  
+  // 1. 定义错误集合，用于存储所有错误
+  var allErrors []error
+  // 2. 互斥锁，保证多个goroutine并发写入错误时的安全
+  var mu sync.Mutex
+  // 创建errgroup
+  var g errgroup.Group
+
+  for _, url := range urls {
+    // 3. 传入当前url作为参数，避免goroutine共享循环变量
+    u := url
+    g.Go(func() error {
+      resp, err := http.Get(u)
+      if err != nil {
+      
+        // 加锁保护错误集合的写入
+        mu.Lock()
+        // 存储详细错误信息（包含URL）
+        allErrors = append(allErrors, fmt.Errorf("访问 %s 失败: %w", u, err))
+        mu.Unlock()
+        
+        // 返回错误（errgroup会记录第一个错误，但我们主要靠allErrors收集所有）
+        return err
+      }
+      defer resp.Body.Close()
+      fmt.Printf("访问 %s 成功，状态码: %s\n", u, resp.Status)
+      return nil
+    })
+  }
+
+  // 等待所有goroutine完成（无论是否有错误）
+  _ = g.Wait() // 忽略errgroup返回的第一个错误，我们关注allErrors
+
+  // 4. 打印所有收集到的错误
+  if len(allErrors) > 0 {
+    fmt.Println("\n收集到所有错误：")
+    for i, err := range allErrors {
+      fmt.Printf("错误 %d: %v\n", i+1, err)
+    }
+  } else {
+    fmt.Println("\n所有请求均成功，无错误")
+  }
+}
+```
 
 
 
