@@ -41,7 +41,65 @@ errgroup 是Go官方扩展库 `golang.org/x/sync` 中的并发原语，用于管
 go get github.com/golang/sync
 ```
 
+## 使用标准库的 `sync.WaitGroup` 收集并发错误
 
+
+```go
+package main
+
+import (
+  "fmt"
+  "net/http"
+  "sync"
+)
+
+func main() {
+  var urls = []string{
+    "http://www.baidu.org/",          // 错误URL
+    "http://www.bilibili.com/",       // 正常URL
+    "http://www.somestupidname.com/", // 正常URL
+  }
+
+  // 1. 定义错误集合（类似K8s收集所有错误）
+  var errors []error
+  // 2. 定义互斥锁，保证并发安全
+  var mu sync.Mutex
+  var wg sync.WaitGroup
+
+  for _, url := range urls {
+    wg.Add(1)
+    // 3. 传入url作为参数，避免goroutine共享循环变量（关键！）
+    go func(u string) {
+      defer wg.Done()
+      resp, err := http.Get(u)
+      if err != nil {
+      
+        // 加锁保护错误集合写入
+        mu.Lock()
+        errors = append(errors, fmt.Errorf("访问 %s 失败: %v", u, err))
+        mu.Unlock()
+        return
+      }
+      defer resp.Body.Close()
+      fmt.Printf("访问 %s 成功，状态码: %s\n", u, resp.Status)
+    }(url) // 传入当前迭代的url
+  }
+
+  wg.Wait() // 等待所有任务完成
+
+  // 4. 打印所有收集到的错误（类似K8s汇总错误信息）
+  if len(errors) > 0 {
+    fmt.Println("\n收集到以下错误：")
+    for i, err := range errors {
+      fmt.Printf("错误 %d: %v\n", i+1, err)
+    }
+  } else {
+    fmt.Println("\n所有任务执行成功，无错误")
+  }
+}
+```
+
+这里必须要把所有的并发任务执行完成后，才可以返回所有的 goroutine，而且还需要声明两个
 # 参考
 - [https://github.com/golang/sync](https://github.com/golang/sync)
 - [mp.weixin.qq.com/s/JD6FDfCEWO6uQZhyvrIWkA](https://mp.weixin.qq.com/s/JD6FDfCEWO6uQZhyvrIWkA)
