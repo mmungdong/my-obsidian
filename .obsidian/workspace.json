@@ -160,9 +160,19 @@
               "icon": "lines-of-text",
               "title": "Quiet Outline"
             }
+          },
+          {
+            "id": "7de8fe26d102f11b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -182,7 +192,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "266995eee5f65615",
+  "active": "7de8fe26d102f11b",
   "lastOpenFiles": [
     "Blog/source/_posts/读书笔记/📚 卡片笔记写作法.md",
     "Home.md",

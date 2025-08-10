@@ -78,7 +78,7 @@ date: 2025-08-08 01:03:39
 - 能够使用 client-go 操作 Kubernetes 资源
 - 能够编写控制器
 
-> [!important] 这一阶段，我们需要熟练掌握至少一个组件的原理和使用，如果你没有自己需要的或倾向的，这里比较推荐：kube-scheduler。因为企业对 Kubernetes 调度器的二次开发需求很多。另外，如果你有时间和精力也建议学习和使用某个网络插件，例如：Cilium。Cilium 功能复杂，代码量多。如果你没有特别多精力，可以学习下 flannel，建议阅读下 flannel 的源码。其他网络插件的实现原理，跟 flannel 有很多相似之处。
+> 这一阶段，我们需要熟练掌握至少一个组件的原理和使用，如果你没有自己需要的或倾向的，这里比较推荐：kube-scheduler。因为企业对 Kubernetes 调度器的二次开发需求很多。另外，如果你有时间和精力也建议学习和使用某个网络插件，例如：Cilium。Cilium 功能复杂，代码量多。如果你没有特别多精力，可以学习下 flannel，建议阅读下 flannel 的源码。其他网络插件的实现原理，跟 flannel 有很多相似之处。
 
   
 
@@ -89,7 +89,7 @@ date: 2025-08-08 01:03:39
 - 能够熟练使用 client-go 操作 Kubernetes 资源，并了解 client-go 的原理
 - 能够熟练开发 Operator，熟练使用相关的工具和包，最好能够掌握这些包的原理和实现
 
-> [!important] Kubernetes 这么受企业欢迎的一个原因是因为其具有强大的可扩展性。这要归功于 Kubernetes 提供了强大的 [扩展机制](https://kubernetes.io/docs/concepts/extend-kubernetes/)。这个阶段，我们应该能够熟悉 Kubernetes 的各种扩展机制，并根据工作需要，开发自己的 Kubernetes 扩展，满足企业的需求。这个阶段，你越来越多的从理论，走向实践。而且具备自己独立开发一个以 Kubernetes 为集基石的云原生项目。
+> Kubernetes 这么受企业欢迎的一个原因是因为其具有强大的可扩展性。这要归功于 Kubernetes 提供了强大的 [扩展机制](https://kubernetes.io/docs/concepts/extend-kubernetes/)。这个阶段，我们应该能够熟悉 Kubernetes 的各种扩展机制，并根据工作需要，开发自己的 Kubernetes 扩展，满足企业的需求。这个阶段，你越来越多的从理论，走向实践。而且具备自己独立开发一个以 Kubernetes 为集基石的云原生项目。
 
   
 
@@ -130,7 +130,7 @@ date: 2025-08-08 01:03:39
 
 # 补充
 
-> [!important] 上面进阶完成后可以根据才云科技的路线进行补充学习：[caicloud/kube-ladder: Learning Kubernetes, The Chinese Taoist Way](https://github.com/caicloud/kube-ladder)
+> 上面进阶完成后可以根据才云科技的路线进行补充学习：[caicloud/kube-ladder: Learning Kubernetes, The Chinese Taoist Way](https://github.com/caicloud/kube-ladder)
 
   
 
