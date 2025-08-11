@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/04 基础 go 包开发 - 错误包.md",
+                "file": "template/博客笔记头部属性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 基础 go 包开发 - 错误包"
+              "title": "博客笔记头部属性"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/04 基础 go 包开发 - 错误包.md",
+                "file": "template/博客笔记头部属性.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "04 基础 go 包开发 - 错误包 的大纲"
+              "title": "博客笔记头部属性 的大纲"
             }
           },
           {
@@ -193,6 +193,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Blog/source/_posts/代码笔记/04 基础 go 包开发 - 错误包.md",
     "Blog/source/_posts/代码笔记/01 Go项目初始化.md",
     "Blog/source/_posts/代码笔记/05 Go web 服务器实现.md",
     "Blog/source/_posts/代码笔记/k8s - 学习成长路线及常用资料参考.md",
@@ -212,7 +213,6 @@
     "Blog/source/_posts/代码笔记/git 常用操作整理.md",
     "Blog/source/_posts/代码笔记/vscode 常用插件.md",
     "Blog/source/_posts/代码笔记/云原生优质书籍参考.md",
-    "Blog/source/_posts/代码笔记/04 基础 go 包开发 - 错误包.md",
     "Blog/source/_posts/读书笔记/📚 卡片笔记写作法.md",
     "Blog/source/_draft/00 小滴架构十八式总览.md",
     "Blog/source/_draft/02 Go应用构建.md",
