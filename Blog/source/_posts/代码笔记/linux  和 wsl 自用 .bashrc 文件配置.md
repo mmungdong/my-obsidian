@@ -5,7 +5,7 @@ categories:
 tags:
   - wsl
   - linux
-archive: true
+archive: false
 hide: false
 date: 2025-08-09 20:22:44
 ---

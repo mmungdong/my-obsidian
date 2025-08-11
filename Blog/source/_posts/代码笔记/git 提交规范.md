@@ -5,7 +5,7 @@ categories:
   - 代码笔记
 tags:
   - git
-archive: true
+archive: false
 hide: false
 ---
 # Commit Message 规范

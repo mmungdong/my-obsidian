@@ -6,7 +6,7 @@ date: 2025-08-08 00:12:50
 tags:
   - react
   - 前端
-archive: true
+archive: false
 hide: false
 ---
 # 1. 初始化 React 项目

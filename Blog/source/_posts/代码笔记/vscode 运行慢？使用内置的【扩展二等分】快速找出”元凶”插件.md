@@ -4,7 +4,7 @@ categories:
   - 代码笔记
 tags:
   - vscode
-archive: true
+archive: false
 hide: false
 date: 2025-08-08 01:04:24
 ---

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Blog/source/_posts/代码笔记/04 基础 go 包开发 - 错误包.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "04 基础 go 包开发 - 错误包"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -142,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "Blog/source/_posts/代码笔记/04 基础 go 包开发 - 错误包.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大纲"
+              "title": "04 基础 go 包开发 - 错误包 的大纲"
             }
           },
           {
@@ -194,20 +193,31 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Blog/source/_posts/读书笔记/📚 卡片笔记写作法.md",
-    "Home.md",
-    "Blog/source/_posts/代码笔记/Golang面试题整理.md",
+    "Blog/source/_posts/代码笔记/01 Go项目初始化.md",
+    "Blog/source/_posts/代码笔记/05 Go web 服务器实现.md",
+    "Blog/source/_posts/代码笔记/k8s - 学习成长路线及常用资料参考.md",
+    "Blog/source/_posts/代码笔记/React 学习笔记.md",
+    "Blog/source/_posts/代码笔记/一文吃透 k8s 的 Lease （租约）.md",
+    "Blog/source/_posts/代码笔记/从特性门控中学习权限读写限制.md",
     "Blog/source/_posts/代码笔记/linux  和 wsl 自用 .bashrc 文件配置.md",
     "Blog/source/_posts/代码笔记/errgroup - 增强 go 的并发能力.md",
-    "Blog/source/_posts/代码笔记/go 3方库 博客参考收集.md",
-    "Blog/source/_posts/代码笔记/云原生优质书籍参考.md",
     "Blog/source/_posts/代码笔记/git 提交规范.md",
+    "Blog/source/_posts/代码笔记/03 基础 go 包开发 - 日志包.md",
+    "Blog/source/_posts/代码笔记/vscode 运行慢？使用内置的【扩展二等分】快速找出”元凶”插件.md",
+    "Blog/source/_posts/代码笔记/Golang面试题整理.md",
+    "Blog/source/_posts/代码笔记/开发参考手册.md",
+    "Blog/source/_posts/代码笔记/go 3方库 博客参考收集.md",
     "Blog/source/_posts/代码笔记/常用的提示词.md",
-    "Blog/source/_draft/02 Go应用构建.md",
-    "目录.md",
-    "Blog/source/_posts/代码笔记/React 学习笔记.md",
+    "Blog/source/_posts/代码笔记/高质量博客地址收藏.md",
+    "Blog/source/_posts/代码笔记/git 常用操作整理.md",
     "Blog/source/_posts/代码笔记/vscode 常用插件.md",
-    "Blog/source/_posts/代码笔记/一文吃透 k8s 的 Lease （租约）.md",
+    "Blog/source/_posts/代码笔记/云原生优质书籍参考.md",
+    "Blog/source/_posts/代码笔记/04 基础 go 包开发 - 错误包.md",
+    "Blog/source/_posts/读书笔记/📚 卡片笔记写作法.md",
+    "Blog/source/_draft/00 小滴架构十八式总览.md",
+    "Blog/source/_draft/02 Go应用构建.md",
+    "Home.md",
+    "目录.md",
     "Blog/source/assets/img/top.png",
     "Blog/source/assets/img/top01.png",
     "Blog/source/assets/img/【哲风壁纸】云-夜色-月亮.png",
@@ -222,23 +232,12 @@
     "Blog/node_modules/lodash/lodash.js",
     "Blog/node_modules/lodash/fp/lastIndexOfFrom.js",
     "Blog/node_modules/hexo-browsersync/README.md",
-    "Blog/node_modules/socket.io-adapter/node_modules/ws/README.md",
-    "Blog/node_modules/browser-sync/node_modules/connect/SECURITY.md",
-    "Blog/node_modules/engine.io/node_modules/ws/README.md",
-    "Blog/node_modules/browser-sync/node_modules/connect/HISTORY.md",
-    "Blog/node_modules/axios/README.md",
-    "Blog/node_modules/browser-sync/node_modules/send/HISTORY.md",
     "Blog/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-regular-webfont.svg",
     "Blog/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-it-webfont.svg",
     "Blog/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-bold-webfont.svg",
     "Blog/node_modules/browser-sync-ui/public/img/icons/icons.svg",
     "Blog/node_modules/browser-sync-ui/public/img/ps-bg.gif",
     "Blog/node_modules/browser-sync-ui/public/img/logo.svg",
-    "Blog/node_modules/bs-recipes/recipes/webpack.typescript/readme.md",
-    "Blog/node_modules/bs-recipes/recipes/webpack.typescript/desc.md",
-    "Blog/node_modules/bs-recipes/recipes/webpack.react-transform-hmr/readme.md",
-    "Blog/node_modules/bs-recipes/recipes/webpack.react-transform-hmr/desc.md",
-    "Blog/node_modules/bs-recipes/recipes/webpack.preact-hot-loader/readme.md",
     "Blog/node_modules/serve-index/public/icons/page_world.png"
   ]
 }
