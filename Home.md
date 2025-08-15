@@ -8,6 +8,9 @@ layout: default
 - [[目录]] | [[索引]] | [[待办事项]]
 - [Hexo博客管理](hexo/) | [项目文档](projects/)
 
+> [!note] 📚 callout
+> 这是一个 callout
+
 ## 🔍 最近更新的Hexo文件LIST 
 FROM "hexo"
 SORT file.mtime DESC
