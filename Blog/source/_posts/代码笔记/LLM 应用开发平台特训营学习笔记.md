@@ -19,7 +19,7 @@ hide: false
 
 # 1. 初识大语言模型
 
-## 1.1. 一些基础知识
+## 1.1. LLM 基础知识
 
 - 什么是大语言模型?
 	- [一文全面看懂什么是大模型（LLM） - AI全书](https://aibook.ren/archives/what-is-llm)
@@ -35,4 +35,10 @@ hide: false
 	- [解读AI大模型，从了解token开始 - 飞书云文档](https://agijuejin.feishu.cn/wiki/AvLgwOOKEi8gIek5ENycokOinEb)
 - 模型如何训练？
 	- [大模型入门指南：模型训练(Training)全解析！看这一篇就够了！](https://zhuanlan.zhihu.com/p/1934198252519031821)
+
+
+## 1.2. LLM 在软件开发中的作用
+
+
+![image.png](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20250823153022713.png?imageSlim)
 
