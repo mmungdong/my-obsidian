@@ -29,4 +29,7 @@ hide: false
 	- [大模型词表 - FlyingWhite](https://f1yingwhite.github.io/posts/machinelearning/nlp/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AF%8D%E8%A1%A8/)
 - token 的工作机制
 	- [人工智能 - 大模型中的Token究竟是什么？从原理到作用深度解析 - dblens数据库AI管理工具 - SegmentFault 思否](https://segmentfault.com/a/1190000046178049)
-	- 
+	- [解读AI大模型，从了解token开始 - 飞书云文档](https://agijuejin.feishu.cn/wiki/AvLgwOOKEi8gIek5ENycokOinEb)
+- 模型如何训练？
+	- [Site Unreachable](https://zhuanlan.zhihu.com/p/1934198252519031821)
+
