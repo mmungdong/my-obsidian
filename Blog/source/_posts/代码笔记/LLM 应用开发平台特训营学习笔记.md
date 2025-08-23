@@ -25,4 +25,8 @@ hide: false
 	- [HunYuan MoE：聊一聊 LLM 参数量、计算量和 MFU 等-AI.x-AIGC专属社区-51CTO.COM](https://www.51cto.com/aigc/2875.html)
 - 大语言模型的基础单位 token 是个啥？
 	- [【写给小白的LLM】AI大模型中的 token 到底是个什么？](https://zhuanlan.zhihu.com/p/1938621073789785843)
+- 大语言模型的词表是什么？
+	- [大模型词表 - FlyingWhite](https://f1yingwhite.github.io/posts/machinelearning/nlp/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AF%8D%E8%A1%A8/)
+- token 的工作机制
+	- [人工智能 - 大模型中的Token究竟是什么？从原理到作用深度解析 - dblens数据库AI管理工具 - SegmentFault 思否](https://segmentfault.com/a/1190000046178049)
 	- 
