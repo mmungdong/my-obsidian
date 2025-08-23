@@ -1,8 +1,6 @@
 ---
-title:
-  "{ title }": 
-date:
-  "{ date }": 
+title: LLM 应用开发平台特训营学习笔记 
+date: 2025-08-23 15:12:00
 categories:
   - 代码笔记
 tags:
@@ -10,6 +8,8 @@ tags:
 archive: false
 hide: false
 ---
+
+
 > 🔖 笔记来自学习慕课网的《AI Agent全栈开发工程师》
 > 🔗 Link：[IT就业班\_编程学习路线\_开发学习就业班-慕课网就业班](https://class.imooc.com/llmappdev#Anchor)
 
