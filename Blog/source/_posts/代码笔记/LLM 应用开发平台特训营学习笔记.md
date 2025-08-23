@@ -16,4 +16,7 @@ hide: false
 
 # 1. 初识大语言模型
 
-## 
+## 1.1. 一些基础知识
+
+- 什么是大语言模型? [一文全面看懂什么是大模型（LLM） - AI全书](https://aibook.ren/archives/what-is-llm)
+- 大语言模型的参数量怎么理解？
