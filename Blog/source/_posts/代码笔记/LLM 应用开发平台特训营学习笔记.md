@@ -14,6 +14,9 @@ hide: false
 > 🔗 Link：[IT就业班\_编程学习路线\_开发学习就业班-慕课网就业班](https://class.imooc.com/llmappdev#Anchor)
 
 
+> 📑参考文档
+> [AGI 掘金知识库 - 飞书云文档](https://agijuejin.feishu.cn/wiki/UvJPwhfkiitMzhkhEfycUnS9nAm)
+
 # 1. 初识大语言模型
 
 ## 1.1. 一些基础知识
@@ -31,5 +34,5 @@ hide: false
 	- [人工智能 - 大模型中的Token究竟是什么？从原理到作用深度解析 - dblens数据库AI管理工具 - SegmentFault 思否](https://segmentfault.com/a/1190000046178049)
 	- [解读AI大模型，从了解token开始 - 飞书云文档](https://agijuejin.feishu.cn/wiki/AvLgwOOKEi8gIek5ENycokOinEb)
 - 模型如何训练？
-	- [Site Unreachable](https://zhuanlan.zhihu.com/p/1934198252519031821)
+	- [大模型入门指南：模型训练(Training)全解析！看这一篇就够了！](https://zhuanlan.zhihu.com/p/1934198252519031821)
 
