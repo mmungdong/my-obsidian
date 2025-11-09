@@ -16,7 +16,7 @@ hide: false
 
 ## 1.1. 版本差异
 
-[Fetching Title#5cv9](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109160950058.png?imageSlim)
+![Fetching Title#5cv9](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109160950058.png?imageSlim)
 
 - pre-release：预发布版本，适合个人开发使用，有一些新特性
 - bugfix：缺陷修复版本，还没到稳定状态
@@ -26,16 +26,16 @@ hide: false
 
 ## 1.2. 安装
 
-[Fetching Title#v78v](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109162233696.png?imageSlim)
+![Fetching Title#v78v](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109162233696.png?imageSlim)
 
-[Fetching Title#9obf](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109162518483.png?imageSlim)
+![Fetching Title#9obf](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109162518483.png?imageSlim)
 
 然后就 OK 了
 
 
 输入 `python --version` 和 `pip --version` 确认安装是否成功
 
-[Fetching Title#wnrp](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109162820850.png?imageSlim)
+![Fetching Title#wnrp](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109162820850.png?imageSlim)
 
 # 2. Python 虚拟环境的创建与优缺点
 
@@ -62,11 +62,17 @@ hide: false
 
 # 4. pycharm
 
+## 4.1. 下载
+
 - 下载地址：[PyCharm，您需要的唯一 Python IDE](https://www.jetbrains.com/zh-cn/pycharm/)
 
 下载这里使用 pycharm 社区版本的直接下载安装即可
 
+## 4.2. 关联虚拟环境解释器
+
+![Fetching Title#w6nl](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109165250072.png?imageSlim)
 
 
+![Fetching Title#omaf](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109165349328.png?imageSlim)
 
 
