@@ -107,8 +107,19 @@ hide: false
 # -*- coding: utf-8 -*- 
 """ 
 @Time : ${DATE} ${TIME} 
-@Author : thezehui@gmail.com 
+@Author : 510195171@qq.com 
 @File : ${NAME}.py 
 """
 ```
+
+- 插件安装
+
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109171841883.png?imageSlim)
+
+这个插件可以帮助我们读取 env 中环境变量的值
+
+
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109172016485.png?imageSlim)
+
+代码右侧展示缩略图
 
