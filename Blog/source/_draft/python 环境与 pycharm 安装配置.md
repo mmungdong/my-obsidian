@@ -87,8 +87,28 @@ hide: false
 ## 4.3. pycharm 的一些设置
 
 
-
 - 格式化代码和优化导入
 
 ![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109171011846.png?imageSlim)
+
+
+- 编辑器字体设置
+
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109171200893.png?imageSlim)
+
+- 代码模板设置
+
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109171435894.png?imageSlim)
+
+模板代码
+
+```
+#!/usr/bin/env python 
+# -*- coding: utf-8 -*- 
+""" 
+@Time : ${DATE} ${TIME} 
+@Author : thezehui@gmail.com 
+@File : ${NAME}.py 
+"""
+```
 
