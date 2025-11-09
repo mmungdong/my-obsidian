@@ -48,5 +48,17 @@ hide: false
 
 假如我们安装的虚拟环境为 env， 则需要执行 `env\Scripts\activate.bat` 这个脚本用来激活虚拟环境，如果需要退出虚拟环境，则执行 `env\Scripts\deactivate.bat` 这个脚本即可。
 
-假如我们不需要虚拟环境，则直接sh
+假如我们不需要虚拟环境，则直接删除这个 env 文件夹即可。
+
+# 3. pip 镜像加速
+
+- **镜像加速原理**：国内网站拷贝了 pip 的所有包，使 pip 直接连接国内网站下载包，从而提升下载速度。
+- **使用方式**
+    - 临时使用：`pip install -i 镜像地址 <some-package>`
+    - 全局使用：`pip config set global.index-url 镜像地址`
+- **腾讯云镜像地址**：`https://mirrors.cloud.tencent.com/pypi/simple`
+- **阿里云镜像地址**：`https://mirrors.aliyun.com/pypi/simple`
+- **清华镜像地址**：`https://pypi.tuna.tsinghua.edu.cn/simple`
+
+
 
