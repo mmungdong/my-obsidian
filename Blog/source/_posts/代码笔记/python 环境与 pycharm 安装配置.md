@@ -1,6 +1,5 @@
 ---
-title:
-  "{ title }":
+title: "[object Object]"
 date:
   "{ date }":
 categories:
