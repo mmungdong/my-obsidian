@@ -1,14 +1,13 @@
 ---
-title: "[object Object]"
-date:
-  "{ date }":
+title: python 环境与 pycharm 安装配置
+date: 2025-11-09
 categories:
-  - 代码笔记
 tags:
-  - python
 archive: false
 hide: false
 ---
+
+
 # 1. 下载 python 安装包
 
 > 下载地址： [Download Python \| Python.org](https://www.python.org/downloads/)
