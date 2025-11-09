@@ -146,3 +146,13 @@ pip install yarg==0.1.9 docopt==0.6.2
 pip install pipreqs
 ```
 
+安装完成后执行脚本：
+
+```shell
+pipreqs --ignore venv --force
+```
+
+将脚本配置到 pycharm 中快速执行：
+
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109184016528.png?imageSlim)
+
