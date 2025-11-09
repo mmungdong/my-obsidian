@@ -60,5 +60,13 @@ hide: false
 - **阿里云镜像地址**：`https://mirrors.aliyun.com/pypi/simple`
 - **清华镜像地址**：`https://pypi.tuna.tsinghua.edu.cn/simple`
 
+# 4. pycharm
+
+- 下载地址：[PyCharm，您需要的唯一 Python IDE](https://www.jetbrains.com/zh-cn/pycharm/)
+
+下载这里使用 pycharm 社区版本的直接下载安装即可
+
+
+
 
 

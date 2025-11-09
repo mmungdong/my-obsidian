@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_draft/python 环境安装.md",
+                "file": "Blog/source/_draft/python 环境与 pycharm 安装配置.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python 环境安装"
+              "title": "python 环境与 pycharm 安装配置"
             }
           }
         ],
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_draft/python 环境安装.md",
+                "file": "Blog/source/_draft/python 环境与 pycharm 安装配置.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "python 环境安装 的大纲"
+              "title": "python 环境与 pycharm 安装配置 的大纲"
             }
           },
           {
@@ -210,7 +210,7 @@
   "active": "1c2ae515f0d64dd5",
   "lastOpenFiles": [
     "Blog/source/_posts/代码笔记/LLM 应用开发平台特训营学习笔记.md",
-    "Blog/source/_draft/python 环境安装.md",
+    "Blog/source/_draft/python 环境与 pycharm 安装配置.md",
     "Home.md",
     "Blog/source/_posts/代码笔记/01 Go项目初始化.md",
     "template/博客笔记头部属性.md",
