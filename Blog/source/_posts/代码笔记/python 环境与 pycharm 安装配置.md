@@ -2,7 +2,9 @@
 title: python 环境与 pycharm 安装配置
 date: 2025-11-09
 categories:
+  - 代码笔记
 tags:
+  - python
 archive: false
 hide: false
 ---
