@@ -5,6 +5,7 @@ categories:
   - 代码笔记
 tags:
   - golang
+  - miniblog
 archive: false
 hide: false
 ---
