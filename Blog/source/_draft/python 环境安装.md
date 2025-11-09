@@ -26,3 +26,10 @@ hide: false
 
 ## 1.2. 安装
 
+[Fetching Title#v78v](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109162233696.png?imageSlim)
+
+[Fetching Title#9obf](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109162518483.png?imageSlim)
+
+然后就 OK 了
+
+
