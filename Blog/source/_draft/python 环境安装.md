@@ -33,3 +33,12 @@ hide: false
 然后就 OK 了
 
 
+输入 `python --version` 和 `pip --version` 确认安装是否成功
+
+[Fetching Title#wnrp](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109162820850.png?imageSlim)
+
+# 2. Python 虚拟环境的创建与优缺点
+
+- **创建虚拟环境命令**：`python -m venv [环境名]`，该命令在 Python 2.7 + 或 Python 3.3 + 以上可以使用。
+- **隔离性**：*Python 虚拟环境与系统环境之间是隔离的*，一个项目一个虚拟环境，不同的虚拟环境不会相互影响，最大程度避免包冲突。
+
