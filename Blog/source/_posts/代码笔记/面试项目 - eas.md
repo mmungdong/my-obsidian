@@ -1,4 +1,15 @@
+---
+title: 面试项目 - eas
+date: 2025-11-09
+categories:
+  - 代码笔记
+tags:
+  - 面试题
+archive: false
+hide: false
+---
 # 重点面试准备
+
 
 1. 这个项目的整体架构是什么？核心价值是什么？
 2. 项目中怎么用 K8s Informer 机制实现事件驱动？
