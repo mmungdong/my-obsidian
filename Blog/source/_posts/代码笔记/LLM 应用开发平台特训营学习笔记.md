@@ -42,3 +42,4 @@ hide: false
 
 ![image.png](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20250823153022713.png?imageSlim)
 
+# 2. 项目架构及目录

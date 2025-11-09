@@ -123,3 +123,7 @@ hide: false
 
 代码右侧展示缩略图
 
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109172149125.png?imageSlim)
+
+中文汉化插件包
+

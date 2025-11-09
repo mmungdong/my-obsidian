@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_draft/python 环境与 pycharm 安装配置.md",
+                "file": "Blog/source/_posts/代码笔记/LLM 应用开发平台特训营学习笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python 环境与 pycharm 安装配置"
+              "title": "LLM 应用开发平台特训营学习笔记"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_draft/python 环境与 pycharm 安装配置.md",
+                "file": "Blog/source/_posts/代码笔记/LLM 应用开发平台特训营学习笔记.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "python 环境与 pycharm 安装配置 的大纲"
+              "title": "LLM 应用开发平台特训营学习笔记 的大纲"
             }
           },
           {
@@ -194,9 +194,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Blog/source/_draft/python 环境与 pycharm 安装配置.md",
     "Home.md",
     "[Fetching.md",
-    "Blog/source/_draft/python 环境与 pycharm 安装配置.md",
     "Blog/source/_posts/代码笔记/05 Go web 服务器实现.md",
     "Blog/source/_posts/代码笔记/04 基础 go 包开发 - 错误包.md",
     "Blog/source/_posts/代码笔记/LLM 应用开发平台特训营学习笔记.md",
