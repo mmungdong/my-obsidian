@@ -45,3 +45,8 @@ hide: false
     - 占用较大存储空间；
     - 需通过`activate`命令激活才能使用，使用完毕需用`deactivate`命令退出。
 
+
+假如我们安装的虚拟环境为 env， 则需要执行 `env\Scripts\activate.bat` 这个脚本用来激活虚拟环境，如果需要退出虚拟环境，则执行 `env\Scripts\deactivate.bat` 这个脚本即可。
+
+假如我们不需要虚拟环境，则直接sh
+
