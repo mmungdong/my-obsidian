@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/Golang面试题整理.md",
-                "mode": "preview",
-                "source": true
+                "file": "Blog/source/_draft/面试项目 - eas 项目整理.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Golang面试题整理"
+              "title": "面试项目 - eas 项目整理"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/Golang面试题整理.md",
+                "file": "Blog/source/_draft/面试项目 - eas 项目整理.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Golang面试题整理 的大纲"
+              "title": "面试项目 - eas 项目整理 的大纲"
             }
           },
           {
@@ -194,12 +194,14 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Home.md",
+    "Blog/source/_draft/面试项目 - eas 项目整理.md",
+    "Blog/source/_posts/代码笔记/Golang面试题整理.md",
     "Blog/source/_posts/代码笔记/01 Go项目初始化.md",
     "Blog/source/_posts/代码笔记/LLM 应用开发平台特训营学习笔记.md",
     "Blog/source/_posts/代码笔记/python 环境与 pycharm 安装配置.md",
     "template/博客笔记头部属性.md",
     "Blog/source/_draft/Postgres 环境安装与配置.md",
-    "Home.md",
     "[Fetching.md",
     "Blog/source/_posts/代码笔记/05 Go web 服务器实现.md",
     "Blog/source/_posts/代码笔记/04 基础 go 包开发 - 错误包.md",
@@ -208,7 +210,6 @@
     "Blog/source/_posts/代码笔记/从特性门控中学习权限读写限制.md",
     "Blog/source/_posts/代码笔记/errgroup - 增强 go 的并发能力.md",
     "Blog/source/_posts/代码笔记/03 基础 go 包开发 - 日志包.md",
-    "Blog/source/_posts/代码笔记/Golang面试题整理.md",
     "Blog/source/_posts/代码笔记/云原生优质书籍参考.md",
     "Blog/source/_posts/代码笔记/git 常用操作整理.md",
     "Blog/source/_posts/代码笔记/高质量博客地址收藏.md",
@@ -219,7 +220,6 @@
     "Blog/source/_posts/代码笔记/vscode 运行慢？使用内置的【扩展二等分】快速找出”元凶”插件.md",
     "Blog/source/_posts/代码笔记/开发参考手册.md",
     "Blog/source/_posts/代码笔记/go 3方库 博客参考收集.md",
-    "Blog/source/_posts/代码笔记/常用的提示词.md",
     "Blog/source/assets/img/top.png",
     "Blog/source/assets/img/top01.png",
     "Blog/source/assets/img/【哲风壁纸】云-夜色-月亮.png",
