@@ -127,4 +127,22 @@ hide: false
 
 中文汉化插件包
 
-## 4.4 导出依赖bao
+## 4.4 导出依赖包到 requirements.txt
+
+- 地址： [pipreqs · PyPI](https://pypi.org/project/pipreqs/)
+
+安装脚本：
+
+- 不需要支持  jupyter notebooks
+
+```shell
+pip install --no-deps pipreqs
+pip install yarg==0.1.9 docopt==0.6.2
+```
+
+- 支持 jupyter notebooks
+
+```shell
+pip install pipreqs
+```
+
