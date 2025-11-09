@@ -84,3 +84,11 @@ hide: false
 
 ![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109170453539.png?imageSlim)
 
+## 4.3. pycharm 的一些设置
+
+
+
+- 格式化代码和优化导入
+
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251109171011846.png?imageSlim)
+
