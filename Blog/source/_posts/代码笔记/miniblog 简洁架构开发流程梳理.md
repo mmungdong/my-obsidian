@@ -2,7 +2,9 @@
 title: miniblog 简洁架构开发流程梳理
 date: 2025-11-09
 categories:
+  - 代码笔记
 tags:
+  - golang
 archive: false
 hide: false
 ---
