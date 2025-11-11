@@ -1,4 +1,6 @@
 
+
+> [Claude Code 概述 - Claude Code Docs](https://code.claude.com/docs/zh-CN)
 # 1. 安装
 
 ## 1.1. 下载
@@ -8,6 +10,8 @@ npm install -g @anthropic-ai/claude-code
 ```
 
 ## 1.2. 配置
+
+> 配置参考：[Claude Code 设置 - Claude Code Docs](https://code.claude.com/docs/zh-CN/settings)
 
 以 wsl 为例，在 ~/.bashrc 中添加如下配置即可：
 
