@@ -1,3 +1,14 @@
+---
+title: AI Coding - Claude code 使用笔记
+date: 2025-11-11
+categories:
+  - 代码笔记
+tags:
+  - AI
+archive: false
+hide: false
+---
+
 
 
 > [Claude Code 概述 - Claude Code Docs](https://code.claude.com/docs/zh-CN)
