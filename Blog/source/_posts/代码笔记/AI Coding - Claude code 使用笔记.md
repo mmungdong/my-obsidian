@@ -24,3 +24,5 @@ export ANTHROPIC_AUTH_TOKEN=sk-**************
 export ANTHROPIC_MODEL=qwen3-coder-plus
 ```
 
+# 参考资料
+- [GitHub - hesreallyhim/awesome-claude-code: A curated list of awesome commands, files, and workflows for Claude Code](https://github.com/hesreallyhim/awesome-claude-code
