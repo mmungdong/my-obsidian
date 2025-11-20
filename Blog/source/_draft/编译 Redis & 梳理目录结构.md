@@ -38,4 +38,17 @@ gcc -v
  make CFLAGS="-g -O0" MALLOC=jemalloc
 ```
 
-r
+如果编译失败了，执行下面命令清理编译残留后再编译：
+
+```bash
+make distclean
+```
+
+问题：
+
+1. 报错：
+
+```shell
+release.c:37:10: fatal error: release.h: No such file or directory 37 | #include "release.h" | ^~~~~~~~~~~ compilation terminated. make[1]: *** [Makefile:403: release.o] Error 1 make[1]: Leaving directory '/mnt/d/code/redis/src' make: *** [Makefile:6: all] Error 2
+```
+
