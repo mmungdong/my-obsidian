@@ -8,6 +8,8 @@
 
 # 2. code
 
+## 2.1. 下载源码
+
 > 源码： [GitHub - redis/redis: For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.](https://github.com/redis/redis)
 
 ```shell
@@ -20,5 +22,13 @@ git clone https://github.com/redis/redis.git
 
 ```shell
 git checkout tags/7.0.5 -b 7.0.5
+```
+
+## 2.2. 编译
+
+用 CLion 打开 redis，这里我是 windows，推荐使用 WSL 来对源码进行编译，在代码的根目录执行下面命令来编译：
+
+```shell
+ make CFLAGS="-g -O0" MALLOS=jemalloc
 ```
 
