@@ -102,3 +102,7 @@ cd src && ./redis-server ../redis.conf
 启动成功~
 
 ## 2.4. 代码调试环境搭建
+
+修改配置：
+
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251121003745158.png?imageSlim)
