@@ -46,7 +46,7 @@ make distclean
 
 问题：
 
-1. 报错：
+1. 报错 fatal error: release.h: No such file or directory：
 
 ```shell
 release.c:37:10: fatal error: release.h: No such file or directory 37 | #include "release.h" | ^~~~~~~~~~~ compilation terminated. make[1]: *** [Makefile:403: release.o] Error 1 make[1]: Leaving directory '/mnt/d/code/redis/src' make: *** [Makefile:6: all] Error 2
@@ -81,8 +81,16 @@ make distclean
 
 3. 重新编译：
 
+```bash
+make CFLAGS="-g -O0" MALLOC=jemalloc
+```
 
-    
-    ```bash
-    make CFLAGS="-g -O0" MALLOC=jemalloc
-    ```
+出现下图所示时，表示编译成功
+
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251121002202416.png?imageSlim)
+
+## 2.3. 启动编译好的 redis-server
+
+```
+./redis-server ../redis.conf
+```
