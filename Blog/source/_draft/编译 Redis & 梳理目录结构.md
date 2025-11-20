@@ -91,6 +91,14 @@ make CFLAGS="-g -O0" MALLOC=jemalloc
 
 ## 2.3. 启动编译好的 redis-server
 
+执行下面命令 `进入 src 目录` 并 `启动 redis-server`
+
 ```
-./redis-server ../redis.conf
+cd src && ./redis-server ../redis.conf
 ```
+
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251121002727555.png?imageSlim)
+
+启动成功~
+
+## 2.4. 代码调试环境搭建
