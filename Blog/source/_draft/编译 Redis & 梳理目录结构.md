@@ -28,6 +28,8 @@ git checkout tags/7.0.5 -b 7.0.5
 
 ## 2.2. 编译
 
+如果是wsl
+
 前提：如果编译环境没有 gcc 编译器，检查：
 
 ```shell
