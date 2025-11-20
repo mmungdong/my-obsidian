@@ -12,6 +12,8 @@
 
 > 源码： [GitHub - redis/redis: For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.](https://github.com/redis/redis)
 
+*如果是 wsl 环境，直接将源码下载到 wsl 环境中，不要在 windows 本地环境调试 redis ~*
+
 ```shell
 git clone https://github.com/redis/redis.git
 ```
@@ -103,6 +105,6 @@ cd src && ./redis-server ../redis.conf
 
 ## 2.4. 代码调试环境搭建
 
-修改配置：
+[TODO] 修改配置, 这里有点问题。。。：
 
 ![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251121003745158.png?imageSlim)
