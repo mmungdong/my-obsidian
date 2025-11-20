@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/Redis 面试题整理.md",
+                "file": "Blog/source/_draft/编译 Redis & 目录结构.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Redis 面试题整理"
+              "title": "编译 Redis & 目录结构"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/Redis 面试题整理.md",
+                "file": "Blog/source/_draft/编译 Redis & 目录结构.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Redis 面试题整理 的大纲"
+              "title": "编译 Redis & 目录结构 的大纲"
             }
           },
           {
@@ -194,8 +194,9 @@
   },
   "active": "cba68021647acc42",
   "lastOpenFiles": [
-    "未命名 1.base",
     "Blog/source/_posts/代码笔记/Redis 面试题整理.md",
+    "Blog/source/_draft/编译 Redis & 目录结构.md",
+    "未命名 1.base",
     "未命名.base",
     "Home.md",
     "Blog/source/_posts/代码笔记/AI Coding - Claude code 使用笔记.md",
