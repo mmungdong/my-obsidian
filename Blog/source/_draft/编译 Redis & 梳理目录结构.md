@@ -26,9 +26,15 @@ git checkout tags/7.0.5 -b 7.0.5
 
 ## 2.2. 编译
 
+前提：如果编译环境没有 gcc 编译器，检查：
+
+```shell
+gcc -v
+```
+
 用 CLion 打开 redis，这里我是 windows，推荐使用 WSL 来对源码进行编译，在代码的根目录执行下面命令来编译：
 
 ```shell
- make CFLAGS="-g -O0" MALLOS=jemalloc
+ make CFLAGS="-g -O0" MALLOC=jemalloc
 ```
 
