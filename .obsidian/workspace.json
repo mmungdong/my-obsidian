@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_draft/编译 Redis & 梳理目录结构.md",
+                "file": "Blog/source/_posts/代码笔记/编译 Redis & 梳理目录结构.md",
                 "mode": "source",
                 "source": false
               },
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_draft/编译 Redis & 梳理目录结构.md",
+                "file": "Blog/source/_posts/代码笔记/编译 Redis & 梳理目录结构.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -192,10 +192,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "c8b250dc85539a6d",
+  "active": "0f181ec48dbff0a4",
   "lastOpenFiles": [
     "Blog/source/_posts/代码笔记/Redis 面试题整理.md",
-    "Blog/source/_draft/编译 Redis & 梳理目录结构.md",
+    "Blog/source/_posts/代码笔记/编译 Redis & 梳理目录结构.md",
     "未命名 1.base",
     "未命名.base",
     "Home.md",

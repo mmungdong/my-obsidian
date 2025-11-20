@@ -1,3 +1,14 @@
+---
+title: 编译 Redis & 梳理目录结构
+date: 2025-11-21
+categories:
+  - 代码笔记
+tags:
+  - Redis
+archive: false
+hide: false
+---
+
 # 1. 工具下载
 
 ## 1.1. 代码阅读工具 - CLion
@@ -28,12 +39,31 @@ git checkout tags/7.0.5 -b 7.0.5
 
 ## 2.2. 编译
 
-如果是wsl
+如果是 wsl 环境，需要安装必备的编译工具：
+
+```bash
+# 1. 更新包索引（确保能安装最新版本，避免依赖冲突）
+sudo apt update -y
+
+# 2. 安装核心编译工具链（gcc、g++、make、pkg-config 等）
+sudo apt install -y build-essential pkg-config cmake
+
+# 3. 安装调试工具（gdb，用于后续 CLion 调试）
+sudo apt install -y gdb
+
+# 4. 安装 Redis 编译必需的额外依赖（避免后续缺库）
+sudo apt install -y tcl zlib1g-dev libssl-dev
+```
+
+在 CLion 中配置 wsl 编译器，将 wsl 设置为默认工具链：
+
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251121013720962.png?imageSlim)
 
 前提：如果编译环境没有 gcc 编译器，检查：
 
 ```shell
-gcc -v
+
+
 ```
 
 用 CLion 打开 redis，这里我是 windows，推荐使用 WSL 来对源码进行编译，在代码的根目录执行下面命令来编译：
