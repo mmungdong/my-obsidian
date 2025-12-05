@@ -8,5 +8,6 @@
   ],
   "showLineNumber": false,
   "attachmentFolderPath": "Blog/source/images",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "promptDelete": false
 }

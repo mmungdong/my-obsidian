@@ -35,5 +35,29 @@ export ANTHROPIC_AUTH_TOKEN=sk-**************
 export ANTHROPIC_MODEL=qwen3-coder-plus
 ```
 
+# 2. 插件配合 Claude code 开发探索
+
+## 2.1. OpenSpec
+
+> 项目地址： [GitHub - Fission-AI/OpenSpec: Spec-driven development for AI coding assistants.](https://github.com/Fission-AI/OpenSpec)
+
+参考：
+- [OpenSpec — A lightweight spec‑driven framework](https://openspec.dev/)
+- [OpenSpec：让 AI 编码助手更懂你的项目规范 - Java、Spring、Spring Boot、MicroServices、Architecture、Kubernetes、DevOps](https://blog.chensoul.cc/posts/2025/11/07/openspec/)
+
+### 2.1.1 安装 OpenSpec
+
+```bash
+npm install -g @fission-ai/openspec@latest
+```
+
+### 2.1.2 使用
+
+1. 进入到项目下，使用 OpenSpec 初始化项目
+
+```bash
+
+```
+
 # 参考资料
 - [GitHub - hesreallyhim/awesome-claude-code: A curated list of awesome commands, files, and workflows for Claude Code](https://github.com/hesreallyhim/awesome-claude-code
