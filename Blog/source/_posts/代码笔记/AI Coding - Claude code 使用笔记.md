@@ -51,7 +51,7 @@ export ANTHROPIC_MODEL=qwen3-coder-plus
 npm install -g @fission-ai/openspec@latest
 ```
 
-### 2.1.2 使用
+### 2.1.2 OpenSpec 使用
 
 1. 进入到项目下，使用 OpenSpec 初始化项目：
 
@@ -67,8 +67,38 @@ openspec init
 >3. 在项目根目录创建 `AGENTS.md` 文件
 >4. 创建 `openspec/` 目录结构
 
-2. 填充项目信息，对于 OpenSpec 来说，所有的项目信息都保存在 `openspec/project.md` 下，这里使用 Clau：
+2. 填充项目信息，对于 OpenSpec 来说，所有的项目信息都保存在 `openspec/project.md` 下，这里使用 Claude Code 填充下项目要信息，提示词如下：
 
 ```bash
-
+请阅读 openspec/project.md 文件，帮我填写项目的技术栈、架构模式和编码规范
 ```
+
+Claude Code 会分析你的项目并生成类似这样的内容：
+
+```markdown
+# Project Context
+
+## Tech Stack
+- **Backend**: Node.js 18, Express.js
+- **Database**: PostgreSQL 14
+- **Frontend**: React 18, TypeScript
+- **Authentication**: JWT, bcrypt
+- **Testing**: Jest, Supertest
+
+## Architecture Patterns
+- RESTful API design
+- MVC pattern
+- Repository pattern for data access
+- Middleware-based request processing
+
+## Coding Conventions
+- Use TypeScript for type safety
+- Follow Airbnb JavaScript style guide
+- Use async/await for asynchronous operations
+- Comprehensive error handling with custom error classes
+- Write unit tests for all business logic
+```
+
+3. 需求开发示例：
+
+在开发需求前，先补充说明下 Op
