@@ -53,11 +53,22 @@ npm install -g @fission-ai/openspec@latest
 
 ### 2.1.2 使用
 
-1. 进入到项目下，使用 OpenSpec 初始化项目
+1. 进入到项目下，使用 OpenSpec 初始化项目：
+
+```bash
+# cd /path/to/your-project
+openspec init
+```
+
+>**初始化过程中会发生什么：**
+>
+>1. 提示你选择使用的 AI 工具（选择 Claude Code）
+>2. 自动配置 Claude Code 的斜杠命令（slash commands）
+>3. 在项目根目录创建 `AGENTS.md` 文件
+>4. 创建 `openspec/` 目录结构
+
+2. 填充项目信息，对于 OpenSpec 来说，所有的项目信息都保存在 `openspec/project.md` 下，这里使用 Clau：
 
 ```bash
 
 ```
-
-# 参考资料
-- [GitHub - hesreallyhim/awesome-claude-code: A curated list of awesome commands, files, and workflows for Claude Code](https://github.com/hesreallyhim/awesome-claude-code
