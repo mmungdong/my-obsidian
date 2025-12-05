@@ -101,4 +101,9 @@ Claude Code 会分析你的项目并生成类似这样的内容：
 
 3. 需求开发示例：
 
-在开发需求前，先补充说明下 Op
+在开发需求前，先补充说明下 OpenSpec 为 Claude Code 都安装了哪些插件功能：
+
+ > /openspec:proposal     Scaffold a new OpenSpec change and validate strictly. (project) [搭建一个新的 OpenSpec 变更并进行严格验证]
+ > /openspec:archive      Archive a deployed OpenSpec change and update specs. (project) [归档已部署的 OpenSpec 变更并更新规范]
+ > /openspec:apply        Implement an approved OpenSpec change and keep tasks in sync. (project) [实施已批准的 OpenSpec 变更并保持任务同步]
+
