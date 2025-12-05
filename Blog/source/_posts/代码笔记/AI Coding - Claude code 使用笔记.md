@@ -107,3 +107,12 @@ Claude Code 会分析你的项目并生成类似这样的内容：
  > /openspec:archive      Archive a deployed OpenSpec change and update specs. (project) [归档已部署的 OpenSpec 变更并更新规范]
  > /openspec:apply        Implement an approved OpenSpec change and keep tasks in sync. (project) [实施已批准的 OpenSpec 变更并保持任务同步]
 
+
+TODO
+
+
+## 2.2. superpowers - 使用 Claude Code 进行测试驱动开发
+
+> 项目地址：[GitHub - obra/superpowers: Claude Code superpowers: core skills library](https://github.com/obra/superpowers)
+
+
