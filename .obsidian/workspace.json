@@ -71,7 +71,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "书签"
             }
           }
         ]
@@ -192,13 +192,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0f181ec48dbff0a4",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Blog/source/_draft/00 小滴架构十八式总览.md",
+    "Blog/source/_draft/02 Go应用构建.md",
     "博客草稿.base",
-    "Blog/source/_posts/代码笔记/05 Go web 服务器实现.md",
-    "已发布的文章.base",
     "Home.md",
+    "已发布的文章.base",
+    "Blog/source/_draft/00 小滴架构十八式总览.md",
+    "Blog/source/_posts/代码笔记/05 Go web 服务器实现.md",
     "Blog/scaffolds/page.md",
     "Blog/source/_posts/读书笔记/📚 卡片笔记写作法.md",
     "未命名.canvas",
@@ -225,7 +226,6 @@
     "Blog/source/_posts/代码笔记/k8s - 学习成长路线及常用资料参考.md",
     "Blog/source/_posts/代码笔记/从特性门控中学习权限读写限制.md",
     "Blog/source/_posts/代码笔记/errgroup - 增强 go 的并发能力.md",
-    "Blog/source/_posts/代码笔记/03 基础 go 包开发 - 日志包.md",
     "Blog/source/assets/img/【哲风壁纸】云-夜色-月亮.png",
     "Blog/node_modules/browser-sync-ui/templates/directives/bs-switch.html",
     "Blog/node_modules/browser-sync-ui/templates/plugin.tmpl",
