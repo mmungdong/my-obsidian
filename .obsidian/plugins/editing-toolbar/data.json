@@ -1164,7 +1164,7 @@
   "shouldShowMenuOnSelect": false,
   "cMenuVisibility": true,
   "cMenuBottomValue": 4.25,
-  "cMenuNumRows": 12,
+  "cMenuNumRows": 18,
   "cMenuWidth": 610,
   "cMenuFontColor": "#ffffff",
   "cMenuBackgroundColor": "#d3f8b6",
@@ -1182,11 +1182,11 @@
   "custom_fc5": "#646A73",
   "isLoadOnMobile": true,
   "horizontalPosition": 0,
-  "verticalPosition": 0,
+  "verticalPosition": -769,
   "formatBrushes": {},
   "customCommands": [],
   "viewTypeSettings": {},
-  "toolbarBackgroundColor": "#1A2F28",
-  "toolbarIconColor": "#D4AF37",
-  "toolbarIconSize": 20
+  "toolbarBackgroundColor": "#2D3033",
+  "toolbarIconColor": "#E2F74C",
+  "toolbarIconSize": 22
 }
