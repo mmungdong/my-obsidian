@@ -2,5 +2,8 @@
   "cssTheme": "Minimal",
   "interfaceFontFamily": "Catamaran",
   "textFontFamily": "",
-  "monospaceFontFamily": ""
+  "monospaceFontFamily": "",
+  "enabledCssSnippets": [
+    "theme"
+  ]
 }
