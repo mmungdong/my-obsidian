@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: 表格
+    order:
+      - file.name
+      - categories
+      - tags
+    sort:
+      - property: categories
+        direction: DESC
+    columnSize:
+      note.categories: 190

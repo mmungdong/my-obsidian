@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "已发布的文章.base",
+                "file": "博客管理/已发布.base",
                 "viewName": "表格"
               },
               "icon": "lucide-table",
-              "title": "已发布的文章"
+              "title": "已发布"
             }
           }
         ]
@@ -146,13 +146,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "已发布的文章.base",
+                "file": "博客管理/已发布.base",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "已发布的文章 的大纲"
+              "title": "已发布 的大纲"
             }
           },
           {
@@ -199,9 +199,9 @@
   },
   "active": "0f181ec48dbff0a4",
   "lastOpenFiles": [
-    "未命名",
-    "博客草稿.base",
-    "已发布的文章.base",
+    "博客管理/草稿.base",
+    "博客管理/已发布.base",
+    "博客管理",
     "研究笔记.md",
     "Blog/source/_draft/02 Go应用构建.md",
     "Home.md",
