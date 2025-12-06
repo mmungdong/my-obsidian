@@ -1,6 +1,6 @@
 {
   "newFileLocation": "folder",
-  "newFileFolderPath": "待归档",
+  "newFileFolderPath": "Blog/source/_draft",
   "userIgnoreFilters": [
     "Blog/node_modules/",
     "Blog/scaffolds/",

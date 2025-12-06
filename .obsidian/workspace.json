@@ -4,20 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e7097eda417bff36",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "d333a2e416df49dc",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "博客管理/草稿.base",
-                "viewName": "表格"
-              },
-              "icon": "lucide-table",
-              "title": "草稿"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -40,7 +37,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byModifiedTime",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -146,13 +143,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "博客管理/草稿.base",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "草稿 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -197,24 +193,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "0f181ec48dbff0a4",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "博客管理/已发布.base",
-    "未命名.md",
-    "Blog/source/_posts/代码笔记/git 提交规范.md",
+    "Blog/source/_draft/00 小滴架构十八式总览.md",
     "博客管理/草稿.base",
+    "Blog/scaffolds/post.md",
+    "Blog/scaffolds/page.md",
+    "Blog/scaffolds/draft.md",
+    "Blog/source/_draft/02 Go应用构建.md",
+    "Blog/source/_draft/Postgres 环境安装与配置.md",
+    "Blog/source/_draft/01.md",
+    "Blog/source/_posts/代码笔记/git 提交规范.md",
+    "博客管理/已发布.base",
+    "Blog/source/_posts/未命名.md",
+    "新建笔记存放处",
+    "未命名.md",
     "博客管理",
     "研究笔记.md",
-    "Blog/source/_draft/02 Go应用构建.md",
     "Home.md",
-    "Blog/source/_draft/00 小滴架构十八式总览.md",
     "Blog/source/_posts/代码笔记/05 Go web 服务器实现.md",
-    "Blog/scaffolds/page.md",
     "Blog/source/_posts/读书笔记/📚 卡片笔记写作法.md",
     "未命名.canvas",
     "Hexo博客.md",
-    "Blog/scaffolds/draft.md",
-    "Blog/scaffolds/post.md",
     "template/博客笔记头部属性.md",
     "Blog/source/_posts/代码笔记/编译 Redis & 梳理目录结构.md",
     "未命名 1.base",
@@ -228,16 +228,12 @@
     "Blog/source/_posts/代码笔记/面试项目 - eas.md",
     "Blog/source/_posts/代码笔记/Golang面试题整理.md",
     "Blog/source/_posts/代码笔记/01 Go项目初始化.md",
-    "Blog/source/_posts/代码笔记/LLM 应用开发平台特训营学习笔记.md",
-    "Blog/source/_posts/代码笔记/python 环境与 pycharm 安装配置.md",
-    "Blog/source/_draft/Postgres 环境安装与配置.md",
     "Blog/source/assets/img/【哲风壁纸】云-夜色-月亮.png",
     "Blog/node_modules/browser-sync-ui/templates/directives/bs-switch.html",
     "Blog/node_modules/browser-sync-ui/templates/plugin.tmpl",
     "Blog/node_modules/browser-sync-ui/templates/plugin.item.tmpl",
     "Blog/node_modules/browser-sync-ui/templates/config.tmpl",
     "Blog/node_modules/browser-sync-ui/templates/directives",
-    "Blog/node_modules/browser-sync-ui/templates/inline.template.tmpl",
     "Blog/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-regular-webfont.svg",
     "Blog/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-it-webfont.svg",
     "Blog/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-bold-webfont.svg",

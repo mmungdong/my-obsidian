@@ -8,10 +8,12 @@ views:
       - file.name
       - categories
       - category
+      - file.tags
       - date
-      - tags
     sort:
       - property: date
         direction: DESC
     columnSize:
+      file.name: 268
+      file.tags: 400
       note.date: 190
