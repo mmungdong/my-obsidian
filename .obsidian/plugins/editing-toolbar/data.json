@@ -289,6 +289,18 @@
       "id": "editing-toolbar:workplace-fullscreen-focus",
       "name": "Workplace-Fullscreen ",
       "icon": "exit-fullscreen"
+    },
+    {
+      "id": "obsidian-emoji-toolbar:emoji-picker:open-picker",
+      "name": "Emoji Toolbar: Open emoji picker",
+      "hotkeys": [],
+      "icon": "<svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"emoji\"><g fill=\"#3a4d5c\"><path d=\"m16 30a14 14 0 1 1 14-14 14 14 0 0 1 -14 14zm0-26a12 12 0 1 0 12 12 12 12 0 0 0 -12-12z\"></path><path d=\"m20 14a2 2 0 1 1 2-2 2 2 0 0 1 -2 2z\"></path><path d=\"m12 14a2 2 0 1 1 2-2 2 2 0 0 1 -2 2z\"></path></g><path d=\"m11 19h10a5 5 0 0 1 -10 0z\" fill=\"#87d1ee\"></path><path d=\"m16 25a6 6 0 0 1 -6-6 1 1 0 0 1 1-1h10a1 1 0 0 1 1 1 6 6 0 0 1 -6 6zm-3.87-5a4 4 0 0 0 7.74 0z\" fill=\"#3a4d5c\"></path></g></svg>"
+    },
+    {
+      "id": "obsidian-emoji-toolbar:emoji-picker:open-picker",
+      "name": "Emoji Toolbar: Open emoji picker",
+      "hotkeys": [],
+      "icon": "<svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"emoji\"><g fill=\"#3a4d5c\"><path d=\"m16 30a14 14 0 1 1 14-14 14 14 0 0 1 -14 14zm0-26a12 12 0 1 0 12 12 12 12 0 0 0 -12-12z\"></path><path d=\"m20 14a2 2 0 1 1 2-2 2 2 0 0 1 -2 2z\"></path><path d=\"m12 14a2 2 0 1 1 2-2 2 2 0 0 1 -2 2z\"></path></g><path d=\"m11 19h10a5 5 0 0 1 -10 0z\" fill=\"#87d1ee\"></path><path d=\"m16 25a6 6 0 0 1 -6-6 1 1 0 0 1 1-1h10a1 1 0 0 1 1 1 6 6 0 0 1 -6 6zm-3.87-5a4 4 0 0 0 7.74 0z\" fill=\"#3a4d5c\"></path></g></svg>"
     }
   ],
   "followingCommands": [
