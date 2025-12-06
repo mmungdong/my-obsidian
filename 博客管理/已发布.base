@@ -7,7 +7,7 @@ views:
       - file.tags
       - date
     sort:
-      - property: categories
+      - property: date
         direction: DESC
     columnSize:
       note.categories: 190

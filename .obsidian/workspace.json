@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "e7097eda417bff36",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "d333a2e416df49dc",
             "type": "leaf",
             "state": {
               "type": "bases",
               "state": {
-                "file": "博客管理/已发布.base",
+                "file": "博客管理/草稿.base",
                 "viewName": "表格"
               },
               "icon": "lucide-table",
-              "title": "已发布"
+              "title": "草稿"
             }
           }
         ]
@@ -146,13 +146,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "博客管理/已发布.base",
+                "file": "博客管理/草稿.base",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "已发布 的大纲"
+              "title": "草稿 的大纲"
             }
           },
           {
@@ -197,10 +197,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "0f181ec48dbff0a4",
   "lastOpenFiles": [
-    "Blog/source/_posts/代码笔记/git 提交规范.md",
     "博客管理/已发布.base",
+    "未命名.md",
+    "Blog/source/_posts/代码笔记/git 提交规范.md",
     "博客管理/草稿.base",
     "博客管理",
     "研究笔记.md",
@@ -230,7 +231,6 @@
     "Blog/source/_posts/代码笔记/LLM 应用开发平台特训营学习笔记.md",
     "Blog/source/_posts/代码笔记/python 环境与 pycharm 安装配置.md",
     "Blog/source/_draft/Postgres 环境安装与配置.md",
-    "Blog/source/_posts/代码笔记/04 基础 go 包开发 - 错误包.md",
     "Blog/source/assets/img/【哲风壁纸】云-夜色-月亮.png",
     "Blog/node_modules/browser-sync-ui/templates/directives/bs-switch.html",
     "Blog/node_modules/browser-sync-ui/templates/plugin.tmpl",

@@ -10,5 +10,8 @@ views:
       - category
       - date
       - tags
+    sort:
+      - property: date
+        direction: DESC
     columnSize:
       note.date: 190
