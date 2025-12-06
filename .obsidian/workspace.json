@@ -4,38 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "2202b69fb7c05c8b",
+        "id": "a89d2f3e8f0ca7b9",
         "type": "tabs",
         "children": [
           {
-            "id": "cba68021647acc42",
+            "id": "7bc2a569e6aff0aa",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "未命名 1.base",
-                "viewName": "表格"
-              },
-              "icon": "lucide-table",
-              "title": "未命名 1"
-            }
-          },
-          {
-            "id": "ab9f224516344f3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blog/source/_posts/代码笔记/AI Coding - Claude code 使用笔记.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "AI Coding - Claude code 使用笔记"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/AI Coding - Claude code 使用笔记.md",
+                "file": "Blog/source/_posts/读书笔记/📚 卡片笔记写作法.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI Coding - Claude code 使用笔记 的大纲"
+              "title": "📚 卡片笔记写作法 的大纲"
             }
           },
           {
@@ -206,16 +188,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ab9f224516344f3a",
+  "active": "0f181ec48dbff0a4",
   "lastOpenFiles": [
     "Home.md",
-    "未命名 1.base",
+    "未命名.canvas",
+    "博客草稿.base",
+    "已发布的文章.base",
+    "Blog/source/_posts/读书笔记/📚 卡片笔记写作法.md",
+    "Hexo博客.md",
+    "Blog/scaffolds/draft.md",
+    "Blog/scaffolds/post.md",
+    "Blog/scaffolds/page.md",
+    "template/博客笔记头部属性.md",
     "Blog/source/_posts/代码笔记/编译 Redis & 梳理目录结构.md",
+    "未命名 1.base",
+    "Blog/source/assets/img/top.png",
+    "Blog/source/assets/img/top01.png",
+    "Blog/source/_posts/代码笔记/AI Coding - Claude code 使用笔记.md",
     "[Fetching.md",
     "Blog/source/_posts/代码笔记/Redis 面试题整理.md",
-    "未命名.base",
-    "Blog/source/_posts/代码笔记/AI Coding - Claude code 使用笔记.md",
-    "Hexo博客.md",
     "Blog/source/_posts/代码笔记/AI Coding - codex 使用指南.md",
     "Blog/source/_posts/代码笔记/miniblog 简洁架构开发流程梳理.md",
     "Blog/source/_posts/代码笔记/面试项目 - eas.md",
@@ -223,20 +214,13 @@
     "Blog/source/_posts/代码笔记/01 Go项目初始化.md",
     "Blog/source/_posts/代码笔记/LLM 应用开发平台特训营学习笔记.md",
     "Blog/source/_posts/代码笔记/python 环境与 pycharm 安装配置.md",
-    "template/博客笔记头部属性.md",
     "Blog/source/_draft/Postgres 环境安装与配置.md",
     "Blog/source/_posts/代码笔记/05 Go web 服务器实现.md",
     "Blog/source/_posts/代码笔记/04 基础 go 包开发 - 错误包.md",
-    "Blog/source/_posts/读书笔记/📚 卡片笔记写作法.md",
     "Blog/source/_posts/代码笔记/k8s - 学习成长路线及常用资料参考.md",
     "Blog/source/_posts/代码笔记/从特性门控中学习权限读写限制.md",
     "Blog/source/_posts/代码笔记/errgroup - 增强 go 的并发能力.md",
     "Blog/source/_posts/代码笔记/03 基础 go 包开发 - 日志包.md",
-    "Blog/source/_posts/代码笔记/云原生优质书籍参考.md",
-    "Blog/source/_posts/代码笔记/git 常用操作整理.md",
-    "Blog/source/_posts/代码笔记/高质量博客地址收藏.md",
-    "Blog/source/assets/img/top.png",
-    "Blog/source/assets/img/top01.png",
     "Blog/source/assets/img/【哲风壁纸】云-夜色-月亮.png",
     "Blog/node_modules/browser-sync-ui/templates/directives/bs-switch.html",
     "Blog/node_modules/browser-sync-ui/templates/plugin.tmpl",
@@ -245,7 +229,6 @@
     "Blog/node_modules/browser-sync-ui/templates/directives",
     "Blog/node_modules/browser-sync-ui/templates/inline.template.tmpl",
     "Blog/node_modules/browser-sync-ui/templates/config.item.tmpl",
-    "Blog/node_modules/browser-sync-ui/templates",
     "Blog/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-regular-webfont.svg",
     "Blog/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-it-webfont.svg",
     "Blog/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-bold-webfont.svg",
