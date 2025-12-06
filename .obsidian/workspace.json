@@ -63,7 +63,13 @@
               "icon": "lucide-search",
               "title": "搜索"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "40c0de9c631432ba",
+        "type": "tabs",
+        "children": [
           {
             "id": "22d4d9e62a91db69",
             "type": "leaf",
@@ -192,7 +198,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "0f181ec48dbff0a4",
   "lastOpenFiles": [
     "Blog/source/_draft/02 Go应用构建.md",
     "博客草稿.base",
