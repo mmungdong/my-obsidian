@@ -4,3 +4,11 @@ views:
     filters:
       and:
         - file.inFolder("Blog/source/_draft")
+    order:
+      - file.name
+      - categories
+      - category
+      - date
+      - tags
+    columnSize:
+      note.date: 190

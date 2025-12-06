@@ -11,14 +11,13 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
+                "file": "已发布的文章.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "Home"
+              "icon": "lucide-table",
+              "title": "已发布的文章"
             }
           }
         ]
@@ -147,13 +146,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "已发布的文章.base",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大纲"
+              "title": "已发布的文章 的大纲"
             }
           },
           {
@@ -198,13 +197,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "0f181ec48dbff0a4",
   "lastOpenFiles": [
-    "研究笔记.md",
-    "Home.md",
-    "Blog/source/_draft/02 Go应用构建.md",
+    "未命名",
     "博客草稿.base",
     "已发布的文章.base",
+    "研究笔记.md",
+    "Blog/source/_draft/02 Go应用构建.md",
+    "Home.md",
     "Blog/source/_draft/00 小滴架构十八式总览.md",
     "Blog/source/_posts/代码笔记/05 Go web 服务器实现.md",
     "Blog/scaffolds/page.md",
@@ -231,7 +231,6 @@
     "Blog/source/_draft/Postgres 环境安装与配置.md",
     "Blog/source/_posts/代码笔记/04 基础 go 包开发 - 错误包.md",
     "Blog/source/_posts/代码笔记/k8s - 学习成长路线及常用资料参考.md",
-    "Blog/source/_posts/代码笔记/从特性门控中学习权限读写限制.md",
     "Blog/source/assets/img/【哲风壁纸】云-夜色-月亮.png",
     "Blog/node_modules/browser-sync-ui/templates/directives/bs-switch.html",
     "Blog/node_modules/browser-sync-ui/templates/plugin.tmpl",
