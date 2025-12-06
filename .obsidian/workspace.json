@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:123。如果关闭了多个",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -197,10 +197,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "0f181ec48dbff0a4",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "博客管理/草稿.base",
+    "Blog/source/_posts/代码笔记/git 提交规范.md",
     "博客管理/已发布.base",
+    "博客管理/草稿.base",
     "博客管理",
     "研究笔记.md",
     "Blog/source/_draft/02 Go应用构建.md",
@@ -230,7 +231,6 @@
     "Blog/source/_posts/代码笔记/python 环境与 pycharm 安装配置.md",
     "Blog/source/_draft/Postgres 环境安装与配置.md",
     "Blog/source/_posts/代码笔记/04 基础 go 包开发 - 错误包.md",
-    "Blog/source/_posts/代码笔记/k8s - 学习成长路线及常用资料参考.md",
     "Blog/source/assets/img/【哲风壁纸】云-夜色-月亮.png",
     "Blog/node_modules/browser-sync-ui/templates/directives/bs-switch.html",
     "Blog/node_modules/browser-sync-ui/templates/plugin.tmpl",
@@ -238,7 +238,6 @@
     "Blog/node_modules/browser-sync-ui/templates/config.tmpl",
     "Blog/node_modules/browser-sync-ui/templates/directives",
     "Blog/node_modules/browser-sync-ui/templates/inline.template.tmpl",
-    "Blog/node_modules/browser-sync-ui/templates/config.item.tmpl",
     "Blog/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-regular-webfont.svg",
     "Blog/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-it-webfont.svg",
     "Blog/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-bold-webfont.svg",

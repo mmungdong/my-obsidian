@@ -146,7 +146,7 @@ BREAKING CHANGE: isolate scope bindings definition has changed and
     The removed inject wasn't generaly useful for directives so there should be no code using it.
 ```
 
-- 关闭的 Issue 列表：关闭的 Bug 需要在 Footer 部分新建一行，并以 Closes 开头列出，例如：Closes #123。如果关闭了多个 Issue，可以这样列出：Closes #123, #432, #886。例如:
+- 关闭的 Issue 列表：关闭的 Bug 需要在 Footer 部分新建一行，并以 Closes 开头列出，例如：Closes # 123。如果关闭了多个 Issue，可以这样列出：Closes #123, #432, #886。例如:
 
 ```
 Change pause version value to a constant for image
