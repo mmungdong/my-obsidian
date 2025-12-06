@@ -1,6 +1,6 @@
 {
-  "cssTheme": "Minimal",
-  "interfaceFontFamily": "Catamaran",
+  "cssTheme": "",
+  "interfaceFontFamily": "Cascadia Code,Catamaran",
   "textFontFamily": "",
   "monospaceFontFamily": "",
   "enabledCssSnippets": [

@@ -185,24 +185,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "templates:插入模板": false,
-      "bases:创建新数据库": false,
+      "bases:创建新数据库": true,
       "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
+      "graph:查看关系图谱": true,
+      "canvas:新建白板": true,
+      "daily-notes:打开/创建今天的日记": true,
       "command-palette:打开命令面板": false,
       "github-sync:Sync with Remote": false,
-      "homepage:Open homepage": false,
-      "obsidian-importer:Open Importer": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "obsidian-importer:Open Importer": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
   "active": "0f181ec48dbff0a4",
   "lastOpenFiles": [
+    "研究笔记.md",
+    "Home.md",
     "Blog/source/_draft/02 Go应用构建.md",
     "博客草稿.base",
-    "Home.md",
     "已发布的文章.base",
     "Blog/source/_draft/00 小滴架构十八式总览.md",
     "Blog/source/_posts/代码笔记/05 Go web 服务器实现.md",
@@ -231,7 +232,6 @@
     "Blog/source/_posts/代码笔记/04 基础 go 包开发 - 错误包.md",
     "Blog/source/_posts/代码笔记/k8s - 学习成长路线及常用资料参考.md",
     "Blog/source/_posts/代码笔记/从特性门控中学习权限读写限制.md",
-    "Blog/source/_posts/代码笔记/errgroup - 增强 go 的并发能力.md",
     "Blog/source/assets/img/【哲风壁纸】云-夜色-月亮.png",
     "Blog/node_modules/browser-sync-ui/templates/directives/bs-switch.html",
     "Blog/node_modules/browser-sync-ui/templates/plugin.tmpl",
