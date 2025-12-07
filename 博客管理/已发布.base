@@ -1,3 +1,6 @@
+filters:
+  and:
+    - file.inFolder("Blog/source/_posts")
 views:
   - type: table
     name: 表格
