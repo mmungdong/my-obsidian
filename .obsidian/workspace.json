@@ -11,13 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "博客管理/草稿.base",
-                "viewName": "表格"
+                "file": "Blog/source/_posts/代码笔记/AI Coding - Claude code 使用笔记.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "草稿"
+              "icon": "lucide-file",
+              "title": "AI Coding - Claude code 使用笔记"
             }
           }
         ]
@@ -146,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "博客管理/草稿.base",
+                "file": "Blog/source/_posts/代码笔记/AI Coding - Claude code 使用笔记.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "草稿 的大纲"
+              "title": "AI Coding - Claude code 使用笔记 的大纲"
             }
           },
           {
@@ -184,7 +185,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
       "templates:插入模板": false,
       "bases:创建新数据库": true,
       "switcher:打开快速切换": false,
@@ -193,8 +193,9 @@
       "daily-notes:打开/创建今天的日记": true,
       "command-palette:打开命令面板": false,
       "github-sync:Sync with Remote": false,
-      "obsidian-importer:Open Importer": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true
+      "homepage:Open homepage": false,
+      "obsidian-importer:Open Importer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "e7a7b303c61786dc",

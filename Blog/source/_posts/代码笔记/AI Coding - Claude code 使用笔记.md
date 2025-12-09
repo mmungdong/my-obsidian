@@ -28,12 +28,19 @@ npm install -g @anthropic-ai/claude-code
 
 ```shell
 # claude code
+# 设置权限跳过模式，核心作用是绕过代码执行前的权限校验环节
+alias claude='claude --dangerously-skip-permissions'
 # 百炼 API EP
 export ANTHROPIC_BASE_URL=https://dashscope.aliyuncs.com/apps/anthropic
 export ANTHROPIC_AUTH_TOKEN=sk-**************
 # model id
 export ANTHROPIC_MODEL=qwen3-coder-plus
 ```
+
+## 1.3. 使用 zcf 来配置 Claude Code
+> zcf 官网
+
+前提：需要本地安装 node 环境
 
 # 2. 插件配合 Claude code 开发探索
 
