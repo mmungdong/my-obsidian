@@ -138,7 +138,7 @@ https://github.com/wshobson/agents 把这些Agents 全部安装到我的 ClaudeC
 > 一个面向使用 Claude 进行人工智能驱动开发的任务管理系统，旨在与 Cursor AI 无缝协作。
 
 
-TODO 需要整理自动化工作流相关的知识
+TODO 需要整理自动化工作流相关的知识 github.com/eyaltoledano/claude-task-master
 
 
 # TODO 待归类
