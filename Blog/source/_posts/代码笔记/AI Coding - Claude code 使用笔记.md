@@ -124,7 +124,13 @@ Ok to proceed? (y) y
 /plugin marketplace add wshobson/agents
 ```
 
-或者zhi
+或者直接用这个 prompt 让 Claude Code 帮助我们安装：
+
+```text
+https://github.com/wshobson/agents 把这些Agents 全部安装到我的 ClaudeCode CLI里, 跳过重复的。
+```
+
+
 ## 2.1. OpenSpec
 
 > 项目地址： [GitHub - Fission-AI/OpenSpec: Spec-driven development for AI coding assistants.](https://github.com/Fission-AI/OpenSpec)
