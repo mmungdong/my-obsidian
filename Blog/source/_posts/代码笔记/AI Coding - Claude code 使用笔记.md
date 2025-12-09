@@ -137,10 +137,18 @@ https://github.com/wshobson/agents 把这些Agents 全部安装到我的 ClaudeC
 
 > 一个面向使用 Claude 进行人工智能驱动开发的任务管理系统，旨在与 Cursor AI 无缝协作。
 
+提示词（这里是直接把 agent 的权限下放给 Claude Code，让其充分使用）：
+
+```text
+用尽量多的agent 检查我们的项目,只检查,不修改代码。
+```
 
 TODO 需要整理自动化工作流相关的知识 github.com/eyaltoledano/claude-task-master
 
 
+# 3. 有了上述技能，我们应该如何使用 Claude Code
+
+TODO
 # TODO 待归类
 ## 2.1.2 OpenSpec
 
