@@ -131,7 +131,18 @@ https://github.com/wshobson/agents 把这些Agents 全部安装到我的 ClaudeC
 ```
 
 
-## 2.1. OpenSpec
+## 2.2. 自动化工作流
+
+### 2.2.1. github.com/eyaltoledano/claude-task-master
+
+> 一个面向使用 Claude 进行人工智能驱动开发的任务管理系统，旨在与 Cursor AI 无缝协作。
+
+
+
+
+
+
+## 2.1.2 OpenSpec
 
 > 项目地址： [GitHub - Fission-AI/OpenSpec: Spec-driven development for AI coding assistants.](https://github.com/Fission-AI/OpenSpec)
 
@@ -212,3 +223,4 @@ TODO
 
 # 参考文章
 1. [我花2天整理了GitHub上17个Claude Code优秀开源项目 \| BadAGI.org](https://www.badagi.org/posts/claude-code-17-awesome-open-source-projects)
+2. [生产级Claude Code SubAgents：73个专家智能体让vibe coding效率翻倍 \| BadAGI.org](https://www.badagi.org/posts/claude-code-subagents-production-ready)
