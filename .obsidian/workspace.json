@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/miniblog 简洁架构开发流程梳理.md",
+                "file": "Blog/source/_draft/01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "miniblog 简洁架构开发流程梳理"
+              "title": "01"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byModifiedTime",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -147,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/miniblog 简洁架构开发流程梳理.md",
+                "file": "Blog/source/_draft/01.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "miniblog 简洁架构开发流程梳理 的大纲"
+              "title": "01 的大纲"
             }
           },
           {
@@ -200,15 +200,16 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "博客管理/已发布.base",
-    "Blog/source/_posts/代码笔记/AI Coding - Claude code 使用笔记.md",
     "博客管理/草稿.base",
+    "Blog/source/_draft/02 Go应用构建.md",
+    "Blog/source/_posts/代码笔记/AI Coding - Claude code 使用笔记.md",
+    "博客管理/已发布.base",
+    "Blog/source/_posts/代码笔记/miniblog 简洁架构开发流程梳理.md",
     "Blog/source/_draft/未命名.md",
     "Blog/source/_draft/00 小滴架构十八式总览.md",
     "Blog/scaffolds/post.md",
     "Blog/scaffolds/page.md",
     "Blog/scaffolds/draft.md",
-    "Blog/source/_draft/02 Go应用构建.md",
     "Blog/source/_draft/Postgres 环境安装与配置.md",
     "Blog/source/_draft/01.md",
     "Blog/source/_posts/代码笔记/git 提交规范.md",
@@ -230,7 +231,6 @@
     "[Fetching.md",
     "Blog/source/_posts/代码笔记/Redis 面试题整理.md",
     "Blog/source/_posts/代码笔记/AI Coding - codex 使用指南.md",
-    "Blog/source/_posts/代码笔记/miniblog 简洁架构开发流程梳理.md",
     "Blog/source/_posts/代码笔记/面试项目 - eas.md",
     "Blog/source/_posts/代码笔记/Golang面试题整理.md",
     "Blog/source/assets/img/【哲风壁纸】云-夜色-月亮.png",
