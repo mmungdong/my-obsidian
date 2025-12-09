@@ -112,8 +112,19 @@ Ok to proceed? (y) y
 
 # 2. 插件配合 Claude code 开发探索
 
-## 2.1. sub
+## 2.1. Claude Code SubAgents
 
+### 2.1.1. github.com/wshobson/agents
+
+>  73个专家智能体让vibe coding效率翻倍
+
+在 Claude Code 对话框中安装：
+
+```bash
+/plugin marketplace add wshobson/agents
+```
+
+或者zhi
 ## 2.1. OpenSpec
 
 > 项目地址： [GitHub - Fission-AI/OpenSpec: Spec-driven development for AI coding assistants.](https://github.com/Fission-AI/OpenSpec)
