@@ -210,3 +210,5 @@ TODO
 > 项目地址：[GitHub - obra/superpowers: Claude Code superpowers: core skills library](https://github.com/obra/superpowers)
 
 
+# 参考文章
+1. [我花2天整理了GitHub上17个Claude Code优秀开源项目 \| BadAGI.org](https://www.badagi.org/posts/claude-code-17-awesome-open-source-projects)
