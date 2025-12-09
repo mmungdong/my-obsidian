@@ -37,6 +37,9 @@ export ANTHROPIC_AUTH_TOKEN=sk-**************
 export ANTHROPIC_MODEL=qwen3-coder-plus
 ```
 
+vscode 中的 Claude Code for VS Code 插件配置：
+
+
 ## 1.3. 使用 zcf 来配置 Claude Code
 > 🔗 [GitHub - UfoMiao/zcf: Zero-Config Code Flow for Claude code & Codex](https://github.com/UfoMiao/zcf)
 > 🔗 [ZCF - Zero-Config Code Flow \| ZCF](https://zcf.ufomiao.com/zh-CN/)
@@ -97,6 +100,7 @@ Ok to proceed? (y) y
 ```
 
 如果是第一次使用选择 1 进行完整初始化，否则根据自己需要修改配置即可，它会帮助我们初始化好本地所有的 Claude Code 环境，而且会带有一些工作流以及 git worktree 的使用方法，相对来说还是挺不错的。具体可以查看官网，不做赘述。（注意选择 中文 时会耗费更多的 token）
+
 # 2. 插件配合 Claude code 开发探索
 
 ## 2.1. OpenSpec
