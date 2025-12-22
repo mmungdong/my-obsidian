@@ -1,7 +1,7 @@
 {
   "lastVersion": "3.1.18",
   "aestheticStyle": "custom",
-  "positionStyle": "fixed",
+  "positionStyle": "top",
   "menuCommands": [
     {
       "id": "editing-toolbar:editor-undo",
@@ -1187,7 +1187,7 @@
   "cMenuFontColor": "#ffffff",
   "cMenuBackgroundColor": "#d3f8b6",
   "autohide": false,
-  "Iscentered": false,
+  "Iscentered": true,
   "custom_bg1": "#FFB78B8C",
   "custom_bg2": "#CDF4698C",
   "custom_bg3": "#A0CCF68C",
