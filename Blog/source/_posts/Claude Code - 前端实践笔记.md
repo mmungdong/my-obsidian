@@ -42,11 +42,9 @@ npx claude-code-templates@latest --agent=development-tools/code-reviewer --yes
     
     - css：tailwindcss
     
-    - Emotion: CSS-in-JS 库
-    
     - UI框架：shadcn UI
     
-    - 动画库：react spring （复杂动画） / Framer Motion （简单动画效果）
+    - 动画库：Framer Motion
     
     - 代码检查：ESLint （遵循 eslint-config-airbnb-typescript 规范）
     
@@ -56,9 +54,9 @@ npx claude-code-templates@latest --agent=development-tools/code-reviewer --yes
     
     - 国际化：react-i18next
     
-    - http客户端：nextjs 中的 fetch
+    - http客户端：封装 nextjs 中的 fetch：创建统一的请求工具（如 `src/lib/fetch.ts`），处理请求头、响应错误、状态码统一拦截
     
-    - 工具库：Lodash
+    - 工具库：radash
     
     - 日期：Day.js
     
