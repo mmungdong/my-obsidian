@@ -37,7 +37,7 @@ npx claude-code-templates@latest --agent=development-tools/code-reviewer --yes
     
     - 动画库：react spring （复杂动画） / Framer Motion （简单动画效果）
     
-    - 代码检查：ESLint
+    - 代码检查：ESLint eslint-config-airbnb-typescript
     
     - 代码美化：prettier
     
@@ -53,5 +53,5 @@ npx claude-code-templates@latest --agent=development-tools/code-reviewer --yes
     
     - Zod: TypeScript-first 模式声明和验证
 
-3. 项目初始化完成后遵循 CLAUDE.md 的规范把项目的关键信息填写到 CLAUDE.md 中，要求每次wan 
+3. 项目初始化完成后遵循 CLAUDE.md 的规范把项目的关键信息填写到 CLAUDE.md 中，要求每次完成需求后都需要用 ESLint 和 prettier 来检查代码并美化代码
 ```
