@@ -5,6 +5,7 @@ categories:
   - 代码笔记
 tags:
   - AI
+  - VibeCoding
 archive: false
 hide: false
 ---
