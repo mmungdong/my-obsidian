@@ -1,3 +1,14 @@
+---
+title: Claude Code - 前端实践笔记
+date: 2025-12-23
+categories:
+  - 代码笔记
+tags:
+  - AI
+  - VibeCoding
+archive: false
+hide: false
+---
 
 # 1. 插件 & agents 安装
 
