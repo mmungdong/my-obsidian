@@ -29,12 +29,14 @@ npx claude-code-templates@latest --agent=development-tools/code-reviewer --yes
 使用如下规则来进行项目初始化，并将必要的信息补充到 CLAUDE.md 中:
 
 1. 代码提交规范：使用 Angular 规范
+   
+2. 该项目属于纯前端静态/全栈项目？
     
-2. 使用如下框架来对项目进行初始化：
+3. 使用如下框架来对项目进行初始化：
     
     - 框架：Nextjs
     
-    - 语言：Typescript
+    - 语言：Typescript （tsconfig.json 中设置 strict: true ，开启 TypeScript 严格模式）
     
     - 路由模式：app
     
@@ -62,7 +64,7 @@ npx claude-code-templates@latest --agent=development-tools/code-reviewer --yes
     
     - Zod: TypeScript-first 模式声明和验证
 
-3. 项目初始化完成后遵循 CLAUDE.md 的规范把项目的关键信息填写到 CLAUDE.md 中，要求每次完成需求后都需要用 ESLint 和 prettier 来检查代码并美化代码
+4. 项目初始化完成后遵循 CLAUDE.md 的规范把项目的关键信息填写到 CLAUDE.md 中，要求每次完成需求后都需要用 ESLint 和 prettier 来检查代码并美化代码
 ```
 
 AI 建议：待纠正
@@ -71,29 +73,29 @@ AI 建议：待纠正
 
 ### 一、工程化与开发效率维度
 
-#### 1. **ESLint 与 Prettier 集成**
+#### ~~1. **ESLint 与 Prettier 集成**~~
 
-你分别选了 ESLint（Google TS 规范）和 Prettier，但**缺少两者的集成方案**。如果直接使用，可能会出现 ESLint 的代码风格规则与 Prettier 冲突的情况（比如引号、分号、行长度）。
+~~你分别选了 ESLint（Google TS 规范）和 Prettier，但**缺少两者的集成方案**。如果直接使用，可能会出现 ESLint 的代码风格规则与 Prettier 冲突的情况（比如引号、分号、行长度）。~~
 
-- **补充**：安装 `eslint-config-prettier`（禁用 ESLint 中与 Prettier 冲突的规则）和 `eslint-plugin-prettier`（将 Prettier 作为 ESLint 规则运行），让两者协同工作。
-- 另外，Google 的 TypeScript 规范相对严格，也可以考虑 `eslint-config-airbnb-typescript`（更主流的 React/TS 规范）作为备选。
+- ~~**补充**：安装 `eslint-config-prettier`（禁用 ESLint 中与 Prettier 冲突的规则）和 `eslint-plugin-prettier`（将 Prettier 作为 ESLint 规则运行），让两者协同工作。~~
+- ~~另外，Google 的 TypeScript 规范相对严格，也可以考虑 `eslint-config-airbnb-typescript`（更主流的 React/TS 规范）作为备选。~~
 
-#### 2. **提交规范与自动化**
+#### ~~2. **提交规范与自动化**~~
 
-前端项目的团队协作中，**代码提交信息规范、提交前的代码校验**是工程化的重要环节，你目前的栈中未涉及。
+~~前端项目的团队协作中，**代码提交信息规范、提交前的代码校验**是工程化的重要环节，你目前的栈中未涉及。~~
 
-- **补充**：
-    - `husky`：用于管理 Git Hooks（如 pre-commit、commit-msg），在提交前执行 ESLint/Prettier 校验，提交时验证信息格式。
-    - `lint-staged`：只对暂存区的代码执行校验 / 格式化，提升效率（避免每次提交都检查整个项目）。
-    - `commitlint`：约束提交信息的格式（如遵循 Conventional Commits 规范：feat/fix/docs 等前缀），便于生成 CHANGELOG。
+- ~~**补充**：~~
+    - ~~`husky`：用于管理 Git Hooks（如 pre-commit、commit-msg），在提交前执行 ESLint/Prettier 校验，提交时验证信息格式。~~
+    - ~~`lint-staged`：只对暂存区的代码执行校验 / 格式化，提升效率（避免每次提交都检查整个项目）。~~
+    - ~~`commitlint`：约束提交信息的格式（如遵循 Conventional Commits 规范：feat/fix/docs 等前缀），便于生成 CHANGELOG。~~
 
-#### 3. **类型定义与类型检查增强**
+#### ~~3. **类型定义与类型检查增强**~~
 
-虽然用了 TypeScript，但大型项目中**类型导入的便捷性、类型检查的严格性**可以优化：
+~~虽然用了 TypeScript，但大型项目中**类型导入的便捷性、类型检查的严格性**可以优化：~~
 
-- **补充**：
-    - `tsconfig-paths`：配置路径别名（如 `@/components` 代替 `../../components`），Next.js 虽内置支持，但需在 `tsconfig.json` 中配置 `paths`，配合该包可提升兼容性。
-    - 开启 TypeScript 严格模式（`tsconfig.json` 中 `strict: true`）：强制类型检查，减少隐式 any 等问题，这是生产环境项目的最佳实践。
+- ~~**补充**：~~
+    - ~~`tsconfig-paths`：配置路径别名（如 `@/components` 代替 `../../components`），Next.js 虽内置支持，但需在 `tsconfig.json` 中配置 `paths`，配合该包可提升兼容性。~~
+    - ~~开启 TypeScript 严格模式（`tsconfig.json` 中 `strict: true`）：强制类型检查，减少隐式 any 等问题，这是生产环境项目的最佳实践。~~
 
 ### 二、生产环境与性能优化维度
 
