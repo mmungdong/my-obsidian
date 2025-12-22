@@ -52,17 +52,17 @@ npx claude-code-templates@latest --agent=development-tools/code-reviewer --yes
     
     - 状态管理：Zustand
     
-    - 国际化：react-i18next
+    - 国际化：next-i18next
     
     - http客户端：封装 nextjs 中的 fetch：创建统一的请求工具（如 `src/lib/fetch.ts`），处理请求头、响应错误、状态码统一拦截
     
     - 工具库：radash
     
-    - 日期：Day.js
+    - 日期：Day.js，Day.js 默认不支持时区处理，若项目有国际化时区需求（如显示不同地区的时间），需补充插件，安装 `dayjs/plugin/timezone` 和 `dayjs/plugin/utc` 插件，配置时区支持。
     
     - Zod: TypeScript-first 模式声明和验证
       
-    - 表单库：react-hook-form（轻量级） / formik（功能更全，但体积稍大）
+    - 表单：react-hook-form + Zod
 
 4. 项目初始化完成后遵循 CLAUDE.md 的规范把项目的关键信息填写到 CLAUDE.md 中，要求每次完成需求后都需要用 ESLint 和 prettier 来检查代码并美化代码
 ```
@@ -72,41 +72,6 @@ AI 建议：待纠正
 你的前端项目技术栈选择整体上非常现代化且覆盖了主流场景，但从**项目工程化、生产环境稳定性、用户体验、特殊场景支持**等维度来看，仍有一些可以补充和优化的点，下面分维度梳理疏漏和建议：
 
 ### 一、工程化与开发效率维度
-
-#### ~~1. **ESLint 与 Prettier 集成**~~
-
-~~你分别选了 ESLint（Google TS 规范）和 Prettier，但**缺少两者的集成方案**。如果直接使用，可能会出现 ESLint 的代码风格规则与 Prettier 冲突的情况（比如引号、分号、行长度）。~~
-
-- ~~**补充**：安装 `eslint-config-prettier`（禁用 ESLint 中与 Prettier 冲突的规则）和 `eslint-plugin-prettier`（将 Prettier 作为 ESLint 规则运行），让两者协同工作。~~
-- ~~另外，Google 的 TypeScript 规范相对严格，也可以考虑 `eslint-config-airbnb-typescript`（更主流的 React/TS 规范）作为备选。~~
-
-#### ~~2. **提交规范与自动化**~~
-
-~~前端项目的团队协作中，**代码提交信息规范、提交前的代码校验**是工程化的重要环节，你目前的栈中未涉及。~~
-
-- ~~**补充**：~~
-    - ~~`husky`：用于管理 Git Hooks（如 pre-commit、commit-msg），在提交前执行 ESLint/Prettier 校验，提交时验证信息格式。~~
-    - ~~`lint-staged`：只对暂存区的代码执行校验 / 格式化，提升效率（避免每次提交都检查整个项目）。~~
-    - ~~`commitlint`：约束提交信息的格式（如遵循 Conventional Commits 规范：feat/fix/docs 等前缀），便于生成 CHANGELOG。~~
-
-#### ~~3. **类型定义与类型检查增强**~~
-
-~~虽然用了 TypeScript，但大型项目中**类型导入的便捷性、类型检查的严格性**可以优化：~~
-
-- ~~**补充**：~~
-    - ~~`tsconfig-paths`：配置路径别名（如 `@/components` 代替 `../../components`），Next.js 虽内置支持，但需在 `tsconfig.json` 中配置 `paths`，配合该包可提升兼容性。~~
-    - ~~开启 TypeScript 严格模式（`tsconfig.json` 中 `strict: true`）：强制类型检查，减少隐式 any 等问题，这是生产环境项目的最佳实践。~~
-
-### ~~二、生产环境与性能优化维度~~
-
-#### ~~1. **HTTP 客户端的增强**~~
-
-~~你选了 Axios，但 Next.js 有**服务端组件（RSC）** 和客户端组件的区分，Axios 在服务端组件中使用时存在一些限制（如无法直接获取浏览器 Cookie，且 Next.js 推荐使用原生 `fetch`）。~~
-
-- ~~**补充**：~~
-    - ~~方案 1：使用 `ky`（基于 fetch 的轻量级客户端，支持 TypeScript，比 Axios 更适配现代浏览器 / Node.js）。~~
-    - ~~方案 2：对 Axios 进行封装，区分服务端 / 客户端请求（如服务端请求时手动传递 Cookie，客户端请求时使用浏览器环境）。~~
-    - ~~另外，可补充 `axios-mock-adapter`（开发环境接口模拟）或 `MSW`（Mock Service Worker，更强大的跨端接口模拟，支持浏览器 / Node.js，适配 RSC）。~~
 
 #### 2. **性能监控与埋点**
 
@@ -125,14 +90,6 @@ Next.js 有内置的 `next/image`（图片优化）和 `next/video`（视频�
     - `lqip-loader`：生成图片的低质量占位符（LQIP），提升用户体验。
 
 ### 三、用户体验与交互维度
-
-#### ~~1. **表单处理**~~
-
-~~你选了 Zod（数据验证），但**缺少表单状态管理、校验联动的方案**（如输入框防抖、表单提交状态、错误提示）。~~
-
-- ~~**补充**：~~
-    - ~~`react-hook-form`：轻量级的表单库，与 Zod 无缝集成（`@hookform/resolvers/zod`），性能优异，适配 React 组件和 TypeScript。~~
-    - ~~备选：`formik`（功能更全，但体积稍大）。~~
 
 #### 2. **加载状态与错误边界**
 
