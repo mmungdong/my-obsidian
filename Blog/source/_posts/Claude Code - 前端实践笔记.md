@@ -56,13 +56,15 @@ npx claude-code-templates@latest --agent=development-tools/code-reviewer --yes
     
     - 国际化：react-i18next
     
-    - http客户端：Axios
+    - http客户端：nextjs 中的 fetch
     
     - 工具库：Lodash
     
     - 日期：Day.js
     
     - Zod: TypeScript-first 模式声明和验证
+      
+    - 表单库：react-hook-form（轻量级） / formik（功能更全，但体积稍大）
 
 4. 项目初始化完成后遵循 CLAUDE.md 的规范把项目的关键信息填写到 CLAUDE.md 中，要求每次完成需求后都需要用 ESLint 和 prettier 来检查代码并美化代码
 ```
@@ -97,16 +99,16 @@ AI 建议：待纠正
     - ~~`tsconfig-paths`：配置路径别名（如 `@/components` 代替 `../../components`），Next.js 虽内置支持，但需在 `tsconfig.json` 中配置 `paths`，配合该包可提升兼容性。~~
     - ~~开启 TypeScript 严格模式（`tsconfig.json` 中 `strict: true`）：强制类型检查，减少隐式 any 等问题，这是生产环境项目的最佳实践。~~
 
-### 二、生产环境与性能优化维度
+### ~~二、生产环境与性能优化维度~~
 
-#### 1. **HTTP 客户端的增强**
+#### ~~1. **HTTP 客户端的增强**~~
 
-你选了 Axios，但 Next.js 有**服务端组件（RSC）** 和客户端组件的区分，Axios 在服务端组件中使用时存在一些限制（如无法直接获取浏览器 Cookie，且 Next.js 推荐使用原生 `fetch`）。
+~~你选了 Axios，但 Next.js 有**服务端组件（RSC）** 和客户端组件的区分，Axios 在服务端组件中使用时存在一些限制（如无法直接获取浏览器 Cookie，且 Next.js 推荐使用原生 `fetch`）。~~
 
-- **补充**：
-    - 方案 1：使用 `ky`（基于 fetch 的轻量级客户端，支持 TypeScript，比 Axios 更适配现代浏览器 / Node.js）。
-    - 方案 2：对 Axios 进行封装，区分服务端 / 客户端请求（如服务端请求时手动传递 Cookie，客户端请求时使用浏览器环境）。
-    - 另外，可补充 `axios-mock-adapter`（开发环境接口模拟）或 `MSW`（Mock Service Worker，更强大的跨端接口模拟，支持浏览器 / Node.js，适配 RSC）。
+- ~~**补充**：~~
+    - ~~方案 1：使用 `ky`（基于 fetch 的轻量级客户端，支持 TypeScript，比 Axios 更适配现代浏览器 / Node.js）。~~
+    - ~~方案 2：对 Axios 进行封装，区分服务端 / 客户端请求（如服务端请求时手动传递 Cookie，客户端请求时使用浏览器环境）。~~
+    - ~~另外，可补充 `axios-mock-adapter`（开发环境接口模拟）或 `MSW`（Mock Service Worker，更强大的跨端接口模拟，支持浏览器 / Node.js，适配 RSC）。~~
 
 #### 2. **性能监控与埋点**
 
@@ -126,13 +128,13 @@ Next.js 有内置的 `next/image`（图片优化）和 `next/video`（视频�
 
 ### 三、用户体验与交互维度
 
-#### 1. **表单处理**
+#### ~~1. **表单处理**~~
 
-你选了 Zod（数据验证），但**缺少表单状态管理、校验联动的方案**（如输入框防抖、表单提交状态、错误提示）。
+~~你选了 Zod（数据验证），但**缺少表单状态管理、校验联动的方案**（如输入框防抖、表单提交状态、错误提示）。~~
 
-- **补充**：
-    - `react-hook-form`：轻量级的表单库，与 Zod 无缝集成（`@hookform/resolvers/zod`），性能优异，适配 React 组件和 TypeScript。
-    - 备选：`formik`（功能更全，但体积稍大）。
+- ~~**补充**：~~
+    - ~~`react-hook-form`：轻量级的表单库，与 Zod 无缝集成（`@hookform/resolvers/zod`），性能优异，适配 React 组件和 TypeScript。~~
+    - ~~备选：`formik`（功能更全，但体积稍大）。~~
 
 #### 2. **加载状态与错误边界**
 
