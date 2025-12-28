@@ -26,4 +26,8 @@
 npm install typescript -g
 ```
 
-使用 `tsc -v` 来检查an'zh
+使用 `tsc -v` 来检查安装成功
+
+![blog20251228131843843.png](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251228131843843.png?imageSlim)
+
+
