@@ -1,3 +1,14 @@
+---
+title: TypeScript 学习笔记
+date: 2025-12-28
+categories:
+  - 代码笔记
+tags:
+  - 前端
+  - typescript
+archive: false
+hide: false
+---
 
 # 1. 初识 TS
 ## 1.1. TS 的重要性
