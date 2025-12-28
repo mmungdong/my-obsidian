@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/TypeScript 学习笔记.md",
+                "file": "Blog/source/_posts/代码笔记/Go 工程师面试要点整理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TypeScript 学习笔记"
+              "title": "Go 工程师面试要点整理"
             }
           }
         ]
@@ -147,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/TypeScript 学习笔记.md",
+                "file": "Blog/source/_posts/代码笔记/Go 工程师面试要点整理.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "TypeScript 学习笔记 的大纲"
+              "title": "Go 工程师面试要点整理 的大纲"
             }
           },
           {
@@ -200,6 +200,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Blog/source/_posts/代码笔记/Go 包的管理方式.md",
+    "Blog/source/_posts/代码笔记/Go 工程师面试要点整理.md",
     "Blog/source/_posts/代码笔记/TypeScript 学习笔记.md",
     "Blog/source/_posts/代码笔记/AI Coding - Claude Code 使用笔记.md",
     "Blog/source/_posts/代码笔记/Claude Code - 前端实践笔记.md",
@@ -232,8 +234,6 @@
     "[Fetching.md",
     "Blog/source/_posts/代码笔记/Redis 面试题整理.md",
     "Blog/source/_posts/代码笔记/AI Coding - codex 使用指南.md",
-    "Blog/source/_posts/代码笔记/面试项目 - eas.md",
-    "Blog/source/_posts/代码笔记/Golang面试题整理.md",
     "Blog/source/assets/img/【哲风壁纸】云-夜色-月亮.png",
     "Blog/node_modules/browser-sync-ui/templates/directives/bs-switch.html",
     "Blog/node_modules/browser-sync-ui/templates/plugin.tmpl",
