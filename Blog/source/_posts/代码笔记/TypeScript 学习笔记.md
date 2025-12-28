@@ -20,7 +20,7 @@
 
 # 2. 环境搭建
 
-## 1.1. 全局安装 TypeScript
+## 2.1. 全局安装 TypeScript
 
 ```shell
 npm install typescript -g
@@ -103,3 +103,20 @@ console.log(message); // 输出：Hello TypeScript
 </html>
 ```
 
+综上所述：
+
+传统查看 TypeScript 代码运行效果的流程存在繁琐性，需执行两步操作：
+
+1. 编译环节：借助 `tsc` 工具，将 TypeScript 代码转换为 JavaScript 代码；
+2. 运行环节：在浏览器或 Node.js 环境中，执行转换后的 JavaScript 代码。
+
+## 2.2. TypeScript 运行流程简化
+
+### 2.2.1. #### 基于 webpack 的配置
+
+
+- 核心操作：通过配置 webpack，搭建本地 TypeScript 编译环境，并启动本地服务；
+- 运行载体：最终代码可直接在浏览器中运行；
+- 适用场景：前端项目开发（尤其是需在浏览器预览效果的场景），同时可结合 webpack 的资源处理、打包等能力，适配复杂前端工程。
+
+[mp.weixin.qq.com/s/wnL1l-ERjTDykWM76l4Ajw](https://mp.weixin.qq.com/s/wnL1l-ERjTDykWM76l4Ajw)
