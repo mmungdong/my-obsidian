@@ -31,3 +31,75 @@ npm install typescript -g
 ![blog20251228131843843.png](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251228131843843.png?imageSlim)
 
 
+编写 ts 代码：
+
+TypeScript 中字符串类型说明
+
+- `string`：TypeScript 里定义标识符时使用的**字符串类型**（是 TS 的基础类型）
+- `String`：JavaScript 中的**字符串包装类**（不推荐在 TS 中直接用于类型标注）
+
+```typescript
+// 定义string类型的变量并赋值
+
+let message: string = "Hello World"
+
+// 可以重新赋值为其他字符串
+
+message = "Hello TypeScript"
+
+// ❌ 错误：不能赋值为非string类型（比如布尔值true）
+
+// message = true
+
+  
+
+console.log(message) // 输出：Hello TypeScript
+```
+
+使用 tsc 命令将 ts 文件转为 js 文件
+
+![blog20251228133448969.png](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251228133448969.png?imageSlim)
+
+转换后的结果
+```js
+// 定义string类型的变量并赋值
+
+var message = "Hello World";
+
+// 可以重新赋值为其他字符串
+
+message = "Hello TypeScript";
+
+// ❌ 错误：不能赋值为非string类型（比如布尔值true）
+
+// message = true
+
+console.log(message); // 输出：Hello TypeScript
+```
+
+再使用转换后的 js 文件：
+
+```html
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+
+</head>
+
+<body>
+
+  <script src="./01_hello_ts.js"></script>
+
+</body>
+
+</html>
+```
+
