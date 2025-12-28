@@ -207,3 +207,17 @@ message = 123; // 报错：Type 'number' is not assignable to type 'string'
 
 # 2. TS 数据类型
 
+## 2.1. 数组 Array
+
+- `类型[]`： 表示该数组为对应类型的元素集合，例如`string[]`代表 “字符串类型的数组”。
+- `Array<类型>`： 是泛型形式的数组类型注解，例如`Array<number>`代表 “数字类型的数组”。
+
+```typescript
+// 写法1：string[]类型，数组元素需为字符串
+let names: string[] = ["abc", "cba", "nba"]
+names.push("aaa") // 合法：添加字符串元素
+// names.push(123) // 非法：无法向string数组添加数字元素
+
+// 写法2：Array<number>类型，数组元素需为数字
+let nums: Array<number> = [123, 321, 111]
+```
