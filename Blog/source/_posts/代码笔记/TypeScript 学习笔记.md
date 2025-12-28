@@ -144,9 +144,8 @@ ts-node ./01_ts语法基础/01_hello_ts.ts
 
 ## 1.5. ts 变量声明和类型注解
 
-### 1.5.1 变量声明
+### 1.5.1. 变量声明
 
-#### 一、变量声明的关键字 
 1. 支持的关键字：与 ES6 后规范一致，可通过`var`、`let`、`const`声明变量，示例：
     
     ```typescript
@@ -160,3 +159,31 @@ ts-node ./01_ts语法基础/01_hello_ts.ts
     - 原因：`var` 无块级作用域，易引发作用域相关问题（与 ES6 中 `var` 和 `let` 的区别一致）。
 
 ### 1.5.2. 变量声明的完整格式与类型注解
+
+1. 核心要求：声明变量时需指定**类型注解（Type Annotation）**，TypeScript 会基于类型注解做类型检测；
+
+2. 完整格式：
+    
+```text
+var/let/const 标识符: 数据类型 = 赋值;
+```
+    
+3. 示例：
+    
+    ```typescript
+let message: string = "Hello World";
+    ```
+
+### 1.5.3. 类型注解的注意事项
+
+1. 基础类型与包装类的区分：
+    - `string`（小写）：TypeScript 定义的字符串基础类型，用于类型注解；
+    - `String`：ECMAScript 标准的字符串包装类，不用于 TypeScript 类型标注。
+
+2. 类型不匹配的报错：若赋值类型与类型注解不一致，TypeScript 会抛出类型错误，例如：
+
+    ```typescript
+let message1: string;
+message1 = 123; // 报错：Type 'number' is not assignable to type 'string'
+    ```
+
