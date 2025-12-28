@@ -182,8 +182,26 @@ let message: string = "Hello World";
 
 2. 类型不匹配的报错：若赋值类型与类型注解不一致，TypeScript 会抛出类型错误，例如：
 
-    ```typescript
+```typescript
 let message1: string;
 message1 = 123; // 报错：Type 'number' is not assignable to type 'string'
-    ```
+```
+
+## 1.6. 类型推导
+
+TypeScript 具备 ** 类型推导（类型推断）** 特性：开发中无需为每个变量显式声明类型注解，TS 会自动根据代码逻辑推断变量的类型，既简化代码，又保持类型检测的严格性。
+
+在开发中，我们有时候为了方便没有必要在声明每一个变量时都写上对应的数据类型，可以借助 ts 的类型推导来约束。
+
+推导规则：变量的类型由**第一次赋值的内容类型**决定：TS 会在变量首次赋值时，基于赋值内容的类型，自动确定变量的类型。
+
+- 示例：声明变量时不写类型注解，直接赋值
+```typescript
+let message = "Hello World"; // TS自动推断message为string类型
+```
+
+- 类型检测：若后续给该变量赋值非推导类型的值，TS 会抛出类型错误，例如：
+```typescript
+message = 123; // 报错：Type 'number' is not assignable to type 'string'
+```
 
