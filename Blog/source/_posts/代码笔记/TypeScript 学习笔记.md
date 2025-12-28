@@ -147,13 +147,13 @@ ts-node ./01_ts语法基础/01_hello_ts.ts
 ### 1.5.1. 变量声明
 
 1. 支持的关键字：与 ES6 后规范一致，可通过`var`、`let`、`const`声明变量，示例：
-    
-    ```typescript
-    var myname: string = "why";
-    let myage: number = 20;
-    const myheight: number = 1.88;
-    ```
-    
+
+```typescript
+var myname: string = "why";
+let myage: number = 20;
+const myheight: number = 1.88;
+```
+
 2. 不推荐使用`var`：
     - tslint 明确禁止使用 `var`，建议替换为 `let` / `const`；
     - 原因：`var` 无块级作用域，易引发作用域相关问题（与 ES6 中 `var` 和 `let` 的区别一致）。
@@ -163,16 +163,16 @@ ts-node ./01_ts语法基础/01_hello_ts.ts
 1. 核心要求：声明变量时需指定**类型注解（Type Annotation）**，TypeScript 会基于类型注解做类型检测；
 
 2. 完整格式：
-    
+
 ```text
 var/let/const 标识符: 数据类型 = 赋值;
 ```
-    
+
 3. 示例：
-    
-    ```typescript
+
+```typescript
 let message: string = "Hello World";
-    ```
+```
 
 ### 1.5.3. 类型注解的注意事项
 
@@ -189,7 +189,7 @@ message1 = 123; // 报错：Type 'number' is not assignable to type 'string'
 
 ## 1.6. 类型推导
 
-TypeScript 具备 ** 类型推导（类型推断）** 特性：开发中无需为每个变量显式声明类型注解，TS 会自动根据代码逻辑推断变量的类型，既简化代码，又保持类型检测的严格性。
+TypeScript 具备 **类型推导（类型推断）** 特性：开发中无需为每个变量显式声明类型注解，TS 会自动根据代码逻辑推断变量的类型，既简化代码，又保持类型检测的严格性。
 
 在开发中，我们有时候为了方便没有必要在声明每一个变量时都写上对应的数据类型，可以借助 ts 的类型推导来约束。
 
@@ -204,4 +204,6 @@ let message = "Hello World"; // TS自动推断message为string类型
 ```typescript
 message = 123; // 报错：Type 'number' is not assignable to type 'string'
 ```
+
+# 2. TS 数据类型
 
