@@ -221,3 +221,37 @@ names.push("aaa") // 合法：添加字符串元素
 // 写法2：Array<number>类型，数组元素需为数字
 let nums: Array<number> = [123, 321, 111]
 ```
+
+注意：真实开发中，数组应**存放相同类型的元素**，避免混合不同类型（TypeScript 的类型检测会限制不同类型元素的混入）。
+
+## 2.2. Object
+
+- **对象字面量类型**（适合临时使用）：
+```typescript
+let info: { name: string; age: number; height: number } = {
+  name: "why",
+  age: 18,
+  height: 1.88
+}
+```
+    
+- **接口（interface）**（适合类型复用，更常用）：
+```typescript
+interface Info {
+  name: string;
+  age: number;
+  height: number;
+}
+
+let info: Info = {
+  name: "why",
+  age: 18,
+  height: 1.88
+}
+
+console.log(info.name)
+    ```
+
+通过`对象.属性名`的方式访问对象属性（如图片中的`info.name`、`info.age`）。
+
+TypeScript 会检测属性的合法性：若访问对象**不存在的属性**，会抛出类型错误（例如`info.gender`会报错，因为`info`类型中无`gender`属性）。
