@@ -112,11 +112,24 @@ console.log(message); // 输出：Hello TypeScript
 
 ## 2.2. TypeScript 运行流程简化
 
-### 2.2.1. #### 基于 webpack 的配置
-
+### 2.2.1. 基于 webpack 的配置
 
 - 核心操作：通过配置 webpack，搭建本地 TypeScript 编译环境，并启动本地服务；
 - 运行载体：最终代码可直接在浏览器中运行；
 - 适用场景：前端项目开发（尤其是需在浏览器预览效果的场景），同时可结合 webpack 的资源处理、打包等能力，适配复杂前端工程。
 
-[mp.weixin.qq.com/s/wnL1l-ERjTDykWM76l4Ajw](https://mp.weixin.qq.com/s/wnL1l-ERjTDykWM76l4Ajw)
+搭建参考： [mp.weixin.qq.com/s/wnL1l-ERjTDykWM76l4Ajw](https://mp.weixin.qq.com/s/wnL1l-ERjTDykWM76l4Ajw)
+
+### 2.2.2. 基于 ts-node 库
+
+- 核心作用：为 TypeScript 代码提供直接的执行环境，无需手动编译为 JavaScript；
+- 运行载体：可直接在 Node.js 环境中运行 TypeScript 脚本；
+- 适用场景：Node.js 端的 TypeScript 脚本开发、快速调试（如工具脚本、后端服务原型开发），大幅简化开发中的编译步骤。
+
+安装：
+
+```shell
+npm install ts-node -g
+# 同时也需要安装 ts-node 的依赖库
+npm install tslib @types/node -g
+```
