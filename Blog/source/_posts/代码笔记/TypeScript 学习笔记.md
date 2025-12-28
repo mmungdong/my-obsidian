@@ -130,6 +130,13 @@ console.log(message); // 输出：Hello TypeScript
 
 ```shell
 npm install ts-node -g
-# 同时也需要安装 ts-node 的依赖库
+# 同时也需要安装 ts-node 的依赖包：tslib 和 @types/
 npm install tslib @types/node -g
 ```
+
+使用 ts-node 执行 ts 文件：
+
+```shell
+ts-node ./01_ts语法基础/01_hello_ts.ts
+```
+
