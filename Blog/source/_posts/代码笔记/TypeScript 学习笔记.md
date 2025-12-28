@@ -18,9 +18,9 @@
 - VS Code、React Native、Node.js 等项目也广泛使用 TypeScript。
 - TypeScript 已成为前端开发中提升代码可维护性、类型安全性的重要工具。
 
-# 2. 环境搭建
+# 1.4 环境搭建
 
-## 2.1. 全局安装 TypeScript
+### 1.4.1 全局安装 TypeScript
 
 ```shell
 npm install typescript -g
@@ -30,6 +30,7 @@ npm install typescript -g
 
 ![blog20251228131843843.png](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20251228131843843.png?imageSlim)
 
+> 安装了 typescript 后，我们可以使用 tsc 来将 ts 文件转化为 js 文件后再执行
 
 编写 ts 代码：
 
@@ -110,9 +111,9 @@ console.log(message); // 输出：Hello TypeScript
 1. 编译环节：借助 `tsc` 工具，将 TypeScript 代码转换为 JavaScript 代码；
 2. 运行环节：在浏览器或 Node.js 环境中，执行转换后的 JavaScript 代码。
 
-## 2.2. TypeScript 运行流程简化
+### 1.4.2 TypeScript 运行流程简化
 
-### 2.2.1. 基于 webpack 的配置
+#### 1.4.2.1 基于 webpack 的配置
 
 - 核心操作：通过配置 webpack，搭建本地 TypeScript 编译环境，并启动本地服务；
 - 运行载体：最终代码可直接在浏览器中运行；
@@ -120,7 +121,7 @@ console.log(message); // 输出：Hello TypeScript
 
 搭建参考： [mp.weixin.qq.com/s/wnL1l-ERjTDykWM76l4Ajw](https://mp.weixin.qq.com/s/wnL1l-ERjTDykWM76l4Ajw)
 
-### 2.2.2. 基于 ts-node 库
+#### 1.4.2.2 基于 ts-node 库
 
 - 核心作用：为 TypeScript 代码提供直接的执行环境，无需手动编译为 JavaScript；
 - 运行载体：可直接在 Node.js 环境中运行 TypeScript 脚本；
@@ -130,7 +131,7 @@ console.log(message); // 输出：Hello TypeScript
 
 ```shell
 npm install ts-node -g
-# 同时也需要安装 ts-node 的依赖包：tslib 和 @types/
+# 同时也需要安装 ts-node 的依赖包：tslib 和 @types/node
 npm install tslib @types/node -g
 ```
 
@@ -139,4 +140,6 @@ npm install tslib @types/node -g
 ```shell
 ts-node ./01_ts语法基础/01_hello_ts.ts
 ```
+
+
 
