@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/AI Coding - Claude Code 使用笔记.md",
+                "file": "Blog/source/_posts/代码笔记/TypeScript 学习笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Coding - Claude Code 使用笔记"
+              "title": "TypeScript 学习笔记"
             }
           }
         ]
@@ -147,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/AI Coding - Claude Code 使用笔记.md",
+                "file": "Blog/source/_posts/代码笔记/TypeScript 学习笔记.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI Coding - Claude Code 使用笔记 的大纲"
+              "title": "TypeScript 学习笔记 的大纲"
             }
           },
           {
@@ -200,9 +200,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Blog/source/_posts/代码笔记/TypeScript 学习笔记.md",
+    "Blog/source/_posts/代码笔记/AI Coding - Claude Code 使用笔记.md",
     "Blog/source/_posts/代码笔记/Claude Code - 前端实践笔记.md",
     "博客管理/已发布.base",
-    "Blog/source/_posts/代码笔记/AI Coding - Claude Code 使用笔记.md",
     "Blog/source/_draft/使用 AI 辅助快速学习.md",
     "博客管理/草稿.base",
     "Blog/source/_draft/00 小滴架构十八式总览.md",
