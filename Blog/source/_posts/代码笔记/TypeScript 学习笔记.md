@@ -255,3 +255,22 @@ console.log(info.name)
 通过`对象.属性名`的方式访问对象属性（如图片中的`info.name`、`info.age`）。
 
 TypeScript 会检测属性的合法性：若访问对象**不存在的属性**，会抛出类型错误（例如`info.gender`会报错，因为`info`类型中无`gender`属性）。
+
+## 2.3. null 和 undefined 类型
+
+JavaScript 中的定位：undefined 和 null 是 JavaScript 的两个**基本数据类型**。
+
+TypeScript 中的定位：undefined 和 null 同时具备 “值” 与 “类型” 的双重属性：
+
+- 它们的类型名称与自身值同名（即类型为`undefined`、`null`）；
+- 可直接将其作为类型注解，用于约束变量的类型。
+
+```typescript
+// 变量n的类型为null，值为null
+let n: null = null
+// 变量u的类型为undefined，值为undefined
+let u: undefined = undefined
+```
+
+## 2.4. 函数的参数类型和返回值类型
+
