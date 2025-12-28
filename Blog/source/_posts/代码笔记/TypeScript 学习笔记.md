@@ -274,3 +274,43 @@ let u: undefined = undefined
 
 ## 2.4. 函数的参数类型和返回值类型
 
+```typescript
+/**
+ * 计算用户信息的拼接字符串（示例函数）
+ * @param name 用户名 - 显式指定参数类型为string
+ * @param age 年龄 - 显式指定参数类型为number
+ * @param isVip 是否为VIP用户 - 显式指定参数类型为boolean（可选参数）
+ * @returns 拼接后的用户信息字符串 - 显式指定返回值类型为string
+ */
+function getUserInfo(
+  name: string,        // 参数类型注解：冒号后指定参数的类型为string
+  age: number,         // 参数类型注解：冒号后指定参数的类型为number
+  isVip?: boolean      // 可选参数+类型注解：?表示可选，类型为boolean
+): string {            // 返回值类型注解：括号后冒号指定返回值类型为string
+  // 处理可选参数的默认值
+  const vipStatus = isVip ?? false;
+  
+  // 拼接字符串，返回值为string类型，与指定的返回值类型匹配
+  return `用户名：${name}，年龄：${age}，VIP状态：${vipStatus ? '是' : '否'}`;
+}
+
+// 调用函数，传入符合类型注解的参数
+const user1 = getUserInfo("张三", 25, true);
+console.log(user1); // 输出：用户名：张三，年龄：25，VIP状态：是
+
+const user2 = getUserInfo("李四", 30); // 可选参数可省略
+console.log(user2); // 输出：用户名：李四，年龄：30，VIP状态：否
+
+// ---------------------- 类型推导示例 ----------------------
+// 未显式指定返回值类型时，TS会自动推导返回值类型
+function sum(num1: number, num2: number) { // 仅指定参数类型
+  return num1 + num2; // TS自动推导返回值类型为number
+}
+const result = sum(10, 20);
+// result的类型被推导为number，以下代码会报错（类型不匹配）
+// result = "30"; 
+```
+
+1. **参数类型注解**：在函数参数名称后通过 `: 类型` 声明，用于约束传入参数的类型，不符合类型会直接报错；
+2. **返回值类型注解**：在函数参数列表的括号后通过 `: 类型` 声明，用于约束函数返回值的类型；
+3. **类型推导特性**：若省略返回值类型注解，TS 会根据 return 语句的结果自动推导返回值类型，仍保持类型约束。
