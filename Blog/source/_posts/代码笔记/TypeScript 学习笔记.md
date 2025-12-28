@@ -142,4 +142,21 @@ ts-node ./01_ts语法基础/01_hello_ts.ts
 ```
 
 
+## 1.5. ts 变量声明和类型注解
 
+### 1.5.1 变量声明
+
+#### 一、变量声明的关键字 
+1. 支持的关键字：与 ES6 后规范一致，可通过`var`、`let`、`const`声明变量，示例：
+    
+    ```typescript
+    var myname: string = "why";
+    let myage: number = 20;
+    const myheight: number = 1.88;
+    ```
+    
+2. 不推荐使用`var`：
+    - tslint 明确禁止使用 `var`，建议替换为 `let` / `const`；
+    - 原因：`var` 无块级作用域，易引发作用域相关问题（与 ES6 中 `var` 和 `let` 的区别一致）。
+
+### 1.5.2. 变量声明的完整格式与类型注解
