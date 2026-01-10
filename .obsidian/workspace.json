@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/AI Coding - Claude Code 使用笔记.md",
+                "file": "Blog/source/_posts/生活小记/2026 年的减肥日记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Coding - Claude Code 使用笔记"
+              "title": "2026 年的减肥日记"
             }
           }
         ]
@@ -147,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/AI Coding - Claude Code 使用笔记.md",
+                "file": "Blog/source/_posts/生活小记/2026 年的减肥日记.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI Coding - Claude Code 使用笔记 的大纲"
+              "title": "2026 年的减肥日记 的大纲"
             }
           },
           {
@@ -200,8 +200,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Blog/source/_posts/未命名.md",
     "Blog/source/_posts/代码笔记/AI Coding - Claude Code 使用笔记.md",
+    "Blog/source/_posts/生活小记/2026 年的减肥日记.md",
+    "Blog/source/_posts/生活小记",
+    "Blog/source/_posts/未命名.md",
     "Blog/source/_posts/代码笔记/Claude Code - 前端实践笔记.md",
     "Blog/source/assets/img/favicon.ico",
     "Blog/source/assets/img/20211020024329733.jpeg",
@@ -235,12 +237,10 @@
     "Blog/source/assets/img/top.png",
     "Blog/source/assets/img/top01.png",
     "[Fetching.md",
-    "Blog/source/_posts/代码笔记/Redis 面试题整理.md",
     "Blog/source/assets/img/【哲风壁纸】云-夜色-月亮.png",
     "Blog/node_modules/browser-sync-ui/templates/directives/bs-switch.html",
     "Blog/node_modules/browser-sync-ui/templates/plugin.tmpl",
     "Blog/node_modules/browser-sync-ui/templates/plugin.item.tmpl",
-    "Blog/node_modules/browser-sync-ui/templates/config.tmpl",
     "Blog/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-regular-webfont.svg",
     "Blog/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-it-webfont.svg",
     "Blog/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-bold-webfont.svg",
