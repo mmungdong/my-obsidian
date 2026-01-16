@@ -80,5 +80,20 @@ vscode 使用 EditorConfig 需要下载插件：[Site Unreachable](https://marke
 ![image.png](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20260116224213525.png?imageSlim)
 
 
+## 2.2. 使用方法
 
+1. 安装 prettier
+
+```SHELL
+npm install prettier -D
+```
+
+
+2. 在 `package.json` 中配置运行命令：
+
+```json
+"scripts": {
+	"format": "prettier --write ."
+},
+```
 
