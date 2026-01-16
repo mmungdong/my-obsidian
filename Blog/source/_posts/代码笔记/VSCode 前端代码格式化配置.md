@@ -113,7 +113,7 @@ VSCode 中设置：
 
 ## 2.3. 配置
 
-配置 `.prettierrc.js` 文件：
+配置 `.prettierrc` 文件：
 
 ```json
 {
@@ -130,5 +130,11 @@ VSCode 中设置：
   // 语句分号：false = 禁止在语句末尾加分号（如 const a = 1 而非 const a = 1;，部分前端项目的风格选择）
   "semi": false
 }
+```
+
+配置 `.prettierignore`:
+
+```text
+
 ```
 
