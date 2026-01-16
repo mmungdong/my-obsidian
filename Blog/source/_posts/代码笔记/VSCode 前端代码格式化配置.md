@@ -228,6 +228,20 @@ CHANGELOG.md    # 手动维护的变更日志
 
 ## 3.2. 安装依赖
 
-```SHELL
+安装 eslint 开发依赖基础包：
 
+```SHELL
+npm install eslint -D
+```
+
+为了避免 eslint 的检测规则和 prettier 的配置冲突，还需要安装它俩的整合包，避免在 eslint 中检测到不合规，但是 prettier 的配置确是合规的，让 eslint 按照 prettier 的规则进行检测：
+
+```shell
+npm install eslint-plugin-prettier eslint-config-prettier -D
+```
+
+在 `.eslintrc.json` 中需要加如下配置：
+
+```js
+module.exports = { extends: [ // 保留项目原有基础配置（如 'eslint:recommended'、'plugin:vue/vue3-essential' 等） 'plugin:prettier/recommended' // 整合 Prettier 规则，避免冲突 ] }
 ```
