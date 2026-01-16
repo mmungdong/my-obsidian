@@ -132,9 +132,89 @@ VSCode 中设置：
 }
 ```
 
-配置 `.prettierignore`:
+配置 `.prettierignore`,实际使用时选择自己需要的即可:
 
 ```text
+# ------------------------------
+# 依赖与构建产物（自动生成，无需格式化）
+# ------------------------------
+node_modules/
+dist/
+build/
+out/
+.next/          # Next.js 构建目录
+.nuxt/          # Nuxt.js 构建目录
+.output/        # VuePress/VitePress 构建目录
+.eslintcache
 
+# ------------------------------
+# 包管理器与锁文件（由工具维护，禁止手动修改）
+# ------------------------------
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+pnpm-workspace.yaml
+bun.lockb
+
+# ------------------------------
+# 静态资源与二进制文件（Prettier 无法处理）
+# ------------------------------
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
+*.ico
+*.woff
+*.woff2
+*.ttf
+*.eot
+*.mp4
+*.avi
+*.pdf
+*.docx
+
+# ------------------------------
+# 配置与环境文件（格式敏感或自动生成）
+# ------------------------------
+.env
+.env.local
+.env.development
+.env.production
+.editorconfig
+.prettierrc
+.eslintrc
+.gitignore
+.npmignore
+Dockerfile
+docker-compose.yml
+
+# ------------------------------
+# 日志、缓存与临时文件
+# ------------------------------
+*.log
+.cache/
+.temp/
+.tmp/
+.DS_Store       # macOS 系统文件
+Thumbs.db       # Windows 系统文件
+
+# ------------------------------
+# 版本控制与编辑器目录
+# ------------------------------
+.git/
+.vscode/
+.idea/
+.gradle/
+.mvn/
+
+# ------------------------------
+# 特定场景（可选）
+# ------------------------------
+CHANGELOG.md    # 手动维护的变更日志
+*.min.js        # 已压缩的 JS 文件
+*.min.css       # 已压缩的 CSS 文件
 ```
+
 
