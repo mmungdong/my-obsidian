@@ -103,5 +103,11 @@ npm install prettier -D
 
 VSCode 中设置：
 
-1. 自动保存：
+1. 打开保存时格式化文件：
+
+![image.png](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20260116225545606.png?imageSlim)
+
+2. 配置通过 prettier 来对文件进行格式化：
+
+![image.png](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20260116225709667.png?imageSlim)
 
