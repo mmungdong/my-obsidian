@@ -67,4 +67,11 @@ indent_style = tab
 ```
 
 
-# 2. ESLint
+参考： [EditorConfig](https://editorconfig.org/#overview)
+
+vscode 使用 EditorConfig 需要下载插件：[Site Unreachable](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+
+# 2. 使用 prettier 工具
+
+
+
