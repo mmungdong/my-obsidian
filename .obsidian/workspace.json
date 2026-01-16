@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/VSCode 前端代码格式化配置.md",
+                "file": "Blog/source/_posts/代码笔记/TypeScript 学习笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VSCode 前端代码格式化配置"
+              "title": "TypeScript 学习笔记"
             }
           }
         ]
@@ -147,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/VSCode 前端代码格式化配置.md",
+                "file": "Blog/source/_posts/代码笔记/TypeScript 学习笔记.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "VSCode 前端代码格式化配置 的大纲"
+              "title": "TypeScript 学习笔记 的大纲"
             }
           },
           {
@@ -200,16 +200,16 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Blog/source/_posts/代码笔记/AI Coding - Claude Code 使用笔记.md",
+    "Blog/source/_posts/代码笔记/Go 工程师面试要点整理.md",
+    "Blog/source/_posts/代码笔记/Go 包的管理方式.md",
     "Blog/source/_posts/代码笔记/VSCode 前端代码格式化配置.md",
     "Blog/source/_posts/生活小记/2026 年的减肥日记.md",
-    "Blog/source/_posts/代码笔记/AI Coding - Claude Code 使用笔记.md",
     "Blog/source/_posts/生活小记",
     "Blog/source/_posts/未命名.md",
     "Blog/source/_posts/代码笔记/Claude Code - 前端实践笔记.md",
     "Blog/source/assets/img/favicon.ico",
     "Blog/source/assets/img/20211020024329733.jpeg",
-    "Blog/source/_posts/代码笔记/Go 工程师面试要点整理.md",
-    "Blog/source/_posts/代码笔记/Go 包的管理方式.md",
     "Blog/source/_posts/代码笔记/TypeScript 学习笔记.md",
     "博客管理/已发布.base",
     "Blog/source/_draft/使用 AI 辅助快速学习.md",
