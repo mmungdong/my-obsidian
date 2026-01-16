@@ -73,5 +73,12 @@ vscode 使用 EditorConfig 需要下载插件：[Site Unreachable](https://marke
 
 # 2. 使用 prettier 工具
 
+## 2.1. VSCode 安装 prettier 插件
+
+- [Site Unreachable](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+![image.png](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20260116224213525.png?imageSlim)
+
+
 
 
