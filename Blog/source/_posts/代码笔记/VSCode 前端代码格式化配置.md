@@ -1,3 +1,13 @@
+---
+title: VSCode 前端代码格式化配置
+date: 2026-01-16
+categories:
+  - 代码笔记
+tags:
+  - 前端
+archive: false
+hide: false
+---
 
 
 前言：
@@ -240,7 +250,7 @@ npm install eslint -D
 npm install eslint-plugin-prettier eslint-config-prettier -D
 ```
 
-在 `.eslintrc.json` 中需要加如下配置：
+在 `.eslintrc.json` 中需要加如下配置，其中我们常见的配置是 extends、plugins 和 rules：
 
 ```js
 module.exports = {
@@ -253,5 +263,95 @@ module.exports = {
 
 参考 Next.js + TypeScript 完整 ESLint 配置：
 
-```
+```js
+/**
+ * Next.js + TypeScript ESLint 完整配置
+ * 核心原则：官方规范 + 类型安全 + Hooks 合规 + Prettier 协同
+ */
+module.exports = {
+  // ===================== 核心解析配置（TS/JSX/Next.js 适配） =====================
+  // 解析器：让 ESLint 能识别 Vue/React 单文件组件（这里适配 Next.js 的 JSX/TSX）
+  parser: '@typescript-eslint/parser',
+  // 解析器选项：指定 ES 版本、模块类型、TS 配置文件路径
+  parserOptions: {
+    ecmaVersion: 'latest', // 支持最新 ES 语法
+    sourceType: 'module', // 启用 ES 模块（import/export）
+    project: './tsconfig.json', // 关联项目的 TS 配置，确保类型检查准确
+    ecmaFeatures: {
+      jsx: true // 支持 JSX/TSX 语法（Next.js 核心）
+    }
+  },
+
+  // ===================== 继承的规则集（基础规则来源） =====================
+  extends: [
+    // 1. Next.js 官方核心规则：包含框架最佳实践 + Web Vitals 性能检查
+    'next/core-web-vitals',
+    // 2. TypeScript ESLint 推荐规则：TS 语法/类型相关的基础检查
+    'plugin:@typescript-eslint/recommended',
+    // 3. TypeScript ESLint 严格规则：增强 TS 类型安全（可选，追求高代码质量则保留）
+    'plugin:@typescript-eslint/strict-type-checked',
+    // 4. React Hooks 官方规则：强制 Hooks 使用规范（如依赖数组完整）
+    'plugin:react-hooks/recommended',
+    // 5. Prettier 协同规则：关闭 ESLint 中与 Prettier 冲突的规则，同时将 Prettier 格式问题转为 ESLint 警告
+    'plugin:prettier/recommended'
+  ],
+
+  // ===================== 启用的插件（扩展 ESLint 检查能力） =====================
+  plugins: [
+    '@typescript-eslint', // TS 专属检查插件
+    'react-hooks', // React Hooks 检查插件
+    'import', // 模块导入规范检查（如未使用的 import、路径错误）
+    'promise' // Promise 异步代码规范检查（如未处理 reject）
+  ],
+
+  // ===================== 自定义规则（覆盖默认配置，适配实际开发） =====================
+  rules: {
+    // -------------------- React Hooks 规则（人性化调整） --------------------
+    // 关闭「禁止在 useEffect 中调用 setState」：Next.js 中常需在副作用中更新状态（如表单回显）
+    'react-hooks/set-state-in-effect': 'off',
+    // 依赖数组不完整从 error 改为 warn：避免 Next.js 中 useRouter 等场景的假阳性报错
+    'react-hooks/exhaustive-deps': 'warn',
+
+    // -------------------- TypeScript 规则（宽松适配 + 类型安全） --------------------
+    // 关闭「必须使用接口而非类型别名」：TS 中 type 和 interface 场景不同，无需强制
+    '@typescript-eslint/consistent-type-definitions': 'off',
+    // 关闭「未使用变量报错」：开发阶段临时注释的变量无需报错（改为警告）
+    '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }], // 忽略下划线开头的变量（如 _props）
+    // 强制函数返回值类型定义：提升 TS 类型安全（仅警告，避免过度严格）
+    '@typescript-eslint/explicit-function-return-type': 'warn',
+    // 禁止 any 类型：逐步减少 any 提升代码质量（改为警告，兼容历史代码）
+    '@typescript-eslint/no-explicit-any': 'warn',
+
+    // -------------------- 通用代码质量规则 --------------------
+    // 禁止 console.log 等打印：生产环境需清理，开发阶段警告即可
+    'no-console': ['warn', { allow: ['warn', 'error'] }], // 允许 console.warn/error
+    // 禁止 debugger：开发阶段警告，防止提交到生产环境
+    'no-debugger': 'warn',
+
+    // -------------------- Prettier 协同规则 --------------------
+    // Prettier 格式问题转为警告（而非报错），避免打断开发流程
+    'prettier/prettier': 'warn'
+  },
+
+  // ===================== 环境配置（指定代码运行环境，避免全局变量报错） =====================
+  env: {
+    browser: true, // 支持浏览器全局变量（window、document）
+    node: true, // 支持 Node.js 全局变量（process、__dirname）
+    es2025: true // 支持 ES2025 语法
+  },
+
+  // ===================== 全局变量（避免未定义报错） =====================
+  globals: {
+    React: 'readonly', // React 全局变量只读
+    JSX: 'readonly' // JSX 全局变量只读
+  },
+
+  // ===================== 忽略特定文件/目录（可选） =====================
+  ignorePatterns: [
+    '.next/', // Next.js 构建目录
+    'node_modules/', // 依赖目录
+    'public/', // 静态资源目录
+    '*.config.js' // 配置文件（如 next.config.js）
+  ]
+}
 ```
