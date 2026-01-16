@@ -111,3 +111,24 @@ VSCode 中设置：
 
 ![image.png](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20260116225709667.png?imageSlim)
 
+## 2.3. 配置
+
+配置 `.prettierrc.js` 文件：
+
+```json
+{
+  // 缩进方式：false = 使用空格缩进（和 EditorConfig 的 indent_style = space 对应）
+  "useTabs": false,
+  // 缩进大小：2 个空格（和 EditorConfig 的 indent_size = 2 对应）
+  "tabWidth": 2,
+  // 每行最大长度：超过 80 个字符时自动换行，保持代码可读性
+  "printWidth": 80,
+  // 字符串引号：true = 统一使用单引号（如 'hello' 而非 "hello"，前端项目常见风格）
+  "singleQuote": true,
+  // 尾逗号："none" = 禁止在对象/数组最后一项后加逗号（如 {a:1, b:2} 而非 {a:1, b:2,}）
+  "trailingComma": "none",
+  // 语句分号：false = 禁止在语句末尾加分号（如 const a = 1 而非 const a = 1;，部分前端项目的风格选择）
+  "semi": false
+}
+```
+
