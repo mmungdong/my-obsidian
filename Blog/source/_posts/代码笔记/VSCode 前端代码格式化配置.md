@@ -243,5 +243,10 @@ npm install eslint-plugin-prettier eslint-config-prettier -D
 在 `.eslintrc.json` 中需要加如下配置：
 
 ```js
-module.exports = { extends: [ // 保留项目原有基础配置（如 'eslint:recommended'、'plugin:vue/vue3-essential' 等） 'plugin:prettier/recommended' // 整合 Prettier 规则，避免冲突 ] }
+module.exports = {
+  extends: [
+    // 保留项目原有基础配置（如 'eslint:recommended'、'plugin:vue/vue3-essential' 等）
+    'plugin:prettier/recommended' // 整合 Prettier 规则，避免冲突
+  ]
+}
 ```
