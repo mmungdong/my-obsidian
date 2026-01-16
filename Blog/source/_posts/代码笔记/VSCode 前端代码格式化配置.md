@@ -250,3 +250,8 @@ module.exports = {
   ]
 }
 ```
+
+参考 Next.js + TypeScript 完整 ESLint 配置：
+
+```
+```
