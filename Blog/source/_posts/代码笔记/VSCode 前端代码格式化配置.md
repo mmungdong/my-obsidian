@@ -220,3 +220,14 @@ CHANGELOG.md    # 手动维护的变更日志
 
 # 3. 使用 ESLint
 
+## 3.1. 安装插件
+
+- [Site Unreachable](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+![image.png](https://images-1306852673.cos.ap-chengdu.myqcloud.com/blog20260116232148841.png?imageSlim)
+
+## 3.2. 安装依赖
+
+```SHELL
+
+```
