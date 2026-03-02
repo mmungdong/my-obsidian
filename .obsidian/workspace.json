@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blog/source/_posts/代码笔记/LangChain 学习笔记（一）：重构项目结构与百炼大模型深度思考模式接入指南.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "LangChain 学习笔记（一）：重构项目结构与百炼大模型深度思考模式接入指南"
+              "title": "新标签页"
             }
           }
         ]
@@ -147,13 +143,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/LangChain 学习笔记（一）：重构项目结构与百炼大模型深度思考模式接入指南.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LangChain 学习笔记（一）：重构项目结构与百炼大模型深度思考模式接入指南 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -200,8 +195,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Blog/source/_posts/代码笔记/Go 工程师面试要点整理.md",
     "Blog/source/_posts/代码笔记/LangChain 学习笔记（一）：重构项目结构与百炼大模型深度思考模式接入指南.md",
+    "Blog/source/_posts/代码笔记/Go 工程师面试要点整理.md",
     "Blog/source/_draft/Prometheus 学习笔记.md",
     "Blog/source/_posts/代码笔记/VSCode 前端代码格式化配置.md",
     "Blog/source/_posts/代码笔记/TypeScript 学习笔记.md",
