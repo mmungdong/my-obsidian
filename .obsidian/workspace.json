@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_draft/Prometheus 学习笔记.md",
+                "file": "Blog/source/_posts/代码笔记/LangChain 学习笔记（一）：重构项目结构与百炼大模型深度思考模式接入指南.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prometheus 学习笔记"
+              "title": "LangChain 学习笔记（一）：重构项目结构与百炼大模型深度思考模式接入指南"
             }
           }
         ]
@@ -147,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_draft/Prometheus 学习笔记.md",
+                "file": "Blog/source/_posts/代码笔记/LangChain 学习笔记（一）：重构项目结构与百炼大模型深度思考模式接入指南.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Prometheus 学习笔记 的大纲"
+              "title": "LangChain 学习笔记（一）：重构项目结构与百炼大模型深度思考模式接入指南 的大纲"
             }
           },
           {
@@ -200,9 +200,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Blog/source/_posts/代码笔记/VSCode 前端代码格式化配置.md",
-    "Blog/source/_draft/Prometheus 学习笔记.md",
     "Blog/source/_posts/代码笔记/Go 工程师面试要点整理.md",
+    "Blog/source/_posts/代码笔记/LangChain 学习笔记（一）：重构项目结构与百炼大模型深度思考模式接入指南.md",
+    "Blog/source/_draft/Prometheus 学习笔记.md",
+    "Blog/source/_posts/代码笔记/VSCode 前端代码格式化配置.md",
     "Blog/source/_posts/代码笔记/TypeScript 学习笔记.md",
     "Blog/source/_posts/代码笔记/AI Coding - Claude Code 使用笔记.md",
     "Blog/source/_posts/代码笔记/Go 包的管理方式.md",
@@ -233,7 +234,6 @@
     "Blog/source/_posts/读书笔记/📚 卡片笔记写作法.md",
     "未命名.canvas",
     "Hexo博客.md",
-    "template/博客笔记头部属性.md",
     "未命名 1.base",
     "Blog/source/assets/img/top.png",
     "Blog/source/assets/img/top01.png",
