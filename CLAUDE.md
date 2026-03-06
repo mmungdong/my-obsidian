@@ -21,8 +21,12 @@ Blog/source/
 └── _draft/           # 草稿目录（未发布）
 ```
 
-- 已发布文章放在 `source/_posts/<分类>/` 下
-- 草稿放在 `source/_draft/` 下
+> ⚠️ **重要：文章路径必须以 `Blog/` 开头！**
+> - 正确：`Blog/source/_posts/代码笔记/` 或 `Blog/source/_draft/`
+> - 错误：`source/_posts/代码笔记/` 或 `source/_draft/`
+
+- 已发布文章放在 `Blog/source/_posts/<分类>/` 下
+- 草稿放在 `Blog/source/_draft/` 下
 - 文章格式为 `.md`（Markdown）
 - 分类由目录自动生成（hexo-auto-category，depth: 1）
 
@@ -126,7 +130,7 @@ frontmatter
 1. 根据用户提供的主题，先生成一份**文章大纲（目录结构）**展示给用户
 2. **等待用户确认或修改大纲**，用户可能会补充要点、调整章节
 3. 用户确认大纲后，按照大纲逐章节撰写完整内容
-4. 将文章保存到 `source/_draft/` 目录下
+4. 将文章保存到 `Blog/source/_draft/` 目录下
 5. 文件名格式：`文章标题.md`
 
 **大纲输出格式示例：**
@@ -152,14 +156,14 @@ frontmatter
 
 ### 🔥 任务二：创建新文章（最高优先级）
 
-**与草稿的区别：** 新文章直接保存到 `source/_posts/<分类>/` 目录下
+**与草稿的区别：** 新文章直接保存到 `Blog/source/_posts/<分类>/` 目录下
 
 **工作流程：**
 1. 同草稿流程：先大纲 → 用户确认 → 撰写内容
 2. 确定文章分类，保存到对应分类目录：
-   - 技术类 → `source/_posts/代码笔记/`
-   - 生活类 → `source/_posts/生活小记/`
-   - 读书类 → `source/_posts/读书笔记/`
+   - 技术类 → `Blog/source/_posts/代码笔记/`
+   - 生活类 → `Blog/source/_posts/生活小记/`
+   - 读书类 → `Blog/source/_posts/读书笔记/`
 3. frontmatter 中的 `date` 使用当前时间
 
 ### 任务三：发布文章
@@ -169,12 +173,12 @@ frontmatter
 **场景 A — 发布草稿：**
 ```bash
 # 将草稿从 _draft 移动到 _posts 对应分类目录
-mv source/_draft/文章标题.md source/_posts/分类/文章标题.md
+mv Blog/source/_draft/文章标题.md Blog/source/_posts/分类/文章标题.md
 ```
 
 **场景 B — 推送到远端（自动构建部署）：**
 ```bash
-git add source/_posts/分类/文章标题.md
+git add Blog/source/_posts/分类/文章标题.md
 git commit -m "docs(blog): 新增文章标题"
 git push
 ```
@@ -192,22 +196,22 @@ git push
 
 **按关键词搜索：**
 ```bash
-grep -rl "关键词" source/_posts/ source/_draft/
+grep -rl "关键词" Blog/source/_posts/ Blog/source/_draft/
 ```
 
 **按分类查找：**
 ```bash
-ls source/_posts/代码笔记/
+ls Blog/source/_posts/代码笔记/
 ```
 
 **按标签查找：**
 ```bash
-grep -rl "tags:" source/_posts/ | xargs grep -l "标签名"
+grep -rl "tags:" Blog/source/_posts/ | xargs grep -l "标签名"
 ```
 
 **查找草稿：**
 ```bash
-ls source/_draft/
+ls Blog/source/_draft/
 ```
 
 ### 任务五：修改 / 优化已有文章
@@ -228,7 +232,7 @@ ls source/_draft/
 
 **统计当前所有标签：**
 ```bash
-grep -rh "  - " source/_posts/*/  | grep -A100 "tags:" | head -200
+grep -rh "  - " Blog/source/_posts/*/  | grep -A100 "tags:" | head -200
 ```
 
 **批量修改标签名称（如统一大小写）：**
@@ -249,13 +253,13 @@ grep -rh "  - " source/_posts/*/  | grep -A100 "tags:" | head -200
 **统计命令示例：**
 ```bash
 # 已发布文章总数
-find source/_posts -name "*.md" | wc -l
+find Blog/source/_posts -name "*.md" | wc -l
 
 # 各分类数量
-for dir in source/_posts/*/; do echo "$(basename $dir): $(find $dir -name '*.md' | wc -l)"; done
+for dir in Blog/source/_posts/*/; do echo "$(basename $dir): $(find $dir -name '*.md' | wc -l)"; done
 
 # 草稿数量
-find source/_draft -name "*.md" | wc -l
+find Blog/source/_draft -name "*.md" | wc -l
 ```
 
 ---
@@ -263,6 +267,7 @@ find source/_draft -name "*.md" | wc -l
 ## 通用规则
 
 ### ✅ 必须做的
+- **文章路径必须以 `Blog/` 开头**，正确路径为 `Blog/source/_posts/` 或 `Blog/source/_draft/`
 - 写文章前必须先出大纲，等用户确认后再写正文
 - 严格遵守 frontmatter 模板，所有字段不能遗漏
 - 使用数字编号标题风格（1. → 1.1. → 1.1.1）
