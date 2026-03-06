@@ -3,7 +3,7 @@
 ## 项目概述
 这是一个基于 **Hexo 7.3.0 + Fluid 1.9.8** 主题的个人博客项目。
 - 网站地址：https://yangfanbin.cn/
-- 部署方式：Git 部署到 GitHub Pages
+- 部署方式：推送代码到远端仓库，由 CI/CD 自动构建部署
 - 仓库：https://github.com/mmungdong/mmungdong.github.io.git
 
 **你的核心职责是：帮助我管理博客文章，包括写草稿、创建文章、发布、搜索、优化和统计。你不负责修改博客框架代码或主题配置。**
@@ -172,10 +172,13 @@ frontmatter
 mv source/_draft/文章标题.md source/_posts/分类/文章标题.md
 ```
 
-**场景 B — 部署到线上：**
+**场景 B — 推送到远端（自动构建部署）：**
 ```bash
-hexo clean && hexo g && hexo d
+git add source/_posts/分类/文章标题.md
+git commit -m "docs(blog): 新增文章标题"
+git push
 ```
+推送后，远端 CI/CD 会自动执行构建和部署。
 
 **发布前检查清单：**
 - [ ] frontmatter 所有必填字段完整
@@ -272,7 +275,7 @@ find source/_draft -name "*.md" | wc -l
 - 不要擅自上传图片到 COS（图片由用户手动管理）
 - **不要删除或替换文章中已有的图片链接**，修改文章时必须保留原有图片
 - 不要直接生成完整文章跳过大纲确认步骤
-- 不要在没有用户确认的情况下执行 `hexo d` 部署
+- 不要在没有用户确认的情况下执行 `git push` 推送
 - 不要修改已有文章的 `date` 字段
 - 不要创建 `代码笔记` / `生活小记` / `读书笔记` 之外的新分类目录（除非用户明确要求）
 
