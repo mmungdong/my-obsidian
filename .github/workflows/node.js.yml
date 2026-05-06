@@ -5,6 +5,8 @@ name: Build & Deploy Hexo
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   # 定义一个名为build的任务
