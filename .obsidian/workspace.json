@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Blog/source/_posts/代码笔记/Claude Code - 前端实践笔记.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Claude Code - 前端实践笔记"
             }
           }
         ]
@@ -29,6 +33,7 @@
       {
         "id": "b06f53f5a70e9506",
         "type": "tabs",
+        "dimension": 79.6268656716418,
         "children": [
           {
             "id": "0f181ec48dbff0a4",
@@ -65,6 +70,7 @@
       {
         "id": "40c0de9c631432ba",
         "type": "tabs",
+        "dimension": 20.37313432835821,
         "children": [
           {
             "id": "22d4d9e62a91db69",
@@ -80,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.5086555480957
+    "width": 574
   },
   "right": {
     "id": "a135b08f0fc6ca7f",
@@ -143,12 +149,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Blog/source/_posts/代码笔记/Claude Code - 前端实践笔记.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Claude Code - 前端实践笔记 的大纲"
             }
           },
           {
@@ -195,15 +202,17 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "README.md",
-    "Blog/source/_posts/代码笔记/深入理解 Kubernetes：从 ReplicaSet 到 Deployment 的滚动发布机制与原理解析.md",
+    "Blog/source/_posts/代码笔记/VSCode 前端代码格式化配置.md",
+    "Blog/source/_posts/代码笔记/Go 工程师面试要点整理.md",
+    "Blog/source/_posts/代码笔记/一文看透容器运行时与容器构建.md",
+    "Blog/source/_posts/代码笔记/常用的提示词.md",
+    "Blog/source/_posts/代码笔记/Claude Code How - 学习笔记.md",
     "Blog/source/_posts/代码笔记/写给程序员的 AI 概念极简图鉴：从神经网络到 AI Agent 的演进之路.md",
     "Blog/source/_posts/代码笔记/Kubernetes Pod 生命周期、探针配置与底层机制解析.md",
-    "Blog/source/_posts/代码笔记/Claude Code How - 学习笔记.md",
+    "Blog/source/_posts/代码笔记/深入理解 Kubernetes：从 ReplicaSet 到 Deployment 的滚动发布机制与原理解析.md",
+    "README.md",
     "Blog/source/_posts/代码笔记/LangChain 学习笔记（一）：重构项目结构与百炼大模型深度思考模式接入指南.md",
-    "Blog/source/_posts/代码笔记/Go 工程师面试要点整理.md",
     "Blog/source/_draft/Prometheus 学习笔记.md",
-    "Blog/source/_posts/代码笔记/VSCode 前端代码格式化配置.md",
     "Blog/source/_posts/代码笔记/TypeScript 学习笔记.md",
     "Blog/source/_posts/代码笔记/AI Coding - Claude Code 使用笔记.md",
     "Blog/source/_posts/代码笔记/Go 包的管理方式.md",
@@ -224,9 +233,7 @@
     "Blog/scaffolds/post.md",
     "Blog/scaffolds/page.md",
     "Blog/scaffolds/draft.md",
-    "Blog/source/_posts/代码笔记/git 提交规范.md",
     "新建笔记存放处",
-    "未命名.md",
     "博客管理",
     "未命名.canvas",
     "未命名 1.base",
