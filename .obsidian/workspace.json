@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/AI Agent 工程师 · FDE 学习计划.md",
+                "file": "Blog/source/_posts/代码笔记/Claude Code - 前端实践笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Agent 工程师 · FDE 学习计划"
+              "title": "Claude Code - 前端实践笔记"
             }
           }
         ]
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_posts/代码笔记/AI Agent 工程师 · FDE 学习计划.md",
+                "file": "Blog/source/_posts/代码笔记/Claude Code - 前端实践笔记.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -207,13 +207,22 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "博客管理/已发布.base",
+    "Blog/source/_draft/00 小滴架构十八式总览.md",
+    "Blog/source/_draft/Prometheus 学习笔记.md",
+    "Blog/source/_draft/Postgres 环境安装与配置.md",
+    "Blog/source/_draft/使用 AI 辅助快速学习.md",
+    "Blog/source/_posts/代码笔记/一文吃透 k8s 的 Lease （租约）.md",
+    "Blog/source/_posts/代码笔记/vscode 运行慢？使用内置的【扩展二等分】快速找出”元凶”插件.md",
+    "Blog/source/_posts/代码笔记/vscode 常用插件.md",
+    "Blog/source/_posts/代码笔记/python 环境与 pycharm 安装配置.md",
+    "Blog/source/_posts/代码笔记/miniblog 简洁架构开发流程梳理.md",
+    "Blog/source/_posts/代码笔记/高质量博客地址收藏.md",
     "Blog/source/_posts/代码笔记/AI Agent 工程师 · FDE 学习计划.md",
+    "Blog/source/_posts/代码笔记/编译 Redis & 梳理目录结构.md",
+    "Blog/source/_posts/代码笔记/面试项目 - eas.md",
+    "博客管理/已发布.base",
     "博客管理/草稿.base",
     "Blog/source/assets/img/top.png",
-    "Blog/source/_posts/代码笔记/python 环境与 pycharm 安装配置.md",
-    "Blog/source/_posts/代码笔记/高质量博客地址收藏.md",
-    "Blog/source/_posts/代码笔记/面试项目 - eas.md",
     "Blog/source/_posts/代码笔记/Claude Code - 前端实践笔记.md",
     "Blog/source/_posts/代码笔记/VSCode 前端代码格式化配置.md",
     "Blog/source/_posts/代码笔记/Go 工程师面试要点整理.md",
@@ -225,19 +234,11 @@
     "Blog/source/_posts/代码笔记/深入理解 Kubernetes：从 ReplicaSet 到 Deployment 的滚动发布机制与原理解析.md",
     "README.md",
     "Blog/source/_posts/代码笔记/LangChain 学习笔记（一）：重构项目结构与百炼大模型深度思考模式接入指南.md",
-    "Blog/source/_draft/Prometheus 学习笔记.md",
     "Blog/source/_posts/代码笔记/TypeScript 学习笔记.md",
     "Blog/source/_posts/代码笔记/AI Coding - Claude Code 使用笔记.md",
-    "Blog/source/_posts/代码笔记/Go 包的管理方式.md",
-    "Blog/source/_posts/生活小记/2026 年的减肥日记.md",
     "Blog/source/_posts/生活小记",
-    "Blog/source/_posts/未命名.md",
     "Blog/source/assets/img/favicon.ico",
     "Blog/source/assets/img/20211020024329733.jpeg",
-    "Blog/source/_draft/使用 AI 辅助快速学习.md",
-    "Blog/source/_draft/00 小滴架构十八式总览.md",
-    "Blog/source/_draft/Postgres 环境安装与配置.md",
-    "Blog/source/_draft/01.md",
     "新建笔记存放处",
     "博客管理",
     "未命名.canvas",
