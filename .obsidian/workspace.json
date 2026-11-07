@@ -11,13 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Blog/source/_draft/未命名.base",
-                "viewName": "视图"
+                "file": "Blog/source/_draft/2026 年的减肥日记.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "未命名"
+              "icon": "lucide-file",
+              "title": "2026 年的减肥日记"
             }
           }
         ]
@@ -153,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/source/_draft/未命名.base",
+                "file": "Blog/source/_draft/2026 年的减肥日记.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -206,8 +207,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Blog/source/_posts/工具链/Git 提交规范.md",
     "Blog/source/_draft/未命名.base",
+    "Blog/source/_posts/工具链/Git 提交规范.md",
     "博客管理/已发布.base",
     "博客管理/草稿.base",
     "Blog/source/_posts/AI/AI Coding：Claude Code 使用笔记.md",
