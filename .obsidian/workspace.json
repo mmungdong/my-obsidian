@@ -11,10 +11,13 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "bases",
+              "state": {
+                "file": "Blog/source/_draft/未命名.base",
+                "viewName": "视图"
+              },
+              "icon": "lucide-table",
+              "title": "未命名"
             }
           }
         ]
@@ -150,6 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Blog/source/_draft/未命名.base",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -202,6 +206,20 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Blog/source/_posts/工具链/Git 提交规范.md",
+    "Blog/source/_draft/未命名.base",
+    "博客管理/已发布.base",
+    "博客管理/草稿.base",
+    "Blog/source/_posts/AI/AI Coding：Claude Code 使用笔记.md",
+    "Blog/source/_posts/前端/TypeScript 学习笔记.md",
+    "Blog/source/_posts/前端/React 学习笔记.md",
+    "Blog/source/_posts/工具链/VS Code 运行慢？用扩展二等分快速找出元凶插件.md",
+    "Blog/source/_posts/工具链/VS Code 常用插件.md",
+    "Blog/source/_posts/工具链/Linux 和 WSL 自用 .bashrc 配置.md",
+    "Blog/source/_posts/工具链/VS Code 前端代码格式化配置.md",
+    "Blog/source/_posts/工具链/Python 环境与 PyCharm 安装配置.md",
+    "template/博客笔记头部属性.md",
+    "Blog/source/_posts/读书笔记/卡片笔记写作法.md",
     "Blog/db.json",
     "Blog/public/assets/img/top.png",
     "Blog/public/img/default.png",
@@ -214,10 +232,6 @@
     "Blog/public/读书笔记/卡片笔记写作法/index.html",
     "Blog/public/云原生/Kubernetes Pod 生命周期、探针配置与底层机制解析/index.html",
     "Blog/public/收藏夹/高质量博客地址收藏/index.html",
-    "Blog/public/前端/TypeScript 学习笔记/index.html",
-    "Blog/public/AI/AI Agent 工程师 · FDE 学习计划/index.html",
-    "Blog/public/工具链/VS Code 前端代码格式化配置/index.html",
-    "Blog/public/Golang/Go 工程师面试要点整理/index.html",
     "Blog/public/img/avatar.png",
     "Blog/source/_draft/开发参考手册.md",
     "知识索引/MOC-收藏夹.md",
@@ -229,21 +243,10 @@
     "Blog/source/_posts/云原生/Redis 面试题整理.md",
     "Blog/node_modules/is-plain-object/README.md",
     "Blog/source/_posts/代码笔记/Claude Code - 前端实践笔记.md",
-    "Blog/source/_posts/读书笔记/卡片笔记写作法.md",
     "Blog/source/_posts/收藏夹/高质量博客地址收藏.md",
     "Blog/source/_posts/收藏夹/开发参考手册.md",
     "Blog/source/_posts/收藏夹/云原生优质书籍参考.md",
-    "Blog/source/_posts/工具链/VS Code 运行慢？用扩展二等分快速找出元凶插件.md",
-    "Blog/source/_posts/工具链/VS Code 常用插件.md",
-    "Blog/source/_posts/工具链/Linux 和 WSL 自用 .bashrc 配置.md",
-    "Blog/source/_posts/工具链/VS Code 前端代码格式化配置.md",
-    "Blog/source/_posts/工具链/Python 环境与 PyCharm 安装配置.md",
-    "Blog/source/_posts/工具链/Git 提交规范.md",
     "Blog/source/_posts/工具链/Git 常用操作整理.md",
-    "Blog/source/_posts/前端/TypeScript 学习笔记.md",
-    "Blog/source/_posts/前端/React 学习笔记.md",
-    "Blog/source/_posts/AI/常用的提示词.md",
-    "Blog/source/_posts/AI/LangChain 学习笔记（一）：重构项目结构与百炼大模型深度思考模式接入指南.md",
     "Blog/node_modules/highlight.js/styles/brown-papersq.png",
     "Blog/node_modules/highlight.js/styles/pojoaque.jpg",
     "Blog/node_modules/browser-sync-ui/public/fonts/source-sans/sourcesanspro-regular-webfont.svg",
