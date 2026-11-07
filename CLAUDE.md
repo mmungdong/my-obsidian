@@ -13,26 +13,44 @@
 ## 目录结构
 
 ```
+知识索引/              # Obsidian MOC 索引层（不发布，Hexo 不处理，双链只在这里用）
 Blog/source/
-├── _posts/           # 已发布的文章
-│   ├── 代码笔记/      # 代码技术类文章
-│   ├── 生活小记/      # 生活类文章
-│   └── 读书笔记/      # 读书笔记类文章
+├── _posts/           # 已发布的文章（8 个一级分类）
+│   ├── 云原生/        # Kubernetes / 容器 / Redis / 面试项目
+│   ├── Golang/       # Go 语言与工程 / miniblog 系列
+│   ├── AI/           # Claude Code / LLM 应用 / 提示词
+│   ├── 前端/          # React / TypeScript
+│   ├── 工具链/        # VS Code / Git / 环境配置
+│   ├── 收藏夹/        # 手册与参考资料
+│   ├── 读书笔记/      # 读书笔记类文章
+│   └── 生活小记/      # 生活类文章
 └── _draft/           # 草稿目录（未发布）
 ```
 
 > ⚠️ **重要：文章路径必须以 `Blog/` 开头！**
-> - 正确：`Blog/source/_posts/代码笔记/` 或 `Blog/source/_draft/`
-> - 错误：`source/_posts/代码笔记/` 或 `source/_draft/`
+> - 正确：`Blog/source/_posts/云原生/` 或 `Blog/source/_draft/`
+> - 错误：`source/_posts/云原生/` 或 `source/_draft/`
 
 - 已发布文章放在 `Blog/source/_posts/<分类>/` 下
 - 草稿放在 `Blog/source/_draft/` 下
 - 文章格式为 `.md`（Markdown）
 - 分类由目录自动生成（hexo-auto-category，depth: 1）
+- `知识索引/` 是 Obsidian 知识管理层（MOC + 待写清单），用 `[[双链]]` 链接文章；已发布文章内部**不要**写 `[[双链]]`（Hexo 不渲染）
 
 ---
 
 ## 文章规范
+
+### 文件命名规范
+
+- **文件名 = frontmatter title**（含 `.md` 前去掉扩展名后完全一致）
+- 中文为主，技术名词保留英文
+- 专有名词用官方大小写：`VS Code`、`Go`、`Git`、`Python`、`Linux`、`Redis`、`Kubernetes`、`Codex`、`Claude Code`
+- 中英文之间加空格（如 `01 Go 项目初始化`）
+- 副标题连接符统一用中文冒号（如 `errgroup：增强 Go 的并发能力`）
+- 文件名不用 emoji、`【】`、引号等装饰符号；`&` 用"与"替代
+- 系列文章保留编号前缀（如 miniblog 的 `01`~`05`）
+- ⚠️ 已发布文章的文件名即线上 URL（`permalink: :title/`），**改名会使旧链接失效**，需用户确认
 
 ### Frontmatter 模板
 
@@ -55,9 +73,9 @@ hide: false
 **字段说明：**
 | 字段 | 必填 | 说明 |
 |------|------|------|
-| title | ✅ | 文章标题，可包含 emoji |
+| title | ✅ | 文章标题，与文件名一致，不用 emoji 开头装饰 |
 | date | ✅ | 创建时间，格式 `YYYY-MM-DD HH:MM:SS` |
-| categories | ✅ | 分类，必须是 `代码笔记` / `生活小记` / `读书笔记` 之一 |
+| categories | ✅ | 分类，必须是 `云原生` / `Golang` / `AI` / `前端` / `工具链` / `收藏夹` / `读书笔记` / `生活小记` 之一，与所在目录一致 |
 | tags | ✅ | 标签数组，至少一个 |
 | archive | ✅ | 是否归档，默认 `false` |
 | hide | ✅ | 是否隐藏，默认 `false` |
@@ -161,7 +179,7 @@ frontmatter
 **工作流程：**
 1. 同草稿流程：先大纲 → 用户确认 → 撰写内容
 2. 确定文章分类，保存到对应分类目录：
-   - 技术类 → `Blog/source/_posts/代码笔记/`
+   - 云原生 / Golang / AI / 前端 / 工具链 / 收藏夹 → 按文章主题对应的技术分类
    - 生活类 → `Blog/source/_posts/生活小记/`
    - 读书类 → `Blog/source/_posts/读书笔记/`
 3. frontmatter 中的 `date` 使用当前时间
@@ -182,7 +200,7 @@ frontmatter
 4. **询问用户确认 tags 和 categories**：
    - 展示推荐的 tags 和已有标签列表
    - 让用户从推荐/已有标签中选择，或指定新的标签
-   - 确认文章分类（`代码笔记` / `生活小记` / `读书笔记`）
+   - 确认文章分类（8 个分类之一，见目录结构）
 5. **等待用户确认**：用户确认后，再设置到文章 frontmatter 中
 6. **执行发布操作**
 
@@ -217,7 +235,7 @@ grep -rl "关键词" Blog/source/_posts/ Blog/source/_draft/
 
 **按分类查找：**
 ```bash
-ls Blog/source/_posts/代码笔记/
+ls Blog/source/_posts/云原生/
 ```
 
 **按标签查找：**
@@ -298,7 +316,7 @@ find Blog/source/_draft -name "*.md" | wc -l
 - 不要直接生成完整文章跳过大纲确认步骤
 - 不要在没有用户确认的情况下执行 `git push` 推送
 - 不要修改已有文章的 `date` 字段
-- 不要创建 `代码笔记` / `生活小记` / `读书笔记` 之外的新分类目录（除非用户明确要求）
+- 不要在 `云原生` / `Golang` / `AI` / `前端` / `工具链` / `收藏夹` / `读书笔记` / `生活小记` 之外创建新分类目录（除非用户明确要求）
 
 ### 写作风格指南
 - 语言：中文为主，技术术语保留英文
