@@ -1,6 +1,6 @@
 ---
 title: AI Coding：Codex 使用指南
-date: 2025-11-09
+date: 2025-11-09 00:00:00
 categories:
   - AI
 tags:

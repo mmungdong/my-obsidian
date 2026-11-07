@@ -1,6 +1,6 @@
 ---
 title: Claude Code 前端实践笔记
-date: 2025-12-23
+date: 2025-12-23 00:00:00
 categories:
   - AI
 tags:

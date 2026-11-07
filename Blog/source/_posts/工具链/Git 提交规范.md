@@ -26,7 +26,7 @@ Angular 规范其实是一种语义化的提交规范（Semantic Commit Messages
 
 在 Angular 规范中，Commit Message 包含三个部分，分别是 **Header**、**Body** 和 **Footer**，格式如下：
 
-```
+```text
 <type>[optional scope]: <description>
 // 空行
 [optional body]
@@ -126,7 +126,7 @@ Fixes #<issue number>
 
 - 不兼容的改动：如果当前代码跟上一个版本不兼容，需要在 Footer 部分，以 BREAKING CHANG: 开头，后面跟上不兼容改动的摘要。Footer 的其他部分需要说明变动的描述、变动的理由和迁移方法，例如：
 
-```
+```text
 BREAKING CHANGE: isolate scope bindings definition has changed and
     the inject option for the directive controller injection was removed.
 
@@ -148,7 +148,7 @@ BREAKING CHANGE: isolate scope bindings definition has changed and
 
 - 关闭的 Issue 列表：关闭的 Bug 需要在 Footer 部分新建一行，并以 Closes 开头列出，例如：Closes # 123。如果关闭了多个 Issue，可以这样列出：Closes #123, #432, #886。例如:
 
-```
+```text
 Change pause version value to a constant for image
     
     Closes #1137
@@ -158,7 +158,7 @@ Change pause version value to a constant for image
 
 除了 **Header**、**Body** 和 **Footer** 这 3 个部分，**Commit Message** 还有一种特殊情况：如果当前 commit 还原了先前的 commit，则应以 revert: 开头，后跟还原的 commit 的 Header。而且，在 Body 中必须写成 This reverts commit `<hash>` ，其中 hash 是要还原的 commit 的 SHA 标识。例如：
 
-```
+```text
 revert: feat(iam-apiserver): add 'Host' option
 
 This reverts commit 079360c7cfc830ea8a6e13f4c8b8114febc9b48a.

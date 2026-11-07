@@ -1,6 +1,6 @@
 ---
 title: 编译 Redis 与目录结构梳理
-date: 2025-11-21
+date: 2025-11-21 00:00:00
 categories:
   - 云原生
 tags:
@@ -127,7 +127,7 @@ make CFLAGS="-g -O0" MALLOC=jemalloc
 
 执行下面命令 `进入 src 目录` 并 `启动 redis-server`
 
-```
+```bash
 cd src && ./redis-server ../redis.conf
 ```
 

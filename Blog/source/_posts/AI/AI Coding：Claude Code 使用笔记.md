@@ -1,6 +1,6 @@
 ---
 title: AI Coding：Claude Code 使用笔记
-date: 2025-11-11
+date: 2025-11-11 00:00:00
 categories:
   - AI
 tags:

@@ -1,6 +1,6 @@
 ---
 title: VS Code 前端代码格式化配置
-date: 2026-01-16
+date: 2026-01-16 00:00:00
 categories:
   - 工具链
 tags:

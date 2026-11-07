@@ -19,13 +19,13 @@ hide: false
 
 版本选择：最新版带有LTS（稳定版）的。
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802155412382.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802155412382.png?imageSlim)
 
   
 
 node下载好之后会自动带一个npm的包管理工具。
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802155450481.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802155450481.png?imageSlim)
 
   
 
@@ -47,7 +47,7 @@ npm 下载react脚手架
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802155749281.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802155749281.png?imageSlim)
 
   
 
@@ -67,7 +67,7 @@ npm config set registry https://registry.npmmirror.com
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802155856043.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802155856043.png?imageSlim)
 
   
 
@@ -79,17 +79,17 @@ react-scripts 命令集成了webpack的打包方式。
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802155929953.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802155929953.png?imageSlim)
 
   
 
 1. **项目目录结构**
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802160014826.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802160014826.png?imageSlim)
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802160035630.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802160035630.png?imageSlim)
 
   
 
@@ -127,7 +127,7 @@ npx create-react-app 03-react-component
 
 ### 2. 项目结构
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802160546687.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802160546687.png?imageSlim)
 
   
 
@@ -198,7 +198,7 @@ class HelloWorld extends react.Component {
 
 webpack配置默认隐藏：
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802160828040.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802160828040.png?imageSlim)
 
   
 
@@ -214,19 +214,19 @@ npm run eject
 
 弹出webpack配置
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802160954820.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802160954820.png?imageSlim)
 
   
 
 文件变动：
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161033090.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161033090.png?imageSlim)
 
   
 
 ### 4. render 函数的返回值
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161107628.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161107628.png?imageSlim)
 
   
 
@@ -256,15 +256,15 @@ export default function App() {
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161440462.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161440462.png?imageSlim)
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161502753.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161502753.png?imageSlim)
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161529169.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161529169.png?imageSlim)
 
   
 
@@ -272,7 +272,7 @@ export default function App() {
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161715426.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161715426.png?imageSlim)
 
   
 
@@ -387,19 +387,19 @@ export default HelloWorld
 
 初次页面：
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161840774.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161840774.png?imageSlim)
 
   
 
 点击修改文本：
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161906731.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161906731.png?imageSlim)
 
   
 
 点击切换：
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161947474.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802161947474.png?imageSlim)
 
   
 
@@ -407,11 +407,11 @@ export default HelloWorld
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802162031720.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802162031720.png?imageSlim)
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802162105619.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802162105619.png?imageSlim)
 
   
 
@@ -419,7 +419,7 @@ export default HelloWorld
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802162229762.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802162229762.png?imageSlim)
 
   
 
@@ -435,7 +435,7 @@ export default HelloWorld
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802162337980.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802162337980.png?imageSlim)
 
   
 
@@ -522,7 +522,7 @@ export default Children
 
 效果：
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802162500799.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802162500799.png?imageSlim)
 
   
 
@@ -545,7 +545,7 @@ export default Children
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802162656554.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802162656554.png?imageSlim)
 
   
 
@@ -610,7 +610,7 @@ export default AddCounter
 
 ### **7.1. 实现方式一（不推荐）**
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802162859283.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802162859283.png?imageSlim)
 
   
 
@@ -684,7 +684,7 @@ export default NavBar
 
 ### **2. 实现方式二（推荐）**
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163006211.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163006211.png?imageSlim)
 
   
 
@@ -735,7 +735,7 @@ export default NavBarTwo
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163145744.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163145744.png?imageSlim)
 
   
 
@@ -798,15 +798,15 @@ export default NavBar
   
 • 非父子组件间的数据共享
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163314731.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163314731.png?imageSlim)
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163330667.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163330667.png?imageSlim)
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163351806.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163351806.png?imageSlim)
 
   
 
@@ -814,7 +814,7 @@ export default NavBar
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163442294.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163442294.png?imageSlim)
 
   
 
@@ -920,7 +920,7 @@ export default Home
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163548963.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163548963.png?imageSlim)
 
   
 
@@ -928,7 +928,7 @@ export default Home
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163547853.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163547853.png?imageSlim)
 
   
 
@@ -998,7 +998,7 @@ export default HomeBanner
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163729208.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163729208.png?imageSlim)
 
   
 
@@ -1006,7 +1006,7 @@ export default HomeBanner
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163809368.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163809368.png?imageSlim)
 
   
 
@@ -1055,7 +1055,7 @@ export default Profile
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163901155.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163901155.png?imageSlim)
 
   
 
@@ -1063,7 +1063,7 @@ export default Profile
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163932163.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802163932163.png?imageSlim)
 
   
 
@@ -1190,7 +1190,7 @@ export default Home
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802164100120.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802164100120.png?imageSlim)
 
   
 
@@ -1324,7 +1324,7 @@ export default HelloTwo
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802164528890.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802164528890.png?imageSlim)
 
   
 
@@ -1370,7 +1370,7 @@ export default HelloTwo
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802164644764.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802164644764.png?imageSlim)
 
   
 
@@ -1424,7 +1424,7 @@ export default HelloTwo
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802164807534.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802164807534.png?imageSlim)
 
   
 
@@ -1442,7 +1442,7 @@ export default HelloTwo
 
 - **用法一：基本使用**
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802165012910.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802165012910.png?imageSlim)
 
   
 
@@ -1553,7 +1553,7 @@ export default App
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802165239253.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802165239253.png?imageSlim)
 
   
 
@@ -1619,7 +1619,7 @@ export default App
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802165357084.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802165357084.png?imageSlim)
 
   
 
@@ -1629,7 +1629,7 @@ export default App
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802165500725.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802165500725.png?imageSlim)
 
   
 
@@ -1637,7 +1637,7 @@ export default App
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802165602536.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802165602536.png?imageSlim)
 
   
 • 错误使用
@@ -1689,7 +1689,7 @@ export default App
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802165650009.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802165650009.png?imageSlim)
 
   
 
@@ -1746,7 +1746,7 @@ export default App
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802165743166.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802165743166.png?imageSlim)
 
   
 
@@ -1754,7 +1754,7 @@ export default App
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802165836696.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802165836696.png?imageSlim)
 
   
 
@@ -1816,15 +1816,15 @@ export default App
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802170118844.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802170118844.png?imageSlim)
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802170134236.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802170134236.png?imageSlim)
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802170148798.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802170148798.png?imageSlim)
 
   
 
@@ -1838,7 +1838,7 @@ export default App
 
 👨🏻‍💻 code demo：
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802170400839.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802170400839.png?imageSlim)
 
   
 
@@ -1941,7 +1941,7 @@ root.render(<App />)
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802170559574.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802170559574.png?imageSlim)
 
   
 
@@ -1971,7 +1971,7 @@ export default Home
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802170730881.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802170730881.png?imageSlim)
 
   
 
@@ -2038,7 +2038,7 @@ export default App
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802170834648.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802170834648.png?imageSlim)
 
   
 
@@ -2050,17 +2050,17 @@ export default App
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802170948807.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802170948807.png?imageSlim)
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802171001997.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802171001997.png?imageSlim)
 
   
 
 👨🏻‍💻 code demo：
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802171031792.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802171031792.png?imageSlim)
 
   
 
@@ -2182,7 +2182,7 @@ root.render(<App />)
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802171238980.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802171238980.png?imageSlim)
 
   
 
@@ -2374,7 +2374,7 @@ export default App
 
 👨🏻‍💻 code case：
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802171642428.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802171642428.png?imageSlim)
 
   
 
@@ -2429,7 +2429,7 @@ export default App
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802171720058.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802171720058.png?imageSlim)
 
   
 
@@ -2439,7 +2439,7 @@ export default App
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802171824222.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802171824222.png?imageSlim)
 
   
 
@@ -2524,7 +2524,7 @@ export default MyFunction
 
   
 
-![](	https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802172008611.png)
+![](https://images-1306852673.cos.ap-chengdu.myqcloud.com/20250802172008611.png?imageSlim)
 
   
 

@@ -1,6 +1,6 @@
 ---
 title: TypeScript 学习笔记
-date: 2025-12-28
+date: 2025-12-28 00:00:00
 categories:
   - 前端
 tags:

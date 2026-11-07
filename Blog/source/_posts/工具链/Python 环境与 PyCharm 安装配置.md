@@ -1,6 +1,6 @@
 ---
 title: Python 环境与 PyCharm 安装配置
-date: 2025-11-09
+date: 2025-11-09 00:00:00
 categories:
   - 工具链
 tags:
@@ -102,7 +102,7 @@ hide: false
 
 模板代码
 
-```
+```python
 #!/usr/bin/env python 
 # -*- coding: utf-8 -*- 
 """ 

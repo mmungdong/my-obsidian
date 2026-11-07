@@ -1,6 +1,6 @@
 ---
 title: miniblog 简洁架构开发流程梳理
-date: 2025-11-09
+date: 2025-11-09 00:00:00
 categories:
   - Golang
 tags:

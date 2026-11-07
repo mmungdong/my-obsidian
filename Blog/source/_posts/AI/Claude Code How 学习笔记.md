@@ -1,6 +1,6 @@
 ---
 title: Claude Code How 学习笔记
-date: 2026-04-14
+date: 2026-04-14 00:00:00
 categories:
   - AI
 tags:
@@ -155,7 +155,7 @@ Memory 让 Claude 能够 **跨会话和对话保持上下文**。不同于临时
 
 ### 1.2.2 Memory 层级架构
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │  优先级 1: Managed Policy (组织级策略)                       │
 │  → /Library/Application Support/ClaudeCode/CLAUDE.md        │
@@ -194,7 +194,7 @@ Memory 让 Claude 能够 **跨会话和对话保持上下文**。不同于临时
 
 **Auto Memory** 是 Claude 在会话中自动记录学习内容的地方：
 
-```
+```text
 ~/.claude/projects/<project>/memory/
 ├── MEMORY.md              # 入口文件（启动时加载前 200 行）
 ├── debugging.md           # 主题文件（按需加载）
@@ -228,7 +228,7 @@ paths: src/api/**/*.ts
 
 目录结构示例：
 
-```
+```text
 your-project/
 ├── .claude/
 │   ├── CLAUDE.md
@@ -281,7 +281,7 @@ Skills 是 **可复用的、基于文件系统的能力模块**，用于扩展 C
 
 Skills 采用渐进式披露架构——Claude 按需分阶段加载信息：
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │  Level 1: Metadata (始终加载)                               │
 │  → YAML Frontmatter (~100 tokens)                           │
@@ -314,7 +314,7 @@ Skills 采用渐进式披露架构——Claude 按需分阶段加载信息：
 
 **基本目录结构：**
 
-```
+```text
 my-skill/
 ├── SKILL.md           # 主指令文件（必需）
 ├── templates/         # 模板文件
@@ -500,7 +500,7 @@ Your subagent's system prompt goes here.
 
 **使用方式：**
 
-```
+```text
 # 自动委托 — description 中包含 "use PROACTIVELY"
 
 # 显式调用
@@ -692,7 +692,7 @@ Claude Code **自动创建检查点**：每次用户输入都创建新检查点�
 
 **示例 — 探索不同方法：**
 
-```
+```text
 用户: 给 API 添加缓存层
 
 Claude: 我将添加 Redis 缓存...
@@ -706,7 +706,7 @@ Claude: 我将添加 Redis 缓存...
 
 **分支策略：**
 
-```
+```text
 1. 初始实现 → 检查点 A
 2. 尝试方法 1 → 检查点 B
 3. 回滚到检查点 A
@@ -741,7 +741,7 @@ Claude: 我将添加 Redis 缓存...
 
 ### 1.6.1 CLI 架构与核心命令
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │                    用户终端                                  │
 │                       ↓                                     │
@@ -942,7 +942,7 @@ MCP (Model Context Protocol) 是一种标准化方式，让 Claude 能够访问�
 
 **MCP 架构：**
 
-```
+```text
 Claude
   │
   ├── Filesystem MCP → 本地文件
@@ -1092,7 +1092,7 @@ export DATABASE_URL="postgresql://user:pass@localhost/mydb"
 
 **决策矩阵：**
 
-```
+```text
 需要外部数据？
     │
     ├── 否 → 使用 Memory
@@ -1548,7 +1548,7 @@ Plugins 是打包的功能集合，将斜杠命令、子代理、MCP 服务器�
 
 **插件架构：**
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │                      Plugin                                  │
 ├─────────────────────────────────────────────────────────────┤
@@ -1567,7 +1567,7 @@ Plugins 是打包的功能集合，将斜杠命令、子代理、MCP 服务器�
 
 **插件目录结构：**
 
-```
+```text
 my-plugin/
 ├── .claude-plugin/
 │   └── plugin.json       # 清单文件（必需）
@@ -1781,7 +1781,7 @@ claude --permission-mode auto
 
 **后台任务：**
 
-```
+```text
 用户: Run tests in background
 
 Claude: Started task bg-1234
@@ -1974,7 +1974,7 @@ claude --sandbox
 
 托管 drop-ins 目录：
 
-```
+```text
 ~/.claude/managed-settings.d/
   00-org-defaults.json
   10-team-policies.json

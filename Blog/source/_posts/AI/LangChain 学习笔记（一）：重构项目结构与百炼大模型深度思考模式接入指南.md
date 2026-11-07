@@ -1,6 +1,6 @@
 ---
 title: LangChain 学习笔记（一）：重构项目结构与百炼大模型深度思考模式接入指南
-date: 2026-03-03
+date: 2026-03-03 00:00:00
 categories:
   - AI
 tags:
